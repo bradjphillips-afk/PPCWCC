@@ -1,0 +1,40 @@
+name: Update Sweep standings
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scoring
+  cancel-in-progress: false
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Compute standings
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node score.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "sweep-bot"
+          git config user.email "actions@github.com"
+          git add data/standings.json data/cards.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update standings $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
