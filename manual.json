@@ -1,0 +1,17 @@
+{
+  "_note": "The only things the scorer can't fetch. Edit this file (commit it) when the time comes. Everything else updates automatically.",
+
+  "awards": {
+    "boot": "",
+    "glove": "",
+    "ball": ""
+  },
+
+  "windows": {
+    "_example": { "captain": "", "lifeboatDrop": "", "lifeboatAdopt": "" }
+  },
+
+  "adjust": {
+    "_example": 0
+  }
+}

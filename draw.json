@@ -1,0 +1,31 @@
+{
+  "gameName": "PPC WORLD CUP CUP",
+  "players": [
+    { "name": "Daxy",         "syndicate": "Bears",    "anchor": "Egypt",       "wildcard": "Türkiye" },
+    { "name": "Unit",         "syndicate": "Bears",    "anchor": "Ecuador",     "wildcard": "Ghana" },
+    { "name": "BT",           "syndicate": "Bears",    "anchor": "Croatia",     "wildcard": "Scotland" },
+    { "name": "Dog",          "syndicate": "Bears",    "anchor": "Australia",   "wildcard": "Jordan" },
+    { "name": "BP2",          "syndicate": "Bears",    "anchor": "USA",         "wildcard": "New Zealand" },
+    { "name": "Noots",        "syndicate": "Shambles", "anchor": "Spain",       "wildcard": "Sweden" },
+    { "name": "Brucey",       "syndicate": "Shambles", "anchor": "Japan",       "wildcard": "Curaçao" },
+    { "name": "BP1",          "syndicate": "Shambles", "anchor": "Iran",        "wildcard": "Czechia" },
+    { "name": "Chewy",        "syndicate": "Shambles", "anchor": "France",      "wildcard": "Algeria" },
+    { "name": "Geoffro",      "syndicate": "Shambles", "anchor": "Austria",     "wildcard": "Uzbekistan" },
+    { "name": "Benj",         "syndicate": "Vamps",    "anchor": "England",     "wildcard": "South Africa" },
+    { "name": "Zip",          "syndicate": "Vamps",    "anchor": "Morocco",     "wildcard": "Qatar" },
+    { "name": "Javs",         "syndicate": "Vamps",    "anchor": "Belgium",     "wildcard": "Haiti" },
+    { "name": "Beesh",        "syndicate": "Vamps",    "anchor": "Portugal",    "wildcard": "Bosnia & Herzegovina" },
+    { "name": "Cleets",       "syndicate": "Vamps",    "anchor": "Brazil",      "wildcard": "Cape Verde" },
+    { "name": "Muller",       "syndicate": "EPAK",     "anchor": "Mexico",      "wildcard": "Iraq" },
+    { "name": "Wig",          "syndicate": "EPAK",     "anchor": "Argentina",   "wildcard": "Panama" },
+    { "name": "Barry",        "syndicate": "EPAK",     "anchor": "Colombia",    "wildcard": "DR Congo" },
+    { "name": "Jones",        "syndicate": "EPAK",     "anchor": "Germany",     "wildcard": "Paraguay" },
+    { "name": "Jimmy Barrett","syndicate": "EPAK",     "anchor": "Uruguay",     "wildcard": "Tunisia" },
+    { "name": "Pistol",       "syndicate": "EPAK",     "anchor": "Canada",      "wildcard": "Iraq" },
+    { "name": "Voss",         "syndicate": "RP2K",     "anchor": "Norway",      "wildcard": "Ghana" },
+    { "name": "Kaak",         "syndicate": "RP2K",     "anchor": "Senegal",     "wildcard": "Cape Verde" },
+    { "name": "Nath",         "syndicate": "RP2K",     "anchor": "Switzerland", "wildcard": "Saudi Arabia" },
+    { "name": "Bull",         "syndicate": "RP2K",     "anchor": "Netherlands", "wildcard": "Côte d'Ivoire" },
+    { "name": "Bass",         "syndicate": "RP2K",     "anchor": "South Korea", "wildcard": "Haiti" }
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Sweep · Live Leaderboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--pitch:#0A1A14;--pitch-2:#0E231A;--panel:#11271D;--chalk:#EDF1E8;--mist:#8AA396;--line:rgba(237,241,232,.14);--line-soft:rgba(237,241,232,.08);--boot:#F4B740;--turf:#34D9A6;--sky:#5BC0EB;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--pitch);color:var(--chalk);font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:16px;line-height:1.55;background-image:repeating-linear-gradient(180deg,rgba(255,255,255,.012) 0 64px,transparent 64px 128px);min-height:100vh;}
+  .wrap{max-width:860px;margin:0 auto;padding:22px 18px 90px}
+  .crestbar{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .crest{width:42px;height:42px;border-radius:8px;flex:none;background:radial-gradient(circle at 35% 30%,#1d4a36,#0c241a);border:1px solid var(--line);display:grid;place-items:center;font-size:22px}
+  h1{font-family:'Anton',sans-serif;font-weight:400;letter-spacing:.02em;font-size:clamp(24px,6vw,34px);margin:0;line-height:.95;text-transform:uppercase}
+  .sub{font-family:'Space Mono',monospace;font-size:11px;color:var(--mist);letter-spacing:.16em;text-transform:uppercase}
+  .status{font-family:'Space Mono',monospace;font-size:12px;color:var(--mist);display:flex;align-items:center;gap:8px;margin:14px 0 18px}
+  .status .dot{width:8px;height:8px;border-radius:50%;background:var(--turf);box-shadow:0 0 0 0 rgba(52,217,166,.6);animation:pulse 1.8s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,217,166,.5)}70%{box-shadow:0 0 0 8px rgba(52,217,166,0)}100%{box-shadow:0 0 0 0 rgba(52,217,166,0)}}
+  .spread{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--boot);margin:0 0 10px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line-soft)}
+  td.num{text-align:right;font-family:'Space Mono',monospace}
+  .rank{font-family:'Anton',sans-serif;color:var(--mist);width:30px}.rank.top{color:var(--boot)}
+  .synchip{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:middle}
+  .totpts{font-family:'Space Mono',monospace;font-weight:700;color:var(--boot)}
+  .brk{font-size:11px;color:var(--mist)}
+  .prow{cursor:pointer}.detail{display:none}.detail td{background:var(--pitch-2);font-size:12px;color:var(--mist)}.detail.open{display:table-row}
+  details{margin-top:18px;border:1px solid var(--line-soft);border-radius:10px;padding:0 14px}
+  summary{cursor:pointer;padding:12px 0;font-size:12px;color:var(--mist);font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase}
+  details[open]{padding-bottom:14px}
+  .foot{color:var(--mist);font-size:12px;margin-top:26px;border-top:1px solid var(--line-soft);padding-top:14px;font-family:'Space Mono',monospace}
+  @media (max-width:560px){.wrap{padding:18px 13px 80px}}
+  @media (prefers-reduced-motion:reduce){.status .dot{animation:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="crestbar"><div class="crest">⚽</div><div><h1 id="title">The Sweep</h1><div class="sub">2026 World Cup · live leaderboard</div></div></div>
+  <div class="status"><span class="dot"></span><span id="status">Loading…</span></div>
+  <div id="content"></div>
+  <div class="foot">Updates automatically · FIFA World Cup 2026 · 11 Jun – 19 Jul</div>
+</div>
+<script>
+const COLORS=["#F4B740","#34D9A6","#5BC0EB","#E8503A","#C792EA","#FF9F68","#9CCC65"];
+function synColor(map,s){if(!(s in map)){map[s]=COLORS[Object.keys(map).length%COLORS.length];}return map[s];}
+function render(d){
+  document.getElementById("title").textContent=d.gameName||"The Sweep";
+  document.title=(d.gameName||"The Sweep")+" · Live Leaderboard";
+  const when=d.lastChecked?new Date(d.lastChecked).toLocaleString([], {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):"—";
+  document.getElementById("status").textContent=`Live · ${d.matchCount||0} match${(d.matchCount===1)?"":"es"} scored · updated ${when}`;
+  const cmap={};
+  let html=`<div class="spread">
+    <div class="panel" style="flex:2 1 360px"><p class="eyebrow">Individual leaderboard</p><table><tbody>`;
+  d.players.forEach((p,i)=>{
+    html+=`<tr class="prow" onclick="this.nextElementSibling.classList.toggle('open')"><td class="rank ${i<3?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,p.syndicate)}"></span>${esc(p.name)}<div class="brk">${esc(p.anchor)} · ${esc(p.wildcard)}</div></td><td class="num"><span class="totpts">${p.points}</span></td></tr>`;
+    html+=`<tr class="detail"><td></td><td colspan="2">${(p.breakdown&&p.breakdown.length?p.breakdown.map(esc).join(" · "):"no points yet")}</td></tr>`;
+  });
+  html+=`</tbody></table></div>
+    <div class="panel" style="flex:1 1 220px"><p class="eyebrow">Syndicates · avg / player</p><table><tbody>`;
+  d.syndicates.forEach((s,i)=>{html+=`<tr><td class="rank ${i<1?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,s.name)}"></span>${esc(s.name)} <span style="color:var(--mist);font-size:11px">(${s.n})</span></td><td class="num totpts">${s.avg}</td></tr>`;});
+  html+=`</tbody></table></div></div>`;
+  if(d.matches&&d.matches.length){
+    html+=`<details><summary>Matches scored (${d.matches.length})</summary>`+d.matches.map(m=>`<div class="brk">${m.date} · ${esc(m.home)} ${m.hs}-${m.as} ${esc(m.away)} <span style="opacity:.6">(${m.round})</span></div>`).join("")+`</details>`;
+  }
+  document.getElementById("content").innerHTML=html;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+async function load(){
+  try{
+    const r=await fetch("data/standings.json?t="+Date.now());
+    if(!r.ok)throw new Error("no data yet");
+    render(await r.json());
+  }catch(e){ document.getElementById("status").textContent="Waiting for the first results to be published…"; }
+}
+load(); setInterval(load,60*1000);
+</script>
+</body>
+</html>
