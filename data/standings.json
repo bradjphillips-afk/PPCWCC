@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-11T21:21:41.168Z",
+  "lastChecked": "2026-06-11T21:38:41.320Z",
   "players": [
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 12,
+      "breakdown": [
+        "Mexico = 12",
+        "Iraq = 0"
+      ]
+    },
     {
       "name": "Daxy",
       "syndicate": "Bears",
@@ -113,17 +124,6 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": 0,
-      "breakdown": [
-        "England = 0",
-        "South Africa = 0"
-      ]
-    },
-    {
       "name": "Zip",
       "syndicate": "Vamps",
       "anchor": "Morocco",
@@ -165,17 +165,6 @@
       "breakdown": [
         "Brazil = 0",
         "Cape Verde = 0"
-      ]
-    },
-    {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 0,
-      "breakdown": [
-        "Mexico = 0",
-        "Iraq = 0"
       ]
     },
     {
@@ -287,9 +276,25 @@
         "South Korea = 0",
         "Haiti = 0"
       ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": -10,
+      "breakdown": [
+        "England = 0",
+        "South Africa = -10"
+      ]
     }
   ],
   "syndicates": [
+    {
+      "name": "EPAK",
+      "avg": 2,
+      "n": 6
+    },
     {
       "name": "Bears",
       "avg": 0,
@@ -301,21 +306,25 @@
       "n": 5
     },
     {
-      "name": "Vamps",
-      "avg": 0,
-      "n": 5
-    },
-    {
-      "name": "EPAK",
-      "avg": 0,
-      "n": 6
-    },
-    {
       "name": "RP2K",
       "avg": 0,
       "n": 5
+    },
+    {
+      "name": "Vamps",
+      "avg": -2,
+      "n": 5
     }
   ],
-  "matches": [],
-  "matchCount": 0
+  "matches": [
+    {
+      "date": "2026-06-11",
+      "home": "Mexico",
+      "away": "South Africa",
+      "hs": 2,
+      "as": 0,
+      "round": "group"
+    }
+  ],
+  "matchCount": 1
 }
