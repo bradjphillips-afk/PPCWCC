@@ -1,0 +1,321 @@
+{
+  "gameName": "PPC WORLD CUP CUP",
+  "lastChecked": "2026-06-11T21:21:41.168Z",
+  "players": [
+    {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": 0,
+      "breakdown": [
+        "Egypt = 0",
+        "Türkiye = 0"
+      ]
+    },
+    {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 0,
+      "breakdown": [
+        "Ecuador = 0",
+        "Ghana = 0"
+      ]
+    },
+    {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 0,
+      "breakdown": [
+        "Croatia = 0",
+        "Scotland = 0"
+      ]
+    },
+    {
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
+      "points": 0,
+      "breakdown": [
+        "Australia = 0",
+        "Jordan = 0"
+      ]
+    },
+    {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 0,
+      "breakdown": [
+        "USA = 0",
+        "New Zealand = 0"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 0,
+      "breakdown": [
+        "Spain = 0",
+        "Sweden = 0"
+      ]
+    },
+    {
+      "name": "Brucey",
+      "syndicate": "Shambles",
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "points": 0,
+      "breakdown": [
+        "Japan = 0",
+        "Curaçao = 0"
+      ]
+    },
+    {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "points": 0,
+      "breakdown": [
+        "Iran = 0",
+        "Czechia = 0"
+      ]
+    },
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 0,
+      "breakdown": [
+        "France = 0",
+        "Algeria = 0"
+      ]
+    },
+    {
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
+      "points": 0,
+      "breakdown": [
+        "Austria = 0",
+        "Uzbekistan = 0"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 0,
+      "breakdown": [
+        "England = 0",
+        "South Africa = 0"
+      ]
+    },
+    {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "points": 0,
+      "breakdown": [
+        "Morocco = 0",
+        "Qatar = 0"
+      ]
+    },
+    {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 0,
+      "breakdown": [
+        "Belgium = 0",
+        "Haiti = 0"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 0,
+      "breakdown": [
+        "Portugal = 0",
+        "Bosnia & Herzegovina = 0"
+      ]
+    },
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 0,
+      "breakdown": [
+        "Brazil = 0",
+        "Cape Verde = 0"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 0,
+      "breakdown": [
+        "Mexico = 0",
+        "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 0,
+      "breakdown": [
+        "Argentina = 0",
+        "Panama = 0"
+      ]
+    },
+    {
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 0,
+      "breakdown": [
+        "Colombia = 0",
+        "DR Congo = 0"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 0,
+      "breakdown": [
+        "Germany = 0",
+        "Paraguay = 0"
+      ]
+    },
+    {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 0,
+      "breakdown": [
+        "Uruguay = 0",
+        "Tunisia = 0"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 0,
+      "breakdown": [
+        "Canada = 0",
+        "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 0,
+      "breakdown": [
+        "Norway = 0",
+        "Ghana = 0"
+      ]
+    },
+    {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 0,
+      "breakdown": [
+        "Senegal = 0",
+        "Cape Verde = 0"
+      ]
+    },
+    {
+      "name": "Nath",
+      "syndicate": "RP2K",
+      "anchor": "Switzerland",
+      "wildcard": "Saudi Arabia",
+      "points": 0,
+      "breakdown": [
+        "Switzerland = 0",
+        "Saudi Arabia = 0"
+      ]
+    },
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "points": 0,
+      "breakdown": [
+        "Netherlands = 0",
+        "Côte d'Ivoire = 0"
+      ]
+    },
+    {
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
+      "points": 0,
+      "breakdown": [
+        "South Korea = 0",
+        "Haiti = 0"
+      ]
+    }
+  ],
+  "syndicates": [
+    {
+      "name": "Bears",
+      "avg": 0,
+      "n": 5
+    },
+    {
+      "name": "Shambles",
+      "avg": 0,
+      "n": 5
+    },
+    {
+      "name": "Vamps",
+      "avg": 0,
+      "n": 5
+    },
+    {
+      "name": "EPAK",
+      "avg": 0,
+      "n": 6
+    },
+    {
+      "name": "RP2K",
+      "avg": 0,
+      "n": 5
+    }
+  ],
+  "matches": [],
+  "matchCount": 0
+}
