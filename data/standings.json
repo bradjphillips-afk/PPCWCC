@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-12T17:55:40.582Z",
+  "lastChecked": "2026-06-12T23:02:51.730Z",
   "players": [
     {
       "name": "Bass",
@@ -22,6 +22,28 @@
       "breakdown": [
         "Mexico = 12",
         "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 4,
+      "breakdown": [
+        "Canada = 4",
+        "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 3,
+      "breakdown": [
+        "Portugal = 0",
+        "Bosnia & Herzegovina = 3"
       ]
     },
     {
@@ -157,17 +179,6 @@
       ]
     },
     {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 0,
-      "breakdown": [
-        "Portugal = 0",
-        "Bosnia & Herzegovina = 0"
-      ]
-    },
-    {
       "name": "Cleets",
       "syndicate": "Vamps",
       "anchor": "Brazil",
@@ -220,17 +231,6 @@
       "breakdown": [
         "Uruguay = 0",
         "Tunisia = 0"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "points": 0,
-      "breakdown": [
-        "Canada = 0",
-        "Iraq = 0"
       ]
     },
     {
@@ -291,14 +291,14 @@
   ],
   "syndicates": [
     {
+      "name": "EPAK",
+      "avg": 2.7,
+      "n": 6
+    },
+    {
       "name": "RP2K",
       "avg": 2.6,
       "n": 5
-    },
-    {
-      "name": "EPAK",
-      "avg": 2,
-      "n": 6
     },
     {
       "name": "Shambles",
@@ -312,11 +312,19 @@
     },
     {
       "name": "Vamps",
-      "avg": -2,
+      "avg": -1.4,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-12",
+      "home": "Canada",
+      "away": "Bosnia & Herzegovina",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-12",
       "home": "South Korea",
@@ -334,5 +342,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 2
+  "matchCount": 3
 }
