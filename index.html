@@ -33,6 +33,11 @@
   details{margin-top:18px;border:1px solid var(--line-soft);border-radius:10px;padding:0 14px}
   summary{cursor:pointer;padding:12px 0;font-size:12px;color:var(--mist);font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase}
   details[open]{padding-bottom:14px}
+  .score{margin-top:14px}
+  .score h3{font-family:'Hanken Grotesk',sans-serif;font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--boot);margin:16px 0 4px}
+  .score h3:first-of-type{margin-top:0}
+  .score p{margin:0 0 4px;font-size:14px;color:#cfd9cf;line-height:1.6}
+  .score small{color:var(--mist);font-size:12px}
   .foot{color:var(--mist);font-size:12px;margin-top:26px;border-top:1px solid var(--line-soft);padding-top:14px;font-family:'Space Mono',monospace}
   @media (max-width:560px){.wrap{padding:18px 13px 80px}}
   @media (prefers-reduced-motion:reduce){.status .dot{animation:none}}
@@ -43,6 +48,25 @@
   <div class="crestbar"><div class="crest">⚽</div><div><h1 id="title">The Sweep</h1><div class="sub">2026 World Cup · live leaderboard</div></div></div>
   <div class="status"><span class="dot"></span><span id="status">Loading…</span></div>
   <div id="content"></div>
+
+  <div class="panel score">
+    <p class="eyebrow">How points are earned</p>
+    <h3>Every match</h3>
+    <p>Win +10 · Draw +4 (group games only) · each goal +2 · clean sheet +3 · yellow card −1 · red card −4</p>
+    <p><small>Knockouts: the team that advances gets the win (+10), plus +4 if it's won on penalties.</small></p>
+    <h3>Group finish</h3>
+    <p>1st +12 · 2nd +8 · 3rd &amp; through +5 · 3rd &amp; out +2 · bottom 0</p>
+    <h3>Going deep (banked once)</h3>
+    <p>Round of 16 +6 · Quarter-final +12 · Semi-final +20 · Final +30 · Champions +50</p>
+    <h3>Golden gongs</h3>
+    <p>If the winner is in one of your teams: Golden Boot +25 · Golden Glove +20 · Golden Ball +20</p>
+    <h3>Bonuses</h3>
+    <p>Beat a top-12 seed +8 · a shared team wins a match +6 (counts for both owners) · win all three group games +8</p>
+    <h3>Mid-tournament window (after the groups)</h3>
+    <p>One move each — <b>Lifeboat</b>: swap a knocked-out team for a surviving dark horse, +15 if it reaches the semis · <b>Captain</b>: one team scores double, but −12 if it loses its next knockout · or <b>Pass</b>.</p>
+    <p><small>Your total is both your teams combined. Tap any player above to see where their points came from.</small></p>
+  </div>
+
   <div class="foot">Updates automatically · FIFA World Cup 2026 · 11 Jun – 19 Jul</div>
 </div>
 <script>
