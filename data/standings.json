@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-11T21:38:41.320Z",
+  "lastChecked": "2026-06-12T10:35:08.303Z",
   "players": [
+    {
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
+      "points": 13,
+      "breakdown": [
+        "South Korea = 13",
+        "Haiti = 0"
+      ]
+    },
     {
       "name": "Muller",
       "syndicate": "EPAK",
@@ -11,6 +22,17 @@
       "breakdown": [
         "Mexico = 12",
         "Iraq = 0"
+      ]
+    },
+    {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "points": 2,
+      "breakdown": [
+        "Iran = 0",
+        "Czechia = 2"
       ]
     },
     {
@@ -88,17 +110,6 @@
       "breakdown": [
         "Japan = 0",
         "Curaçao = 0"
-      ]
-    },
-    {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
-      "points": 0,
-      "breakdown": [
-        "Iran = 0",
-        "Czechia = 0"
       ]
     },
     {
@@ -267,17 +278,6 @@
       ]
     },
     {
-      "name": "Bass",
-      "syndicate": "RP2K",
-      "anchor": "South Korea",
-      "wildcard": "Haiti",
-      "points": 0,
-      "breakdown": [
-        "South Korea = 0",
-        "Haiti = 0"
-      ]
-    },
-    {
       "name": "Benj",
       "syndicate": "Vamps",
       "anchor": "England",
@@ -291,22 +291,22 @@
   ],
   "syndicates": [
     {
+      "name": "RP2K",
+      "avg": 2.6,
+      "n": 5
+    },
+    {
       "name": "EPAK",
       "avg": 2,
       "n": 6
     },
     {
-      "name": "Bears",
-      "avg": 0,
-      "n": 5
-    },
-    {
       "name": "Shambles",
-      "avg": 0,
+      "avg": 0.4,
       "n": 5
     },
     {
-      "name": "RP2K",
+      "name": "Bears",
       "avg": 0,
       "n": 5
     },
@@ -318,6 +318,14 @@
   ],
   "matches": [
     {
+      "date": "2026-06-12",
+      "home": "South Korea",
+      "away": "Czechia",
+      "hs": 2,
+      "as": 1,
+      "round": "group"
+    },
+    {
       "date": "2026-06-11",
       "home": "Mexico",
       "away": "South Africa",
@@ -326,5 +334,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 1
+  "matchCount": 2
 }
