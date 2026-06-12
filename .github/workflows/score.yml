@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -27,15 +29,29 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node score.mjs
 
-      - name: Commit if changed
+      - name: Commit & push (race-proof)
         run: |
           git config user.name "sweep-bot"
           git config user.email "actions@github.com"
-          git add data/standings.json data/cards.json
-          if git diff --staged --quiet; then
-            echo "No changes."
-          else
-            git commit -m "Update standings $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+          if git diff --quiet -- data/standings.json data/cards.json; then
+            echo "No changes to commit."
+            exit 0
           fi
-  
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --soft origin/main
+            git add data/standings.json data/cards.json
+            if git diff --cached --quiet; then
+              echo "Nothing new versus remote."
+              exit 0
+            fi
+            git commit -m "Update standings $(date -u +'%Y-%m-%d %H:%M UTC')"
+            if git push origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push raced with another run, retrying ($i)..."
+            sleep $((RANDOM % 4 + 3))
+          done
+          echo "Failed to push after retries" >&2
+          exit 1
