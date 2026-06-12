@@ -2,7 +2,7 @@ name: Update Sweep standings
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,3 +38,4 @@ jobs:
             git commit -m "Update standings $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+  
