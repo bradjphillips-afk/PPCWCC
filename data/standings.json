@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-12T23:02:51.730Z",
+  "lastChecked": "2026-06-13T05:41:22.387Z",
   "players": [
+    {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 17,
+      "breakdown": [
+        "USA = 17",
+        "New Zealand = 0"
+      ]
+    },
     {
       "name": "Bass",
       "syndicate": "RP2K",
@@ -99,17 +110,6 @@
       "breakdown": [
         "Australia = 0",
         "Jordan = 0"
-      ]
-    },
-    {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 0,
-      "breakdown": [
-        "USA = 0",
-        "New Zealand = 0"
       ]
     },
     {
@@ -212,17 +212,6 @@
       ]
     },
     {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 0,
-      "breakdown": [
-        "Germany = 0",
-        "Paraguay = 0"
-      ]
-    },
-    {
       "name": "Jimmy Barrett",
       "syndicate": "EPAK",
       "anchor": "Uruguay",
@@ -278,6 +267,17 @@
       ]
     },
     {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": -3,
+      "breakdown": [
+        "Germany = 0",
+        "Paraguay = -3"
+      ]
+    },
+    {
       "name": "Benj",
       "syndicate": "Vamps",
       "anchor": "England",
@@ -291,9 +291,9 @@
   ],
   "syndicates": [
     {
-      "name": "EPAK",
-      "avg": 2.7,
-      "n": 6
+      "name": "Bears",
+      "avg": 3.4,
+      "n": 5
     },
     {
       "name": "RP2K",
@@ -301,13 +301,13 @@
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 0.4,
-      "n": 5
+      "name": "EPAK",
+      "avg": 2.2,
+      "n": 6
     },
     {
-      "name": "Bears",
-      "avg": 0,
+      "name": "Shambles",
+      "avg": 0.4,
       "n": 5
     },
     {
@@ -317,6 +317,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-13",
+      "home": "USA",
+      "away": "Paraguay",
+      "hs": 4,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-12",
       "home": "Canada",
@@ -342,5 +350,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 3
+  "matchCount": 4
 }
