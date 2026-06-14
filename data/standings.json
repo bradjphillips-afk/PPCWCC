@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-14T03:45:50.387Z",
+  "lastChecked": "2026-06-14T06:49:30.827Z",
   "players": [
+    {
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
+      "points": 17,
+      "breakdown": [
+        "Australia = 17",
+        "Jordan = 0"
+      ]
+    },
     {
       "name": "BP2",
       "syndicate": "Bears",
@@ -113,17 +124,6 @@
       ]
     },
     {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": 0,
-      "breakdown": [
-        "Egypt = 0",
-        "Türkiye = 0"
-      ]
-    },
-    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -132,17 +132,6 @@
       "breakdown": [
         "Ecuador = 0",
         "Ghana = 0"
-      ]
-    },
-    {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "points": 0,
-      "breakdown": [
-        "Australia = 0",
-        "Jordan = 0"
       ]
     },
     {
@@ -256,6 +245,17 @@
       ]
     },
     {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": -1,
+      "breakdown": [
+        "Egypt = 0",
+        "Türkiye = -1"
+      ]
+    },
+    {
       "name": "Javs",
       "syndicate": "Vamps",
       "anchor": "Belgium",
@@ -292,7 +292,7 @@
   "syndicates": [
     {
       "name": "Bears",
-      "avg": 5.8,
+      "avg": 9,
       "n": 5
     },
     {
@@ -317,6 +317,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-14",
+      "home": "Australia",
+      "away": "Türkiye",
+      "hs": 2,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-14",
       "home": "Haiti",
@@ -374,5 +382,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 7
+  "matchCount": 8
 }
