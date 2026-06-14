@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-13T20:49:20.642Z",
+  "lastChecked": "2026-06-14T03:45:50.387Z",
   "players": [
     {
       "name": "BP2",
@@ -14,14 +14,14 @@
       ]
     },
     {
-      "name": "Bass",
-      "syndicate": "RP2K",
-      "anchor": "South Korea",
-      "wildcard": "Haiti",
-      "points": 13,
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 12,
       "breakdown": [
-        "South Korea = 13",
-        "Haiti = 0"
+        "Croatia = 0",
+        "Scotland = 12"
       ]
     },
     {
@@ -33,6 +33,50 @@
       "breakdown": [
         "Mexico = 12",
         "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
+      "points": 12,
+      "breakdown": [
+        "South Korea = 13",
+        "Haiti = -1"
+      ]
+    },
+    {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "points": 10,
+      "breakdown": [
+        "Morocco = 6",
+        "Qatar = 4"
+      ]
+    },
+    {
+      "name": "Nath",
+      "syndicate": "RP2K",
+      "anchor": "Switzerland",
+      "wildcard": "Saudi Arabia",
+      "points": 5,
+      "breakdown": [
+        "Switzerland = 5",
+        "Saudi Arabia = 0"
+      ]
+    },
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 4,
+      "breakdown": [
+        "Brazil = 4",
+        "Cape Verde = 0"
       ]
     },
     {
@@ -91,17 +135,6 @@
       ]
     },
     {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "points": 0,
-      "breakdown": [
-        "Croatia = 0",
-        "Scotland = 0"
-      ]
-    },
-    {
       "name": "Dog",
       "syndicate": "Bears",
       "anchor": "Australia",
@@ -154,39 +187,6 @@
       "breakdown": [
         "Austria = 0",
         "Uzbekistan = 0"
-      ]
-    },
-    {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "points": 0,
-      "breakdown": [
-        "Morocco = 0",
-        "Qatar = 0"
-      ]
-    },
-    {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": 0,
-      "breakdown": [
-        "Belgium = 0",
-        "Haiti = 0"
-      ]
-    },
-    {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 0,
-      "breakdown": [
-        "Brazil = 0",
-        "Cape Verde = 0"
       ]
     },
     {
@@ -245,17 +245,6 @@
       ]
     },
     {
-      "name": "Nath",
-      "syndicate": "RP2K",
-      "anchor": "Switzerland",
-      "wildcard": "Saudi Arabia",
-      "points": 0,
-      "breakdown": [
-        "Switzerland = 0",
-        "Saudi Arabia = 0"
-      ]
-    },
-    {
       "name": "Bull",
       "syndicate": "RP2K",
       "anchor": "Netherlands",
@@ -264,6 +253,17 @@
       "breakdown": [
         "Netherlands = 0",
         "Côte d'Ivoire = 0"
+      ]
+    },
+    {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": -1,
+      "breakdown": [
+        "Belgium = 0",
+        "Haiti = -1"
       ]
     },
     {
@@ -292,12 +292,12 @@
   "syndicates": [
     {
       "name": "Bears",
-      "avg": 3.4,
+      "avg": 5.8,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 2.6,
+      "avg": 3.4,
       "n": 5
     },
     {
@@ -306,17 +306,41 @@
       "n": 6
     },
     {
-      "name": "Shambles",
-      "avg": 0.4,
+      "name": "Vamps",
+      "avg": 1.2,
       "n": 5
     },
     {
-      "name": "Vamps",
-      "avg": -1.4,
+      "name": "Shambles",
+      "avg": 0.4,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-14",
+      "home": "Haiti",
+      "away": "Scotland",
+      "hs": 0,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-13",
+      "home": "Brazil",
+      "away": "Morocco",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-13",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-13",
       "home": "USA",
@@ -350,5 +374,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 4
+  "matchCount": 7
 }
