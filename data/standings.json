@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-14T15:29:23.097Z",
+  "lastChecked": "2026-06-14T20:23:57.547Z",
   "players": [
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 21,
+      "breakdown": [
+        "Germany = 24",
+        "Paraguay = -3"
+      ]
+    },
     {
       "name": "Dog",
       "syndicate": "Bears",
@@ -113,6 +124,17 @@
       ]
     },
     {
+      "name": "Brucey",
+      "syndicate": "Shambles",
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "points": 2,
+      "breakdown": [
+        "Japan = 0",
+        "Curaçao = 2"
+      ]
+    },
+    {
       "name": "BP1",
       "syndicate": "Shambles",
       "anchor": "Iran",
@@ -143,17 +165,6 @@
       "breakdown": [
         "Spain = 0",
         "Sweden = 0"
-      ]
-    },
-    {
-      "name": "Brucey",
-      "syndicate": "Shambles",
-      "anchor": "Japan",
-      "wildcard": "Curaçao",
-      "points": 0,
-      "breakdown": [
-        "Japan = 0",
-        "Curaçao = 0"
       ]
     },
     {
@@ -267,17 +278,6 @@
       ]
     },
     {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": -3,
-      "breakdown": [
-        "Germany = 0",
-        "Paraguay = -3"
-      ]
-    },
-    {
       "name": "Benj",
       "syndicate": "Vamps",
       "anchor": "England",
@@ -296,14 +296,14 @@
       "n": 5
     },
     {
+      "name": "EPAK",
+      "avg": 6.2,
+      "n": 6
+    },
+    {
       "name": "RP2K",
       "avg": 3.4,
       "n": 5
-    },
-    {
-      "name": "EPAK",
-      "avg": 2.2,
-      "n": 6
     },
     {
       "name": "Vamps",
@@ -312,11 +312,19 @@
     },
     {
       "name": "Shambles",
-      "avg": 0.4,
+      "avg": 0.8,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-14",
+      "home": "Germany",
+      "away": "Curaçao",
+      "hs": 7,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-14",
       "home": "Australia",
@@ -382,5 +390,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 8
+  "matchCount": 9
 }
