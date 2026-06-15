@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-15T16:23:09.577Z",
+  "lastChecked": "2026-06-15T23:16:55.141Z",
   "players": [
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 26,
+      "breakdown": [
+        "Spain = 6",
+        "Sweden = 20"
+      ]
+    },
     {
       "name": "Jones",
       "syndicate": "EPAK",
@@ -11,17 +22,6 @@
       "breakdown": [
         "Germany = 24",
         "Paraguay = -3"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 20,
-      "breakdown": [
-        "Spain = 0",
-        "Sweden = 20"
       ]
     },
     {
@@ -113,6 +113,28 @@
       ]
     },
     {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 10,
+      "breakdown": [
+        "Brazil = 4",
+        "Cape Verde = 6"
+      ]
+    },
+    {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 6,
+      "breakdown": [
+        "Senegal = 0",
+        "Cape Verde = 6"
+      ]
+    },
+    {
       "name": "Nath",
       "syndicate": "RP2K",
       "anchor": "Switzerland",
@@ -124,17 +146,6 @@
       ]
     },
     {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 4,
-      "breakdown": [
-        "Brazil = 4",
-        "Cape Verde = 0"
-      ]
-    },
-    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -143,6 +154,28 @@
       "breakdown": [
         "Canada = 4",
         "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": 3,
+      "breakdown": [
+        "Egypt = 4",
+        "Türkiye = -1"
+      ]
+    },
+    {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 3,
+      "breakdown": [
+        "Belgium = 4",
+        "Haiti = -1"
       ]
     },
     {
@@ -234,28 +267,6 @@
       ]
     },
     {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 0,
-      "breakdown": [
-        "Senegal = 0",
-        "Cape Verde = 0"
-      ]
-    },
-    {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": -1,
-      "breakdown": [
-        "Egypt = 0",
-        "Türkiye = -1"
-      ]
-    },
-    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -264,17 +275,6 @@
       "breakdown": [
         "Ecuador = -1",
         "Ghana = 0"
-      ]
-    },
-    {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": -1,
-      "breakdown": [
-        "Belgium = 0",
-        "Haiti = -1"
       ]
     },
     {
@@ -292,17 +292,17 @@
   "syndicates": [
     {
       "name": "Bears",
-      "avg": 8.8,
+      "avg": 9.6,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 6.8,
+      "avg": 8,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 6.4,
+      "avg": 7.6,
       "n": 5
     },
     {
@@ -312,11 +312,27 @@
     },
     {
       "name": "Vamps",
-      "avg": 1.2,
+      "avg": 3.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-15",
+      "home": "Belgium",
+      "away": "Egypt",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-15",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-15",
       "home": "Sweden",
@@ -414,5 +430,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 12
+  "matchCount": 14
 }
