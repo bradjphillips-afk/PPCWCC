@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-14T20:23:57.547Z",
+  "lastChecked": "2026-06-15T06:57:40.379Z",
   "players": [
     {
       "name": "Jones",
@@ -11,6 +11,17 @@
       "breakdown": [
         "Germany = 24",
         "Paraguay = -3"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 20,
+      "breakdown": [
+        "Spain = 0",
+        "Sweden = 20"
       ]
     },
     {
@@ -33,6 +44,17 @@
       "breakdown": [
         "USA = 17",
         "New Zealand = 0"
+      ]
+    },
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "points": 17,
+      "breakdown": [
+        "Netherlands = 5",
+        "Côte d'Ivoire = 12"
       ]
     },
     {
@@ -66,6 +88,17 @@
       "breakdown": [
         "South Korea = 13",
         "Haiti = -1"
+      ]
+    },
+    {
+      "name": "Brucey",
+      "syndicate": "Shambles",
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "points": 10,
+      "breakdown": [
+        "Japan = 8",
+        "Curaçao = 2"
       ]
     },
     {
@@ -124,17 +157,6 @@
       ]
     },
     {
-      "name": "Brucey",
-      "syndicate": "Shambles",
-      "anchor": "Japan",
-      "wildcard": "Curaçao",
-      "points": 2,
-      "breakdown": [
-        "Japan = 0",
-        "Curaçao = 2"
-      ]
-    },
-    {
       "name": "BP1",
       "syndicate": "Shambles",
       "anchor": "Iran",
@@ -146,25 +168,14 @@
       ]
     },
     {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 0,
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 1,
       "breakdown": [
-        "Ecuador = 0",
-        "Ghana = 0"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 0,
-      "breakdown": [
-        "Spain = 0",
-        "Sweden = 0"
+        "Uruguay = 0",
+        "Tunisia = 1"
       ]
     },
     {
@@ -212,17 +223,6 @@
       ]
     },
     {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "points": 0,
-      "breakdown": [
-        "Uruguay = 0",
-        "Tunisia = 0"
-      ]
-    },
-    {
       "name": "Voss",
       "syndicate": "RP2K",
       "anchor": "Norway",
@@ -245,17 +245,6 @@
       ]
     },
     {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
-      "points": 0,
-      "breakdown": [
-        "Netherlands = 0",
-        "Côte d'Ivoire = 0"
-      ]
-    },
-    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -264,6 +253,17 @@
       "breakdown": [
         "Egypt = 0",
         "Türkiye = -1"
+      ]
+    },
+    {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": -1,
+      "breakdown": [
+        "Ecuador = -1",
+        "Ghana = 0"
       ]
     },
     {
@@ -292,31 +292,55 @@
   "syndicates": [
     {
       "name": "Bears",
-      "avg": 9,
+      "avg": 8.8,
+      "n": 5
+    },
+    {
+      "name": "RP2K",
+      "avg": 6.8,
+      "n": 5
+    },
+    {
+      "name": "Shambles",
+      "avg": 6.4,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 6.2,
+      "avg": 6.3,
       "n": 6
-    },
-    {
-      "name": "RP2K",
-      "avg": 3.4,
-      "n": 5
     },
     {
       "name": "Vamps",
       "avg": 1.2,
       "n": 5
-    },
-    {
-      "name": "Shambles",
-      "avg": 0.8,
-      "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-15",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "hs": 5,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "hs": 1,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Netherlands",
+      "away": "Japan",
+      "hs": 2,
+      "as": 2,
+      "round": "group"
+    },
     {
       "date": "2026-06-14",
       "home": "Germany",
@@ -390,5 +414,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 9
+  "matchCount": 12
 }
