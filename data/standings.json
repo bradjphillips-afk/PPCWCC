@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-16T18:11:56.069Z",
+  "lastChecked": "2026-06-16T23:50:54.973Z",
   "players": [
     {
       "name": "Noots",
@@ -55,6 +55,17 @@
       "breakdown": [
         "Netherlands = 5",
         "Côte d'Ivoire = 12"
+      ]
+    },
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 16,
+      "breakdown": [
+        "France = 16",
+        "Algeria = 0"
       ]
     },
     {
@@ -146,6 +157,17 @@
       ]
     },
     {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 8,
+      "breakdown": [
+        "Senegal = 2",
+        "Cape Verde = 6"
+      ]
+    },
+    {
       "name": "Jimmy Barrett",
       "syndicate": "EPAK",
       "anchor": "Uruguay",
@@ -154,17 +176,6 @@
       "breakdown": [
         "Uruguay = 6",
         "Tunisia = 1"
-      ]
-    },
-    {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 6,
-      "breakdown": [
-        "Senegal = 0",
-        "Cape Verde = 6"
       ]
     },
     {
@@ -209,17 +220,6 @@
       "breakdown": [
         "Portugal = 0",
         "Bosnia & Herzegovina = 3"
-      ]
-    },
-    {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
-      "points": 0,
-      "breakdown": [
-        "France = 0",
-        "Algeria = 0"
       ]
     },
     {
@@ -291,18 +291,18 @@
   ],
   "syndicates": [
     {
+      "name": "Shambles",
+      "avg": 12.2,
+      "n": 5
+    },
+    {
       "name": "Bears",
       "avg": 11.2,
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 9,
-      "n": 5
-    },
-    {
       "name": "RP2K",
-      "avg": 9,
+      "avg": 9.4,
       "n": 5
     },
     {
@@ -317,6 +317,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-16",
+      "home": "France",
+      "away": "Senegal",
+      "hs": 3,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-16",
       "home": "Iran",
@@ -446,5 +454,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 16
+  "matchCount": 17
 }
