@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-15T23:16:55.141Z",
+  "lastChecked": "2026-06-16T18:11:56.069Z",
   "players": [
     {
       "name": "Noots",
@@ -11,6 +11,17 @@
       "breakdown": [
         "Spain = 6",
         "Sweden = 20"
+      ]
+    },
+    {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 25,
+      "breakdown": [
+        "USA = 17",
+        "New Zealand = 8"
       ]
     },
     {
@@ -33,17 +44,6 @@
       "breakdown": [
         "Australia = 17",
         "Jordan = 0"
-      ]
-    },
-    {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 17,
-      "breakdown": [
-        "USA = 17",
-        "New Zealand = 0"
       ]
     },
     {
@@ -124,6 +124,39 @@
       ]
     },
     {
+      "name": "Nath",
+      "syndicate": "RP2K",
+      "anchor": "Switzerland",
+      "wildcard": "Saudi Arabia",
+      "points": 10,
+      "breakdown": [
+        "Switzerland = 5",
+        "Saudi Arabia = 5"
+      ]
+    },
+    {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "points": 9,
+      "breakdown": [
+        "Iran = 7",
+        "Czechia = 2"
+      ]
+    },
+    {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 7,
+      "breakdown": [
+        "Uruguay = 6",
+        "Tunisia = 1"
+      ]
+    },
+    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -132,17 +165,6 @@
       "breakdown": [
         "Senegal = 0",
         "Cape Verde = 6"
-      ]
-    },
-    {
-      "name": "Nath",
-      "syndicate": "RP2K",
-      "anchor": "Switzerland",
-      "wildcard": "Saudi Arabia",
-      "points": 5,
-      "breakdown": [
-        "Switzerland = 5",
-        "Saudi Arabia = 0"
       ]
     },
     {
@@ -187,28 +209,6 @@
       "breakdown": [
         "Portugal = 0",
         "Bosnia & Herzegovina = 3"
-      ]
-    },
-    {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
-      "points": 2,
-      "breakdown": [
-        "Iran = 0",
-        "Czechia = 2"
-      ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "points": 1,
-      "breakdown": [
-        "Uruguay = 0",
-        "Tunisia = 1"
       ]
     },
     {
@@ -292,22 +292,22 @@
   "syndicates": [
     {
       "name": "Bears",
-      "avg": 9.6,
-      "n": 5
-    },
-    {
-      "name": "RP2K",
-      "avg": 8,
+      "avg": 11.2,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 7.6,
+      "avg": 9,
+      "n": 5
+    },
+    {
+      "name": "RP2K",
+      "avg": 9,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 6.3,
+      "avg": 7.3,
       "n": 6
     },
     {
@@ -317,6 +317,22 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-16",
+      "home": "Iran",
+      "away": "New Zealand",
+      "hs": 2,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-15",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-15",
       "home": "Belgium",
@@ -430,5 +446,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 14
+  "matchCount": 16
 }
