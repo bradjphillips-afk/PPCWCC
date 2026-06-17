@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-17T13:02:31.144Z",
+  "lastChecked": "2026-06-17T20:38:15.271Z",
   "players": [
     {
       "name": "Noots",
@@ -212,6 +212,28 @@
       ]
     },
     {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 6,
+      "breakdown": [
+        "Portugal = 3",
+        "Bosnia & Herzegovina = 3"
+      ]
+    },
+    {
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 5,
+      "breakdown": [
+        "Colombia = 0",
+        "DR Congo = 5"
+      ]
+    },
+    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -242,28 +264,6 @@
       "breakdown": [
         "Belgium = 4",
         "Haiti = -1"
-      ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 3,
-      "breakdown": [
-        "Portugal = 0",
-        "Bosnia & Herzegovina = 3"
-      ]
-    },
-    {
-      "name": "Barry",
-      "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "points": 0,
-      "breakdown": [
-        "Colombia = 0",
-        "DR Congo = 0"
       ]
     },
     {
@@ -301,22 +301,30 @@
       "n": 5
     },
     {
+      "name": "EPAK",
+      "avg": 11.7,
+      "n": 6
+    },
+    {
       "name": "Bears",
       "avg": 11.6,
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 10.8,
-      "n": 6
-    },
-    {
       "name": "Vamps",
-      "avg": 3.2,
+      "avg": 3.8,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-17",
+      "home": "Portugal",
+      "away": "DR Congo",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-17",
       "home": "Austria",
@@ -478,5 +486,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 20
+  "matchCount": 21
 }
