@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-16T23:50:54.973Z",
+  "lastChecked": "2026-06-17T08:32:43.935Z",
   "players": [
     {
       "name": "Noots",
@@ -40,10 +40,32 @@
       "syndicate": "Bears",
       "anchor": "Australia",
       "wildcard": "Jordan",
-      "points": 17,
+      "points": 19,
       "breakdown": [
         "Australia = 17",
-        "Jordan = 0"
+        "Jordan = 2"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 19,
+      "breakdown": [
+        "Argentina = 19",
+        "Panama = 0"
+      ]
+    },
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 18,
+      "breakdown": [
+        "Norway = 18",
+        "Ghana = 0"
       ]
     },
     {
@@ -69,6 +91,28 @@
       ]
     },
     {
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
+      "points": 15,
+      "breakdown": [
+        "Austria = 15",
+        "Uzbekistan = 0"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 13,
+      "breakdown": [
+        "Mexico = 12",
+        "Iraq = 1"
+      ]
+    },
+    {
       "name": "BT",
       "syndicate": "Bears",
       "anchor": "Croatia",
@@ -77,17 +121,6 @@
       "breakdown": [
         "Croatia = 0",
         "Scotland = 12"
-      ]
-    },
-    {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 12,
-      "breakdown": [
-        "Mexico = 12",
-        "Iraq = 0"
       ]
     },
     {
@@ -183,10 +216,10 @@
       "syndicate": "EPAK",
       "anchor": "Canada",
       "wildcard": "Iraq",
-      "points": 4,
+      "points": 5,
       "breakdown": [
         "Canada = 4",
-        "Iraq = 0"
+        "Iraq = 1"
       ]
     },
     {
@@ -223,28 +256,6 @@
       ]
     },
     {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
-      "points": 0,
-      "breakdown": [
-        "Austria = 0",
-        "Uzbekistan = 0"
-      ]
-    },
-    {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 0,
-      "breakdown": [
-        "Argentina = 0",
-        "Panama = 0"
-      ]
-    },
-    {
       "name": "Barry",
       "syndicate": "EPAK",
       "anchor": "Colombia",
@@ -253,17 +264,6 @@
       "breakdown": [
         "Colombia = 0",
         "DR Congo = 0"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 0,
-      "breakdown": [
-        "Norway = 0",
-        "Ghana = 0"
       ]
     },
     {
@@ -292,22 +292,22 @@
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 12.2,
-      "n": 5
-    },
-    {
-      "name": "Bears",
-      "avg": 11.2,
+      "avg": 15.2,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 9.4,
+      "avg": 13,
+      "n": 5
+    },
+    {
+      "name": "Bears",
+      "avg": 11.6,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 7.3,
+      "avg": 10.8,
       "n": 6
     },
     {
@@ -317,6 +317,30 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-17",
+      "home": "Austria",
+      "away": "Jordan",
+      "hs": 3,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-17",
+      "home": "Argentina",
+      "away": "Algeria",
+      "hs": 3,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-16",
+      "home": "Iraq",
+      "away": "Norway",
+      "hs": 1,
+      "as": 4,
+      "round": "group"
+    },
     {
       "date": "2026-06-16",
       "home": "France",
@@ -454,5 +478,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 17
+  "matchCount": 20
 }
