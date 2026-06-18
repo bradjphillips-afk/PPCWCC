@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-18T11:40:32.804Z",
+  "lastChecked": "2026-06-18T20:01:38.804Z",
   "players": [
     {
       "name": "Voss",
@@ -124,6 +124,17 @@
       ]
     },
     {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "points": 14,
+      "breakdown": [
+        "Iran = 7",
+        "Czechia = 7"
+      ]
+    },
+    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -143,6 +154,17 @@
       "breakdown": [
         "Mexico = 12",
         "Iraq = 1"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 12,
+      "breakdown": [
+        "England = 18",
+        "South Africa = -6"
       ]
     },
     {
@@ -198,28 +220,6 @@
       "breakdown": [
         "Switzerland = 5",
         "Saudi Arabia = 5"
-      ]
-    },
-    {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
-      "points": 9,
-      "breakdown": [
-        "Iran = 7",
-        "Czechia = 2"
-      ]
-    },
-    {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": 8,
-      "breakdown": [
-        "England = 18",
-        "South Africa = -10"
       ]
     },
     {
@@ -291,13 +291,13 @@
   ],
   "syndicates": [
     {
-      "name": "RP2K",
-      "avg": 15.8,
+      "name": "Shambles",
+      "avg": 16.4,
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 15.4,
+      "name": "RP2K",
+      "avg": 15.8,
       "n": 5
     },
     {
@@ -312,11 +312,19 @@
     },
     {
       "name": "Vamps",
-      "avg": 7.4,
+      "avg": 8.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-18",
+      "home": "Czechia",
+      "away": "South Africa",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-18",
       "home": "Uzbekistan",
@@ -510,5 +518,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 24
+  "matchCount": 25
 }
