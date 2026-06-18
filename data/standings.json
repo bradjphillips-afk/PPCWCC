@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-17T20:38:15.271Z",
+  "lastChecked": "2026-06-18T11:40:32.804Z",
   "players": [
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 32,
+      "breakdown": [
+        "Norway = 18",
+        "Ghana = 14"
+      ]
+    },
     {
       "name": "Noots",
       "syndicate": "Shambles",
@@ -36,6 +47,17 @@
       ]
     },
     {
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 20,
+      "breakdown": [
+        "Colombia = 15",
+        "DR Congo = 5"
+      ]
+    },
+    {
       "name": "Dog",
       "syndicate": "Bears",
       "anchor": "Australia",
@@ -51,21 +73,10 @@
       "syndicate": "EPAK",
       "anchor": "Argentina",
       "wildcard": "Panama",
-      "points": 19,
+      "points": 17,
       "breakdown": [
         "Argentina = 19",
-        "Panama = 0"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 18,
-      "breakdown": [
-        "Norway = 18",
-        "Ghana = 0"
+        "Panama = -2"
       ]
     },
     {
@@ -77,6 +88,17 @@
       "breakdown": [
         "Netherlands = 5",
         "Côte d'Ivoire = 12"
+      ]
+    },
+    {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 16,
+      "breakdown": [
+        "Croatia = 4",
+        "Scotland = 12"
       ]
     },
     {
@@ -95,10 +117,21 @@
       "syndicate": "Shambles",
       "anchor": "Austria",
       "wildcard": "Uzbekistan",
-      "points": 15,
+      "points": 16,
       "breakdown": [
         "Austria = 15",
-        "Uzbekistan = 0"
+        "Uzbekistan = 1"
+      ]
+    },
+    {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 13,
+      "breakdown": [
+        "Ecuador = -1",
+        "Ghana = 14"
       ]
     },
     {
@@ -110,17 +143,6 @@
       "breakdown": [
         "Mexico = 12",
         "Iraq = 1"
-      ]
-    },
-    {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "points": 12,
-      "breakdown": [
-        "Croatia = 0",
-        "Scotland = 12"
       ]
     },
     {
@@ -190,6 +212,17 @@
       ]
     },
     {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 8,
+      "breakdown": [
+        "England = 18",
+        "South Africa = -10"
+      ]
+    },
+    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -220,17 +253,6 @@
       "breakdown": [
         "Portugal = 3",
         "Bosnia & Herzegovina = 3"
-      ]
-    },
-    {
-      "name": "Barry",
-      "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "points": 5,
-      "breakdown": [
-        "Colombia = 0",
-        "DR Congo = 5"
       ]
     },
     {
@@ -265,58 +287,60 @@
         "Belgium = 4",
         "Haiti = -1"
       ]
-    },
-    {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": -1,
-      "breakdown": [
-        "Ecuador = -1",
-        "Ghana = 0"
-      ]
-    },
-    {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": -10,
-      "breakdown": [
-        "England = 0",
-        "South Africa = -10"
-      ]
     }
   ],
   "syndicates": [
     {
+      "name": "RP2K",
+      "avg": 15.8,
+      "n": 5
+    },
+    {
       "name": "Shambles",
+      "avg": 15.4,
+      "n": 5
+    },
+    {
+      "name": "Bears",
       "avg": 15.2,
       "n": 5
     },
     {
-      "name": "RP2K",
-      "avg": 13,
-      "n": 5
-    },
-    {
       "name": "EPAK",
-      "avg": 11.7,
+      "avg": 13.8,
       "n": 6
     },
     {
-      "name": "Bears",
-      "avg": 11.6,
-      "n": 5
-    },
-    {
       "name": "Vamps",
-      "avg": 3.8,
+      "avg": 7.4,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-18",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "hs": 1,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-17",
+      "home": "Ghana",
+      "away": "Panama",
+      "hs": 1,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-17",
+      "home": "England",
+      "away": "Croatia",
+      "hs": 4,
+      "as": 2,
+      "round": "group"
+    },
     {
       "date": "2026-06-17",
       "home": "Portugal",
@@ -486,5 +510,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 21
+  "matchCount": 24
 }
