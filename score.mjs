@@ -1,8 +1,6 @@
 // score.mjs — fetches finished 2026 World Cup matches from API-FOOTBALL,
 // applies The Sweep scoring (incl. yellow/red cards), writes data/standings.json.
-// Cards are fetched ONCE per match and cached in data/cards.json to stay within
-// the free tier's 100 requests/day. Runs in GitHub Actions. Node 18+ (global fetch).
-//
+// Cards are fetched ONCE per match and cached in data/cards.json.
 // Requires env API_FOOTBALL_KEY (GitHub Actions secret).
 // Reads draw.json (locked draw) and manual.json (awards / transfer window / adjustments).
 
@@ -34,7 +32,7 @@ CANON.forEach(n => ALIAS[norm(n)] = n);
 ].forEach(([a,c]) => ALIAS[norm(a)] = c);
 const canon = name => ALIAS[norm(name)] || null;
 
-/* ---------- scoring constants (identical to the Claude artifact) ---------- */
+/* ---------- scoring constants ---------- */
 const ROUND_REACH = { r16:6, qf:12, sf:20, final:30 };
 const FINISH_PTS  = { "1":12, "2":8, "3a":5, "3o":2, "4":0 };
 
@@ -84,8 +82,8 @@ function countCards(events, home, away) {
   for (const ev of (events||[])) {
     if ((ev.type||"").toLowerCase() !== "card") continue;
     const d = (ev.detail||"").toLowerCase();
-    const isRed = d.includes("red");                          // "Red Card" or "Yellow-Red Card"
-    const isYellow = d.includes("yellow") && !d.includes("yellow-red"); // plain "Yellow Card"
+    const isRed = d.includes("red");
+    const isYellow = d.includes("yellow") && !d.includes("yellow-red");
     const t = canon(ev.team?.name);
     const side = t === home ? "h" : (t === away ? "a" : null);
     if (!side) continue;
@@ -99,8 +97,8 @@ async function ensureCards(fixtures, cache) {
   let fetched = 0;
   for (const m of fixtures) {
     if (!m.finished || !m.home || !m.away) continue;
-    if (cache[m.id]) continue;                 // already have its cards
-    if (fetched >= MAX_EVENT_FETCHES) break;   // pick up the rest next run
+    if (cache[m.id]) continue;
+    if (fetched >= MAX_EVENT_FETCHES) break;
     try {
       const ev = await api(`/fixtures/events?fixture=${m.id}&type=card`);
       cache[m.id] = countCards(ev, m.home, m.away);
@@ -200,7 +198,17 @@ function playerTotals(draw, TP, manual) {
       pts += vv;
     });
     if (w.lifeboatAdopt) { const c = canon(w.lifeboatAdopt); const tp = c ? TP[c] : null; if (tp && tp.rounds.has("sf")) { pts += 15; brk.push("phoenix +15"); } }
-    const adj = Number(adjust[p.name] || 0); if (adj) { pts += adj; brk.push(`${adj>0?"+":""}${adj} adj`); }
+    // adjustments: either a plain number, or a list of { label, points } for named gags
+    const a = adjust[p.name];
+    if (typeof a === "number" && a) { pts += a; brk.push(`${a>0?"+":""}${a} adj`); }
+    else if (Array.isArray(a)) {
+      a.forEach(item => {
+        const v2 = Number(item.points ?? item.pts ?? 0);
+        if (!v2) return;
+        pts += v2;
+        brk.push(`${item.label || "adjustment"} ${v2>0?"+":""}${v2}`);
+      });
+    }
     return { name: p.name, syndicate: p.syndicate, anchor: p.anchor, wildcard: p.wildcard, points: pts, breakdown: brk };
   }).sort((a,b) => b.points - a.points);
 }
@@ -215,7 +223,6 @@ function playerTotals(draw, TP, manual) {
 
   const fixtures = await getFixtures();
 
-  // fetch + cache cards for newly finished matches, then attach
   await ensureCards(fixtures, cardCache);
   mkdirSync("data", { recursive: true });
   writeFileSync("data/cards.json", JSON.stringify(cardCache, null, 0));
