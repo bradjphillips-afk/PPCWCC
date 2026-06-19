@@ -1,17 +1,10 @@
 {
-  "_note": "The only things the scorer can't fetch. Edit this file (commit it) when the time comes. Everything else updates automatically.",
-
-  "awards": {
-    "boot": "",
-    "glove": "",
-    "ball": ""
-  },
-
-  "windows": {
-    "_example": { "captain": "", "lifeboatDrop": "", "lifeboatAdopt": "" }
-  },
-
+  "_howto": "adjust = bonus lines for a player: either a plain number, or a list of {label, points}. Use exact player names from draw.json. Add more lines to Javs each round to fuel El Presidente's rise.",
+  "awards": { "boot": "", "glove": "", "ball": "" },
+  "windows": {},
   "adjust": {
-    "_example": 0
+    "Javs": [
+      { "label": "Dinner with Gianni in Boston", "points": 20 }
+    ]
   }
 }
