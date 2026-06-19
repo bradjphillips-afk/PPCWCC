@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-19T18:20:42.846Z",
+  "lastChecked": "2026-06-19T22:12:43.845Z",
   "players": [
+    {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 39,
+      "breakdown": [
+        "USA = 31",
+        "New Zealand = 8"
+      ]
+    },
     {
       "name": "Voss",
       "syndicate": "RP2K",
@@ -58,17 +69,6 @@
       ]
     },
     {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 25,
-      "breakdown": [
-        "USA = 17",
-        "New Zealand = 8"
-      ]
-    },
-    {
       "name": "Javs",
       "syndicate": "Vamps",
       "anchor": "Belgium",
@@ -100,17 +100,6 @@
       "breakdown": [
         "Colombia = 15",
         "DR Congo = 5"
-      ]
-    },
-    {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "points": 19,
-      "breakdown": [
-        "Australia = 17",
-        "Jordan = 2"
       ]
     },
     {
@@ -166,6 +155,17 @@
       "breakdown": [
         "Austria = 15",
         "Uzbekistan = 1"
+      ]
+    },
+    {
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
+      "points": 15,
+      "breakdown": [
+        "Australia = 13",
+        "Jordan = 2"
       ]
     },
     {
@@ -302,13 +302,13 @@
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 16.4,
+      "name": "Bears",
+      "avg": 17.2,
       "n": 5
     },
     {
-      "name": "Bears",
-      "avg": 15.2,
+      "name": "Shambles",
+      "avg": 16.4,
       "n": 5
     },
     {
@@ -318,6 +318,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-19",
+      "home": "USA",
+      "away": "Australia",
+      "hs": 2,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-19",
       "home": "Mexico",
@@ -543,5 +551,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 28
+  "matchCount": 29
 }
