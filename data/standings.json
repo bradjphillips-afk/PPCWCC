@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-19T09:12:25.249Z",
+  "lastChecked": "2026-06-19T09:35:07.322Z",
   "players": [
     {
       "name": "Voss",
@@ -66,6 +66,18 @@
       "breakdown": [
         "USA = 17",
         "New Zealand = 8"
+      ]
+    },
+    {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 23,
+      "breakdown": [
+        "Belgium = 4",
+        "Haiti = -1",
+        "Dinner with Gianni in Boston +20"
       ]
     },
     {
@@ -256,17 +268,6 @@
       ]
     },
     {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": 3,
-      "breakdown": [
-        "Belgium = 4",
-        "Haiti = -1"
-      ]
-    },
-    {
       "name": "Beesh",
       "syndicate": "Vamps",
       "anchor": "Portugal",
@@ -312,7 +313,7 @@
     },
     {
       "name": "Vamps",
-      "avg": 5.6,
+      "avg": 9.6,
       "n": 5
     }
   ],
