@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-19T22:12:43.845Z",
+  "lastChecked": "2026-06-20T10:12:25.454Z",
   "players": [
     {
       "name": "BP2",
@@ -25,6 +25,17 @@
       ]
     },
     {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 31,
+      "breakdown": [
+        "Germany = 24",
+        "Paraguay = 7"
+      ]
+    },
+    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -33,6 +44,17 @@
       "breakdown": [
         "Canada = 28",
         "Iraq = 1"
+      ]
+    },
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 28,
+      "breakdown": [
+        "Brazil = 22",
+        "Cape Verde = 6"
       ]
     },
     {
@@ -73,22 +95,11 @@
       "syndicate": "Vamps",
       "anchor": "Belgium",
       "wildcard": "Haiti",
-      "points": 23,
+      "points": 20,
       "breakdown": [
         "Belgium = 4",
-        "Haiti = -1",
+        "Haiti = -4",
         "Dinner with Gianni in Boston +20"
-      ]
-    },
-    {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 21,
-      "breakdown": [
-        "Germany = 24",
-        "Paraguay = -3"
       ]
     },
     {
@@ -125,17 +136,6 @@
       ]
     },
     {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "points": 16,
-      "breakdown": [
-        "Croatia = 4",
-        "Scotland = 12"
-      ]
-    },
-    {
       "name": "Chewy",
       "syndicate": "Shambles",
       "anchor": "France",
@@ -158,6 +158,17 @@
       ]
     },
     {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 15,
+      "breakdown": [
+        "Croatia = 4",
+        "Scotland = 11"
+      ]
+    },
+    {
       "name": "Dog",
       "syndicate": "Bears",
       "anchor": "Australia",
@@ -166,6 +177,17 @@
       "breakdown": [
         "Australia = 13",
         "Jordan = 2"
+      ]
+    },
+    {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "points": 15,
+      "breakdown": [
+        "Morocco = 20",
+        "Qatar = -5"
       ]
     },
     {
@@ -213,28 +235,6 @@
       ]
     },
     {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 10,
-      "breakdown": [
-        "Brazil = 4",
-        "Cape Verde = 6"
-      ]
-    },
-    {
-      "name": "Bass",
-      "syndicate": "RP2K",
-      "anchor": "South Korea",
-      "wildcard": "Haiti",
-      "points": 10,
-      "breakdown": [
-        "South Korea = 11",
-        "Haiti = -1"
-      ]
-    },
-    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -257,14 +257,14 @@
       ]
     },
     {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": 3,
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
+      "points": 7,
       "breakdown": [
-        "Egypt = 4",
-        "Türkiye = -1"
+        "South Korea = 11",
+        "Haiti = -4"
       ]
     },
     {
@@ -279,31 +279,31 @@
       ]
     },
     {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
       "points": 1,
       "breakdown": [
-        "Morocco = 6",
-        "Qatar = -5"
+        "Egypt = 4",
+        "Türkiye = -3"
       ]
     }
   ],
   "syndicates": [
     {
       "name": "EPAK",
-      "avg": 20.3,
+      "avg": 22,
       "n": 6
     },
     {
       "name": "RP2K",
-      "avg": 18.8,
+      "avg": 18.2,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 17.2,
+      "avg": 16.6,
       "n": 5
     },
     {
@@ -313,11 +313,35 @@
     },
     {
       "name": "Vamps",
-      "avg": 9.6,
+      "avg": 15.4,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-20",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "hs": 0,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-20",
+      "home": "Brazil",
+      "away": "Haiti",
+      "hs": 3,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-19",
+      "home": "Scotland",
+      "away": "Morocco",
+      "hs": 0,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-19",
       "home": "USA",
@@ -551,5 +575,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 29
+  "matchCount": 32
 }
