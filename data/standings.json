@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-20T15:57:15.671Z",
+  "lastChecked": "2026-06-20T20:51:47.927Z",
   "players": [
     {
       "name": "BP2",
@@ -11,6 +11,17 @@
       "breakdown": [
         "USA = 31",
         "New Zealand = 8"
+      ]
+    },
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "points": 37,
+      "breakdown": [
+        "Netherlands = 25",
+        "Côte d'Ivoire = 12"
       ]
     },
     {
@@ -84,10 +95,10 @@
       "syndicate": "Shambles",
       "anchor": "Spain",
       "wildcard": "Sweden",
-      "points": 26,
+      "points": 25,
       "breakdown": [
         "Spain = 6",
-        "Sweden = 20"
+        "Sweden = 19"
       ]
     },
     {
@@ -122,17 +133,6 @@
       "breakdown": [
         "Argentina = 19",
         "Panama = -2"
-      ]
-    },
-    {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
-      "points": 17,
-      "breakdown": [
-        "Netherlands = 5",
-        "Côte d'Ivoire = 12"
       ]
     },
     {
@@ -292,14 +292,14 @@
   ],
   "syndicates": [
     {
+      "name": "RP2K",
+      "avg": 22.2,
+      "n": 5
+    },
+    {
       "name": "EPAK",
       "avg": 22,
       "n": 6
-    },
-    {
-      "name": "RP2K",
-      "avg": 18.2,
-      "n": 5
     },
     {
       "name": "Bears",
@@ -308,7 +308,7 @@
     },
     {
       "name": "Shambles",
-      "avg": 16.4,
+      "avg": 16.2,
       "n": 5
     },
     {
@@ -318,6 +318,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-20",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "hs": 5,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-20",
       "home": "Türkiye",
@@ -575,5 +583,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 32
+  "matchCount": 33
 }
