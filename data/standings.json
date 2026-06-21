@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-21T16:23:35.264Z",
+  "lastChecked": "2026-06-21T20:58:48.659Z",
   "players": [
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 46,
+      "breakdown": [
+        "Spain = 27",
+        "Sweden = 19"
+      ]
+    },
     {
       "name": "Jones",
       "syndicate": "EPAK",
@@ -95,21 +106,10 @@
       "syndicate": "RP2K",
       "anchor": "Switzerland",
       "wildcard": "Saudi Arabia",
-      "points": 27,
-      "breakdown": [
-        "Switzerland = 22",
-        "Saudi Arabia = 5"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
       "points": 25,
       "breakdown": [
-        "Spain = 6",
-        "Sweden = 19"
+        "Switzerland = 22",
+        "Saudi Arabia = 3"
       ]
     },
     {
@@ -292,18 +292,18 @@
   ],
   "syndicates": [
     {
+      "name": "Shambles",
+      "avg": 25,
+      "n": 5
+    },
+    {
       "name": "EPAK",
       "avg": 24.3,
       "n": 6
     },
     {
       "name": "RP2K",
-      "avg": 22.6,
-      "n": 5
-    },
-    {
-      "name": "Shambles",
-      "avg": 20.8,
+      "avg": 22.2,
       "n": 5
     },
     {
@@ -318,6 +318,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-21",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "hs": 4,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-21",
       "home": "Tunisia",
@@ -607,5 +615,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 36
+  "matchCount": 37
 }
