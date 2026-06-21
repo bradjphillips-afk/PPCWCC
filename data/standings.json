@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-20T20:51:47.927Z",
+  "lastChecked": "2026-06-21T10:45:44.410Z",
   "players": [
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 45,
+      "breakdown": [
+        "Germany = 38",
+        "Paraguay = 7"
+      ]
+    },
     {
       "name": "BP2",
       "syndicate": "Bears",
@@ -18,10 +29,21 @@
       "syndicate": "RP2K",
       "anchor": "Netherlands",
       "wildcard": "Côte d'Ivoire",
-      "points": 37,
+      "points": 39,
       "breakdown": [
         "Netherlands = 25",
-        "Côte d'Ivoire = 12"
+        "Côte d'Ivoire = 14"
+      ]
+    },
+    {
+      "name": "Brucey",
+      "syndicate": "Shambles",
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "points": 33,
+      "breakdown": [
+        "Japan = 29",
+        "Curaçao = 4"
       ]
     },
     {
@@ -33,17 +55,6 @@
       "breakdown": [
         "Norway = 18",
         "Ghana = 14"
-      ]
-    },
-    {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 31,
-      "breakdown": [
-        "Germany = 24",
-        "Paraguay = 7"
       ]
     },
     {
@@ -125,6 +136,17 @@
       ]
     },
     {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 19,
+      "breakdown": [
+        "Ecuador = 5",
+        "Ghana = 14"
+      ]
+    },
+    {
       "name": "Wig",
       "syndicate": "EPAK",
       "anchor": "Argentina",
@@ -202,17 +224,6 @@
       ]
     },
     {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 13,
-      "breakdown": [
-        "Ecuador = -1",
-        "Ghana = 14"
-      ]
-    },
-    {
       "name": "Benj",
       "syndicate": "Vamps",
       "anchor": "England",
@@ -221,17 +232,6 @@
       "breakdown": [
         "England = 18",
         "South Africa = -6"
-      ]
-    },
-    {
-      "name": "Brucey",
-      "syndicate": "Shambles",
-      "anchor": "Japan",
-      "wildcard": "Curaçao",
-      "points": 10,
-      "breakdown": [
-        "Japan = 8",
-        "Curaçao = 2"
       ]
     },
     {
@@ -292,23 +292,23 @@
   ],
   "syndicates": [
     {
-      "name": "RP2K",
-      "avg": 22.2,
-      "n": 5
-    },
-    {
       "name": "EPAK",
-      "avg": 22,
+      "avg": 24.3,
       "n": 6
     },
     {
-      "name": "Bears",
-      "avg": 16.6,
+      "name": "RP2K",
+      "avg": 22.6,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 16.2,
+      "avg": 20.8,
+      "n": 5
+    },
+    {
+      "name": "Bears",
+      "avg": 17.8,
       "n": 5
     },
     {
@@ -318,6 +318,30 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-21",
+      "home": "Tunisia",
+      "away": "Japan",
+      "hs": 0,
+      "as": 4,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-21",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-20",
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "hs": 2,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-20",
       "home": "Netherlands",
@@ -583,5 +607,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 33
+  "matchCount": 36
 }
