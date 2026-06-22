@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-22T15:58:50.333Z",
+  "lastChecked": "2026-06-22T22:25:35.974Z",
   "players": [
     {
       "name": "Noots",
@@ -66,6 +66,17 @@
       "breakdown": [
         "Japan = 29",
         "Curaçao = 4"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 32,
+      "breakdown": [
+        "Argentina = 34",
+        "Panama = -2"
       ]
     },
     {
@@ -158,17 +169,6 @@
       ]
     },
     {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 17,
-      "breakdown": [
-        "Argentina = 19",
-        "Panama = -2"
-      ]
-    },
-    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -188,17 +188,6 @@
       "breakdown": [
         "France = 16",
         "Algeria = 0"
-      ]
-    },
-    {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
-      "points": 16,
-      "breakdown": [
-        "Austria = 15",
-        "Uzbekistan = 1"
       ]
     },
     {
@@ -243,6 +232,17 @@
       "breakdown": [
         "Senegal = 2",
         "Cape Verde = 13"
+      ]
+    },
+    {
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
+      "points": 14,
+      "breakdown": [
+        "Austria = 13",
+        "Uzbekistan = 1"
       ]
     },
     {
@@ -292,14 +292,14 @@
   ],
   "syndicates": [
     {
-      "name": "Shambles",
-      "avg": 26.2,
-      "n": 5
+      "name": "EPAK",
+      "avg": 27.8,
+      "n": 6
     },
     {
-      "name": "EPAK",
-      "avg": 25.3,
-      "n": 6
+      "name": "Shambles",
+      "avg": 25.8,
+      "n": 5
     },
     {
       "name": "RP2K",
@@ -318,6 +318,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-22",
+      "home": "Argentina",
+      "away": "Austria",
+      "hs": 2,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-22",
       "home": "New Zealand",
@@ -639,5 +647,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 40
+  "matchCount": 41
 }
