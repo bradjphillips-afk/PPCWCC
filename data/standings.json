@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-21T20:58:48.659Z",
+  "lastChecked": "2026-06-22T15:58:50.333Z",
   "players": [
     {
       "name": "Noots",
@@ -47,6 +47,17 @@
       ]
     },
     {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 35,
+      "breakdown": [
+        "Brazil = 22",
+        "Cape Verde = 13"
+      ]
+    },
+    {
       "name": "Brucey",
       "syndicate": "Shambles",
       "anchor": "Japan",
@@ -80,17 +91,6 @@
       ]
     },
     {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 28,
-      "breakdown": [
-        "Brazil = 22",
-        "Cape Verde = 6"
-      ]
-    },
-    {
       "name": "Muller",
       "syndicate": "EPAK",
       "anchor": "Mexico",
@@ -117,11 +117,22 @@
       "syndicate": "Vamps",
       "anchor": "Belgium",
       "wildcard": "Haiti",
-      "points": 20,
+      "points": 22,
       "breakdown": [
-        "Belgium = 4",
+        "Belgium = 6",
         "Haiti = -4",
         "Dinner with Gianni in Boston +20"
+      ]
+    },
+    {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "points": 20,
+      "breakdown": [
+        "Iran = 13",
+        "Czechia = 7"
       ]
     },
     {
@@ -155,6 +166,17 @@
       "breakdown": [
         "Argentina = 19",
         "Panama = -2"
+      ]
+    },
+    {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": 16,
+      "breakdown": [
+        "Egypt = 19",
+        "Türkiye = -3"
       ]
     },
     {
@@ -213,14 +235,25 @@
       ]
     },
     {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
-      "points": 14,
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 15,
       "breakdown": [
-        "Iran = 7",
-        "Czechia = 7"
+        "Senegal = 2",
+        "Cape Verde = 13"
+      ]
+    },
+    {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 13,
+      "breakdown": [
+        "Uruguay = 12",
+        "Tunisia = 1"
       ]
     },
     {
@@ -232,28 +265,6 @@
       "breakdown": [
         "England = 18",
         "South Africa = -6"
-      ]
-    },
-    {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 8,
-      "breakdown": [
-        "Senegal = 2",
-        "Cape Verde = 6"
-      ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "points": 7,
-      "breakdown": [
-        "Uruguay = 6",
-        "Tunisia = 1"
       ]
     },
     {
@@ -277,47 +288,60 @@
         "Portugal = 3",
         "Bosnia & Herzegovina = -1"
       ]
-    },
-    {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": 1,
-      "breakdown": [
-        "Egypt = 4",
-        "Türkiye = -3"
-      ]
     }
   ],
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 25,
+      "avg": 26.2,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 24.3,
+      "avg": 25.3,
       "n": 6
     },
     {
       "name": "RP2K",
-      "avg": 22.2,
+      "avg": 23.6,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 17.8,
+      "avg": 20.8,
       "n": 5
     },
     {
       "name": "Vamps",
-      "avg": 15.4,
+      "avg": 17.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-22",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "hs": 1,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-21",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "hs": 2,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-21",
+      "home": "Belgium",
+      "away": "Iran",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-21",
       "home": "Spain",
@@ -615,5 +639,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 37
+  "matchCount": 40
 }
