@@ -1,7 +1,29 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-22T22:25:35.974Z",
+  "lastChecked": "2026-06-23T10:47:45.896Z",
   "players": [
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 48,
+      "breakdown": [
+        "France = 35",
+        "Algeria = 13"
+      ]
+    },
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 48,
+      "breakdown": [
+        "Norway = 34",
+        "Ghana = 14"
+      ]
+    },
     {
       "name": "Noots",
       "syndicate": "Shambles",
@@ -80,25 +102,14 @@
       ]
     },
     {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 32,
-      "breakdown": [
-        "Norway = 18",
-        "Ghana = 14"
-      ]
-    },
-    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
       "wildcard": "Iraq",
-      "points": 29,
+      "points": 28,
       "breakdown": [
         "Canada = 28",
-        "Iraq = 1"
+        "Iraq = 0"
       ]
     },
     {
@@ -106,10 +117,10 @@
       "syndicate": "EPAK",
       "anchor": "Mexico",
       "wildcard": "Iraq",
-      "points": 28,
+      "points": 27,
       "breakdown": [
         "Mexico = 27",
-        "Iraq = 1"
+        "Iraq = 0"
       ]
     },
     {
@@ -169,6 +180,17 @@
       ]
     },
     {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 19,
+      "breakdown": [
+        "Senegal = 6",
+        "Cape Verde = 13"
+      ]
+    },
+    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -180,14 +202,14 @@
       ]
     },
     {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
       "points": 16,
       "breakdown": [
-        "France = 16",
-        "Algeria = 0"
+        "Australia = 13",
+        "Jordan = 3"
       ]
     },
     {
@@ -202,17 +224,6 @@
       ]
     },
     {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "points": 15,
-      "breakdown": [
-        "Australia = 13",
-        "Jordan = 2"
-      ]
-    },
-    {
       "name": "Zip",
       "syndicate": "Vamps",
       "anchor": "Morocco",
@@ -221,17 +232,6 @@
       "breakdown": [
         "Morocco = 20",
         "Qatar = -5"
-      ]
-    },
-    {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 15,
-      "breakdown": [
-        "Senegal = 2",
-        "Cape Verde = 13"
       ]
     },
     {
@@ -292,23 +292,23 @@
   ],
   "syndicates": [
     {
-      "name": "EPAK",
-      "avg": 27.8,
-      "n": 6
-    },
-    {
       "name": "Shambles",
-      "avg": 25.8,
+      "avg": 32.2,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 23.6,
+      "avg": 27.6,
       "n": 5
     },
     {
+      "name": "EPAK",
+      "avg": 27.5,
+      "n": 6
+    },
+    {
       "name": "Bears",
-      "avg": 20.8,
+      "avg": 21,
       "n": 5
     },
     {
@@ -318,6 +318,30 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-23",
+      "home": "Jordan",
+      "away": "Algeria",
+      "hs": 1,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-23",
+      "home": "Norway",
+      "away": "Senegal",
+      "hs": 3,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-22",
+      "home": "France",
+      "away": "Iraq",
+      "hs": 3,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-22",
       "home": "Argentina",
@@ -647,5 +671,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 41
+  "matchCount": 44
 }
