@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-23T17:29:59.422Z",
+  "lastChecked": "2026-06-23T22:05:43.107Z",
   "players": [
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 54,
+      "breakdown": [
+        "Norway = 34",
+        "Ghana = 20"
+      ]
+    },
     {
       "name": "Chewy",
       "syndicate": "Shambles",
@@ -11,17 +22,6 @@
       "breakdown": [
         "France = 35",
         "Algeria = 13"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 48,
-      "breakdown": [
-        "Norway = 34",
-        "Ghana = 14"
       ]
     },
     {
@@ -124,6 +124,17 @@
       ]
     },
     {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 25,
+      "breakdown": [
+        "Ecuador = 5",
+        "Ghana = 20"
+      ]
+    },
+    {
       "name": "Nath",
       "syndicate": "RP2K",
       "anchor": "Switzerland",
@@ -132,6 +143,17 @@
       "breakdown": [
         "Switzerland = 22",
         "Saudi Arabia = 3"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 24,
+      "breakdown": [
+        "Portugal = 25",
+        "Bosnia & Herzegovina = -1"
       ]
     },
     {
@@ -169,17 +191,6 @@
       ]
     },
     {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 19,
-      "breakdown": [
-        "Ecuador = 5",
-        "Ghana = 14"
-      ]
-    },
-    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -188,6 +199,17 @@
       "breakdown": [
         "Senegal = 6",
         "Cape Verde = 13"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 18,
+      "breakdown": [
+        "England = 24",
+        "South Africa = -6"
       ]
     },
     {
@@ -239,10 +261,10 @@
       "syndicate": "Shambles",
       "anchor": "Austria",
       "wildcard": "Uzbekistan",
-      "points": 14,
+      "points": 13,
       "breakdown": [
         "Austria = 13",
-        "Uzbekistan = 1"
+        "Uzbekistan = 0"
       ]
     },
     {
@@ -257,17 +279,6 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": 12,
-      "breakdown": [
-        "England = 18",
-        "South Africa = -6"
-      ]
-    },
-    {
       "name": "Bass",
       "syndicate": "RP2K",
       "anchor": "South Korea",
@@ -277,28 +288,17 @@
         "South Korea = 11",
         "Haiti = -4"
       ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 2,
-      "breakdown": [
-        "Portugal = 3",
-        "Bosnia & Herzegovina = -1"
-      ]
     }
   ],
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 32.2,
+      "avg": 32,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 27.6,
+      "avg": 28.8,
       "n": 5
     },
     {
@@ -307,17 +307,33 @@
       "n": 6
     },
     {
-      "name": "Bears",
-      "avg": 21,
+      "name": "Vamps",
+      "avg": 22.8,
       "n": 5
     },
     {
-      "name": "Vamps",
-      "avg": 17.2,
+      "name": "Bears",
+      "avg": 22.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-23",
+      "home": "England",
+      "away": "Ghana",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-23",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "hs": 5,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-23",
       "home": "Jordan",
@@ -671,5 +687,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 44
+  "matchCount": 46
 }
