@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-24T17:30:29.273Z",
+  "lastChecked": "2026-06-24T22:03:53.095Z",
   "players": [
     {
       "name": "Voss",
@@ -11,6 +11,17 @@
       "breakdown": [
         "Norway = 34",
         "Ghana = 20"
+      ]
+    },
+    {
+      "name": "Nath",
+      "syndicate": "RP2K",
+      "anchor": "Switzerland",
+      "wildcard": "Saudi Arabia",
+      "points": 50,
+      "breakdown": [
+        "Switzerland = 47",
+        "Saudi Arabia = 3"
       ]
     },
     {
@@ -47,6 +58,17 @@
       ]
     },
     {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 41,
+      "breakdown": [
+        "Portugal = 25",
+        "Bosnia & Herzegovina = 16"
+      ]
+    },
+    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -66,6 +88,17 @@
       "breakdown": [
         "Netherlands = 25",
         "Côte d'Ivoire = 14"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 36,
+      "breakdown": [
+        "Canada = 36",
+        "Iraq = 0"
       ]
     },
     {
@@ -124,17 +157,6 @@
       ]
     },
     {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "points": 28,
-      "breakdown": [
-        "Canada = 28",
-        "Iraq = 0"
-      ]
-    },
-    {
       "name": "Muller",
       "syndicate": "EPAK",
       "anchor": "Mexico",
@@ -154,28 +176,6 @@
       "breakdown": [
         "Ecuador = 5",
         "Ghana = 20"
-      ]
-    },
-    {
-      "name": "Nath",
-      "syndicate": "RP2K",
-      "anchor": "Switzerland",
-      "wildcard": "Saudi Arabia",
-      "points": 25,
-      "breakdown": [
-        "Switzerland = 22",
-        "Saudi Arabia = 3"
-      ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 24,
-      "breakdown": [
-        "Portugal = 25",
-        "Bosnia & Herzegovina = -1"
       ]
     },
     {
@@ -250,10 +250,10 @@
       "syndicate": "Vamps",
       "anchor": "Morocco",
       "wildcard": "Qatar",
-      "points": 15,
+      "points": 16,
       "breakdown": [
         "Morocco = 20",
-        "Qatar = -5"
+        "Qatar = -4"
       ]
     },
     {
@@ -292,32 +292,48 @@
   ],
   "syndicates": [
     {
+      "name": "RP2K",
+      "avg": 33.8,
+      "n": 5
+    },
+    {
       "name": "Shambles",
       "avg": 32,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 29.3,
+      "avg": 30.7,
       "n": 6
     },
     {
-      "name": "RP2K",
-      "avg": 28.8,
+      "name": "Vamps",
+      "avg": 26.4,
       "n": 5
     },
     {
       "name": "Bears",
       "avg": 25,
       "n": 5
-    },
-    {
-      "name": "Vamps",
-      "avg": 22.8,
-      "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-24",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "hs": 3,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-24",
+      "home": "Switzerland",
+      "away": "Canada",
+      "hs": 2,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-24",
       "home": "Colombia",
@@ -703,5 +719,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 48
+  "matchCount": 50
 }
