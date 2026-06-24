@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-23T22:05:43.107Z",
+  "lastChecked": "2026-06-24T10:28:19.840Z",
   "players": [
     {
       "name": "Voss",
@@ -91,14 +91,36 @@
       ]
     },
     {
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 32,
+      "breakdown": [
+        "Colombia = 28",
+        "DR Congo = 4"
+      ]
+    },
+    {
       "name": "Wig",
       "syndicate": "EPAK",
       "anchor": "Argentina",
       "wildcard": "Panama",
-      "points": 32,
+      "points": 31,
       "breakdown": [
         "Argentina = 34",
-        "Panama = -2"
+        "Panama = -3"
+      ]
+    },
+    {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 29,
+      "breakdown": [
+        "Croatia = 18",
+        "Scotland = 11"
       ]
     },
     {
@@ -180,17 +202,6 @@
       ]
     },
     {
-      "name": "Barry",
-      "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "points": 20,
-      "breakdown": [
-        "Colombia = 15",
-        "DR Congo = 5"
-      ]
-    },
-    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -232,17 +243,6 @@
       "breakdown": [
         "Australia = 13",
         "Jordan = 3"
-      ]
-    },
-    {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "points": 15,
-      "breakdown": [
-        "Croatia = 4",
-        "Scotland = 11"
       ]
     },
     {
@@ -297,27 +297,43 @@
       "n": 5
     },
     {
+      "name": "EPAK",
+      "avg": 29.3,
+      "n": 6
+    },
+    {
       "name": "RP2K",
       "avg": 28.8,
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 27.5,
-      "n": 6
+      "name": "Bears",
+      "avg": 25,
+      "n": 5
     },
     {
       "name": "Vamps",
       "avg": 22.8,
       "n": 5
-    },
-    {
-      "name": "Bears",
-      "avg": 22.2,
-      "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-24",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "hs": 1,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-23",
+      "home": "Panama",
+      "away": "Croatia",
+      "hs": 0,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-23",
       "home": "England",
@@ -687,5 +703,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 46
+  "matchCount": 48
 }
