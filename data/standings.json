@@ -1,7 +1,29 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-24T22:03:53.095Z",
+  "lastChecked": "2026-06-25T10:19:57.676Z",
   "players": [
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 65,
+      "breakdown": [
+        "Mexico = 65",
+        "Iraq = 0"
+      ]
+    },
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 64,
+      "breakdown": [
+        "Brazil = 51",
+        "Cape Verde = 13"
+      ]
+    },
     {
       "name": "Voss",
       "syndicate": "RP2K",
@@ -58,6 +80,17 @@
       ]
     },
     {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "points": 42,
+      "breakdown": [
+        "Morocco = 46",
+        "Qatar = -4"
+      ]
+    },
+    {
       "name": "Beesh",
       "syndicate": "Vamps",
       "anchor": "Portugal",
@@ -66,6 +99,17 @@
       "breakdown": [
         "Portugal = 25",
         "Bosnia & Herzegovina = 16"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 40,
+      "breakdown": [
+        "England = 24",
+        "South Africa = 16"
       ]
     },
     {
@@ -99,17 +143,6 @@
       "breakdown": [
         "Canada = 36",
         "Iraq = 0"
-      ]
-    },
-    {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 35,
-      "breakdown": [
-        "Brazil = 22",
-        "Cape Verde = 13"
       ]
     },
     {
@@ -150,21 +183,10 @@
       "syndicate": "Bears",
       "anchor": "Croatia",
       "wildcard": "Scotland",
-      "points": 29,
+      "points": 30,
       "breakdown": [
         "Croatia = 18",
-        "Scotland = 11"
-      ]
-    },
-    {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 27,
-      "breakdown": [
-        "Mexico = 27",
-        "Iraq = 0"
+        "Scotland = 12"
       ]
     },
     {
@@ -183,10 +205,10 @@
       "syndicate": "Vamps",
       "anchor": "Belgium",
       "wildcard": "Haiti",
-      "points": 22,
+      "points": 23,
       "breakdown": [
         "Belgium = 6",
-        "Haiti = -4",
+        "Haiti = -3",
         "Dinner with Gianni in Boston +20"
       ]
     },
@@ -213,17 +235,6 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": 18,
-      "breakdown": [
-        "England = 24",
-        "South Africa = -6"
-      ]
-    },
-    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -243,17 +254,6 @@
       "breakdown": [
         "Australia = 13",
         "Jordan = 3"
-      ]
-    },
-    {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "points": 16,
-      "breakdown": [
-        "Morocco = 20",
-        "Qatar = -4"
       ]
     },
     {
@@ -283,17 +283,27 @@
       "syndicate": "RP2K",
       "anchor": "South Korea",
       "wildcard": "Haiti",
-      "points": 7,
+      "points": 9,
       "breakdown": [
-        "South Korea = 11",
-        "Haiti = -4"
+        "South Korea = 12",
+        "Haiti = -3"
       ]
     }
   ],
   "syndicates": [
     {
+      "name": "Vamps",
+      "avg": 42,
+      "n": 5
+    },
+    {
+      "name": "EPAK",
+      "avg": 37,
+      "n": 6
+    },
+    {
       "name": "RP2K",
-      "avg": 33.8,
+      "avg": 34.2,
       "n": 5
     },
     {
@@ -302,22 +312,44 @@
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 30.7,
-      "n": 6
-    },
-    {
-      "name": "Vamps",
-      "avg": 26.4,
-      "n": 5
-    },
-    {
       "name": "Bears",
-      "avg": 25,
+      "avg": 25.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-25",
+      "home": "South Africa",
+      "away": "South Korea",
+      "hs": 1,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-25",
+      "home": "Czechia",
+      "away": "Mexico",
+      "hs": 0,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-24",
+      "home": "Scotland",
+      "away": "Brazil",
+      "hs": 0,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-24",
+      "home": "Morocco",
+      "away": "Haiti",
+      "hs": 4,
+      "as": 2,
+      "round": "group"
+    },
     {
       "date": "2026-06-24",
       "home": "Bosnia & Herzegovina",
@@ -719,5 +751,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 50
+  "matchCount": 54
 }
