@@ -1,7 +1,29 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-25T22:56:21.454Z",
+  "lastChecked": "2026-06-26T10:37:16.105Z",
   "players": [
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "points": 91,
+      "breakdown": [
+        "Netherlands = 53",
+        "Côte d'Ivoire = 38"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 66,
+      "breakdown": [
+        "Germany = 51",
+        "Paraguay = 15"
+      ]
+    },
     {
       "name": "Muller",
       "syndicate": "EPAK",
@@ -25,25 +47,14 @@
       ]
     },
     {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
-      "points": 63,
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 54,
       "breakdown": [
-        "Netherlands = 25",
-        "Côte d'Ivoire = 38"
-      ]
-    },
-    {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 58,
-      "breakdown": [
-        "Germany = 51",
-        "Paraguay = 7"
+        "USA = 46",
+        "New Zealand = 8"
       ]
     },
     {
@@ -55,6 +66,17 @@
       "breakdown": [
         "Norway = 34",
         "Ghana = 20"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 52,
+      "breakdown": [
+        "Spain = 27",
+        "Sweden = 25"
       ]
     },
     {
@@ -91,14 +113,25 @@
       ]
     },
     {
-      "name": "Noots",
+      "name": "Brucey",
       "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 46,
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "points": 44,
       "breakdown": [
-        "Spain = 27",
-        "Sweden = 19"
+        "Japan = 42",
+        "Curaçao = 2"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 44,
+      "breakdown": [
+        "Portugal = 25",
+        "Bosnia & Herzegovina = 19"
       ]
     },
     {
@@ -113,14 +146,14 @@
       ]
     },
     {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 41,
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": 40,
       "breakdown": [
-        "Portugal = 25",
-        "Bosnia & Herzegovina = 16"
+        "Egypt = 19",
+        "Türkiye = 21"
       ]
     },
     {
@@ -132,17 +165,6 @@
       "breakdown": [
         "England = 24",
         "South Africa = 16"
-      ]
-    },
-    {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 39,
-      "breakdown": [
-        "USA = 31",
-        "New Zealand = 8"
       ]
     },
     {
@@ -168,17 +190,6 @@
       ]
     },
     {
-      "name": "Brucey",
-      "syndicate": "Shambles",
-      "anchor": "Japan",
-      "wildcard": "Curaçao",
-      "points": 31,
-      "breakdown": [
-        "Japan = 29",
-        "Curaçao = 2"
-      ]
-    },
-    {
       "name": "Wig",
       "syndicate": "EPAK",
       "anchor": "Argentina",
@@ -198,6 +209,17 @@
       "breakdown": [
         "Croatia = 18",
         "Scotland = 12"
+      ]
+    },
+    {
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
+      "points": 30,
+      "breakdown": [
+        "Australia = 27",
+        "Jordan = 3"
       ]
     },
     {
@@ -235,25 +257,14 @@
       ]
     },
     {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": 16,
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 15,
       "breakdown": [
-        "Egypt = 19",
-        "Türkiye = -3"
-      ]
-    },
-    {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "points": 16,
-      "breakdown": [
-        "Australia = 13",
-        "Jordan = 3"
+        "Uruguay = 12",
+        "Tunisia = 3"
       ]
     },
     {
@@ -265,17 +276,6 @@
       "breakdown": [
         "Austria = 13",
         "Uzbekistan = 0"
-      ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "points": 13,
-      "breakdown": [
-        "Uruguay = 12",
-        "Tunisia = 1"
       ]
     },
     {
@@ -292,32 +292,64 @@
   ],
   "syndicates": [
     {
+      "name": "RP2K",
+      "avg": 44.6,
+      "n": 5
+    },
+    {
       "name": "Vamps",
-      "avg": 42,
+      "avg": 42.6,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 39.2,
+      "avg": 40.8,
       "n": 6
     },
     {
-      "name": "RP2K",
-      "avg": 39,
+      "name": "Bears",
+      "avg": 40,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 31.6,
-      "n": 5
-    },
-    {
-      "name": "Bears",
-      "avg": 29.4,
+      "avg": 35.4,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-26",
+      "home": "Paraguay",
+      "away": "Australia",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-26",
+      "home": "Türkiye",
+      "away": "USA",
+      "hs": 3,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-25",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "hs": 1,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-25",
+      "home": "Japan",
+      "away": "Sweden",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-25",
       "home": "Curaçao",
@@ -767,5 +799,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 56
+  "matchCount": 60
 }
