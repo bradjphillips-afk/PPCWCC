@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-26T17:17:18.620Z",
+  "lastChecked": "2026-06-26T21:50:09.591Z",
   "players": [
     {
       "name": "Bull",
@@ -11,6 +11,17 @@
       "breakdown": [
         "Netherlands = 53",
         "Côte d'Ivoire = 38"
+      ]
+    },
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 85,
+      "breakdown": [
+        "France = 72",
+        "Algeria = 13"
       ]
     },
     {
@@ -25,17 +36,6 @@
       ]
     },
     {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 65,
-      "breakdown": [
-        "Mexico = 65",
-        "Iraq = 0"
-      ]
-    },
-    {
       "name": "Cleets",
       "syndicate": "Vamps",
       "anchor": "Brazil",
@@ -47,6 +47,28 @@
       ]
     },
     {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 63,
+      "breakdown": [
+        "Norway = 43",
+        "Ghana = 20"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 59,
+      "breakdown": [
+        "Mexico = 65",
+        "Iraq = -6"
+      ]
+    },
+    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -55,17 +77,6 @@
       "breakdown": [
         "USA = 46",
         "New Zealand = 8"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 54,
-      "breakdown": [
-        "Norway = 34",
-        "Ghana = 20"
       ]
     },
     {
@@ -88,17 +99,6 @@
       "breakdown": [
         "Switzerland = 47",
         "Saudi Arabia = 3"
-      ]
-    },
-    {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
-      "points": 48,
-      "breakdown": [
-        "France = 35",
-        "Algeria = 13"
       ]
     },
     {
@@ -146,6 +146,17 @@
       ]
     },
     {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 42,
+      "breakdown": [
+        "Senegal = 29",
+        "Cape Verde = 13"
+      ]
+    },
+    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -165,17 +176,6 @@
       "breakdown": [
         "England = 24",
         "South Africa = 16"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "points": 36,
-      "breakdown": [
-        "Canada = 36",
-        "Iraq = 0"
       ]
     },
     {
@@ -223,6 +223,17 @@
       ]
     },
     {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 30,
+      "breakdown": [
+        "Canada = 36",
+        "Iraq = -6"
+      ]
+    },
+    {
       "name": "Javs",
       "syndicate": "Vamps",
       "anchor": "Belgium",
@@ -243,17 +254,6 @@
       "breakdown": [
         "Iran = 13",
         "Czechia = 7"
-      ]
-    },
-    {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 19,
-      "breakdown": [
-        "Senegal = 6",
-        "Cape Verde = 13"
       ]
     },
     {
@@ -293,7 +293,12 @@
   "syndicates": [
     {
       "name": "RP2K",
-      "avg": 44.6,
+      "avg": 51,
+      "n": 5
+    },
+    {
+      "name": "Shambles",
+      "avg": 42.8,
       "n": 5
     },
     {
@@ -302,22 +307,33 @@
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 40.8,
-      "n": 6
-    },
-    {
       "name": "Bears",
       "avg": 40,
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 35.4,
-      "n": 5
+      "name": "EPAK",
+      "avg": 38.8,
+      "n": 6
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-26",
+      "home": "Norway",
+      "away": "France",
+      "hs": 1,
+      "as": 4,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-26",
+      "home": "Senegal",
+      "away": "Iraq",
+      "hs": 5,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-26",
       "home": "Paraguay",
@@ -799,5 +815,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 60
+  "matchCount": 62
 }
