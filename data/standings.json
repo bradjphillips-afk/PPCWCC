@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-26T21:50:09.591Z",
+  "lastChecked": "2026-06-27T08:09:36.534Z",
   "players": [
     {
       "name": "Bull",
@@ -25,14 +25,14 @@
       ]
     },
     {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 66,
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 81,
       "breakdown": [
-        "Germany = 51",
-        "Paraguay = 15"
+        "Spain = 53",
+        "Sweden = 28"
       ]
     },
     {
@@ -40,10 +40,21 @@
       "syndicate": "Vamps",
       "anchor": "Brazil",
       "wildcard": "Cape Verde",
-      "points": 64,
+      "points": 78,
       "breakdown": [
         "Brazil = 51",
-        "Cape Verde = 13"
+        "Cape Verde = 27"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 69,
+      "breakdown": [
+        "Germany = 51",
+        "Paraguay = 18"
       ]
     },
     {
@@ -69,6 +80,29 @@
       ]
     },
     {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 56,
+      "breakdown": [
+        "Senegal = 29",
+        "Cape Verde = 27"
+      ]
+    },
+    {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 55,
+      "breakdown": [
+        "Belgium = 38",
+        "Haiti = -3",
+        "Dinner with Gianni in Boston +20"
+      ]
+    },
+    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -80,25 +114,25 @@
       ]
     },
     {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 52,
-      "breakdown": [
-        "Spain = 27",
-        "Sweden = 25"
-      ]
-    },
-    {
       "name": "Nath",
       "syndicate": "RP2K",
       "anchor": "Switzerland",
       "wildcard": "Saudi Arabia",
-      "points": 50,
+      "points": 54,
       "breakdown": [
         "Switzerland = 47",
-        "Saudi Arabia = 3"
+        "Saudi Arabia = 7"
+      ]
+    },
+    {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "points": 51,
+      "breakdown": [
+        "Egypt = 30",
+        "Türkiye = 21"
       ]
     },
     {
@@ -143,28 +177,6 @@
       "breakdown": [
         "Morocco = 46",
         "Qatar = -4"
-      ]
-    },
-    {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 42,
-      "breakdown": [
-        "Senegal = 29",
-        "Cape Verde = 13"
-      ]
-    },
-    {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "points": 40,
-      "breakdown": [
-        "Egypt = 19",
-        "Türkiye = 21"
       ]
     },
     {
@@ -234,37 +246,14 @@
       ]
     },
     {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": 23,
-      "breakdown": [
-        "Belgium = 6",
-        "Haiti = -3",
-        "Dinner with Gianni in Boston +20"
-      ]
-    },
-    {
       "name": "BP1",
       "syndicate": "Shambles",
       "anchor": "Iran",
       "wildcard": "Czechia",
-      "points": 20,
+      "points": 24,
       "breakdown": [
-        "Iran = 13",
+        "Iran = 17",
         "Czechia = 7"
-      ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "points": 15,
-      "breakdown": [
-        "Uruguay = 12",
-        "Tunisia = 3"
       ]
     },
     {
@@ -276,6 +265,17 @@
       "breakdown": [
         "Austria = 13",
         "Uzbekistan = 0"
+      ]
+    },
+    {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "points": 10,
+      "breakdown": [
+        "Uruguay = 7",
+        "Tunisia = 3"
       ]
     },
     {
@@ -293,31 +293,63 @@
   "syndicates": [
     {
       "name": "RP2K",
-      "avg": 51,
-      "n": 5
-    },
-    {
-      "name": "Shambles",
-      "avg": 42.8,
+      "avg": 54.6,
       "n": 5
     },
     {
       "name": "Vamps",
-      "avg": 42.6,
+      "avg": 51.8,
+      "n": 5
+    },
+    {
+      "name": "Shambles",
+      "avg": 49.4,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 40,
+      "avg": 42.2,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 38.8,
+      "avg": 38.5,
       "n": 6
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-27",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "hs": 1,
+      "as": 5,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "Egypt",
+      "away": "Iran",
+      "hs": 1,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "Uruguay",
+      "away": "Spain",
+      "hs": 0,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-26",
       "home": "Norway",
@@ -815,5 +847,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 62
+  "matchCount": 66
 }
