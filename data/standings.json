@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-27T20:20:14.893Z",
+  "lastChecked": "2026-06-27T23:45:28.069Z",
   "players": [
     {
       "name": "Bull",
@@ -58,14 +58,25 @@
       ]
     },
     {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 68,
+      "breakdown": [
+        "England = 52",
+        "South Africa = 16"
+      ]
+    },
+    {
       "name": "Voss",
       "syndicate": "RP2K",
       "anchor": "Norway",
       "wildcard": "Ghana",
-      "points": 63,
+      "points": 66,
       "breakdown": [
         "Norway = 43",
-        "Ghana = 20"
+        "Ghana = 23"
       ]
     },
     {
@@ -136,14 +147,25 @@
       ]
     },
     {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "points": 51,
+      "breakdown": [
+        "Croatia = 39",
+        "Scotland = 12"
+      ]
+    },
+    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
       "wildcard": "Ghana",
-      "points": 46,
+      "points": 49,
       "breakdown": [
         "Ecuador = 26",
-        "Ghana = 20"
+        "Ghana = 23"
       ]
     },
     {
@@ -180,17 +202,6 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "points": 40,
-      "breakdown": [
-        "England = 24",
-        "South Africa = 16"
-      ]
-    },
-    {
       "name": "Barry",
       "syndicate": "EPAK",
       "anchor": "Colombia",
@@ -199,28 +210,6 @@
       "breakdown": [
         "Colombia = 28",
         "DR Congo = 4"
-      ]
-    },
-    {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 31,
-      "breakdown": [
-        "Argentina = 34",
-        "Panama = -3"
-      ]
-    },
-    {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "points": 30,
-      "breakdown": [
-        "Croatia = 18",
-        "Scotland = 12"
       ]
     },
     {
@@ -243,6 +232,17 @@
       "breakdown": [
         "Canada = 36",
         "Iraq = -6"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 29,
+      "breakdown": [
+        "Argentina = 34",
+        "Panama = -5"
       ]
     },
     {
@@ -292,13 +292,13 @@
   ],
   "syndicates": [
     {
-      "name": "RP2K",
-      "avg": 54.6,
+      "name": "Vamps",
+      "avg": 57.4,
       "n": 5
     },
     {
-      "name": "Vamps",
-      "avg": 51.8,
+      "name": "RP2K",
+      "avg": 55.2,
       "n": 5
     },
     {
@@ -308,16 +308,32 @@
     },
     {
       "name": "Bears",
-      "avg": 42.2,
+      "avg": 47,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 38.5,
+      "avg": 38.2,
       "n": 6
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-27",
+      "home": "Panama",
+      "away": "England",
+      "hs": 0,
+      "as": 2,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "Croatia",
+      "away": "Ghana",
+      "hs": 2,
+      "as": 1,
+      "round": "group"
+    },
     {
       "date": "2026-06-27",
       "home": "New Zealand",
@@ -847,5 +863,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 66
+  "matchCount": 68
 }
