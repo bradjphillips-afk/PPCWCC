@@ -1,16 +1,29 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-28T19:56:54.494Z",
+  "lastChecked": "2026-06-28T23:47:20.596Z",
   "players": [
     {
       "name": "Chewy",
       "syndicate": "Shambles",
       "anchor": "France",
       "wildcard": "Algeria",
-      "points": 95,
+      "points": 103,
       "breakdown": [
         "France = 72",
-        "Algeria = 23"
+        "Algeria = 23",
+        "Punt R32 #1 Canada ✅ +8"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 92,
+      "breakdown": [
+        "Spain = 53",
+        "Sweden = 31",
+        "Punt R32 #1 Canada ✅ +8"
       ]
     },
     {
@@ -22,17 +35,6 @@
       "breakdown": [
         "Netherlands = 53",
         "Côte d'Ivoire = 38"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 84,
-      "breakdown": [
-        "Spain = 53",
-        "Sweden = 31"
       ]
     },
     {
@@ -58,6 +60,18 @@
       ]
     },
     {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 73,
+      "breakdown": [
+        "Argentina = 70",
+        "Panama = -5",
+        "Punt R32 #1 Canada ✅ +8"
+      ]
+    },
+    {
       "name": "Voss",
       "syndicate": "RP2K",
       "anchor": "Norway",
@@ -80,17 +94,6 @@
       ]
     },
     {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 65,
-      "breakdown": [
-        "Argentina = 70",
-        "Panama = -5"
-      ]
-    },
-    {
       "name": "Jones",
       "syndicate": "EPAK",
       "anchor": "Germany",
@@ -102,6 +105,18 @@
       ]
     },
     {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 62,
+      "breakdown": [
+        "USA = 46",
+        "New Zealand = 8",
+        "Punt R32 #1 Canada ✅ +8"
+      ]
+    },
+    {
       "name": "Muller",
       "syndicate": "EPAK",
       "anchor": "Mexico",
@@ -110,17 +125,6 @@
       "breakdown": [
         "Mexico = 65",
         "Iraq = -6"
-      ]
-    },
-    {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 54,
-      "breakdown": [
-        "USA = 46",
-        "New Zealand = 8"
       ]
     },
     {
@@ -201,6 +205,17 @@
       ]
     },
     {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 43,
+      "breakdown": [
+        "Canada = 49",
+        "Iraq = -6"
+      ]
+    },
+    {
       "name": "Zip",
       "syndicate": "Vamps",
       "anchor": "Morocco",
@@ -231,17 +246,6 @@
       "breakdown": [
         "Austria = 30",
         "Uzbekistan = 0"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "points": 30,
-      "breakdown": [
-        "Canada = 36",
-        "Iraq = -6"
       ]
     },
     {
@@ -291,13 +295,13 @@
   ],
   "syndicates": [
     {
-      "name": "Vamps",
-      "avg": 55.4,
+      "name": "Shambles",
+      "avg": 58.2,
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 55,
+      "name": "Vamps",
+      "avg": 55.4,
       "n": 5
     },
     {
@@ -307,16 +311,24 @@
     },
     {
       "name": "EPAK",
-      "avg": 50.2,
+      "avg": 53.7,
       "n": 6
     },
     {
       "name": "Bears",
-      "avg": 46.6,
+      "avg": 48.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-28",
+      "home": "South Africa",
+      "away": "Canada",
+      "hs": 0,
+      "as": 1,
+      "round": "r32"
+    },
     {
       "date": "2026-06-28",
       "home": "Jordan",
@@ -894,5 +906,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 72
+  "matchCount": 73
 }
