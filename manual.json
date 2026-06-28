@@ -1,12 +1,28 @@
 {
   "_notes": [
-    "awards: fill in player names when Golden Boot/Glove/Ball are announced at the final.",
-    "windows: Lifeboat/Captain moves go here.",
-    "adjust: knockout bonuses go here. Either a plain number OR a list of {label, points}.",
-    "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35",
-    "Ghost Pick (dead players only): 30% of chosen team's R16+ points, added manually each round."
+    "rescue: 50% of knockout points for each rescue team, applied automatically.",
+    "adjust: punt scores added here after each day of R32 matches.",
+    "awards: fill in when Golden Boot/Glove/Ball announced at the final.",
+    "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35"
   ],
   "awards": { "boot": "", "glove": "", "ball": "" },
   "windows": {},
+  "rescue": {
+    "Brucey":        ["France"],
+    "Geoffro":       ["Spain"],
+    "BT":            ["England"],
+    "Javs":          ["Netherlands"],
+    "Zip":           ["Netherlands"],
+    "Nath":          ["France"],
+    "Muller":        ["Spain"],
+    "Wig":           ["France"],
+    "BP2":           ["France"],
+    "Pistol":        ["France"],
+    "Dog":           ["Brazil"],
+    "Daxy":          ["Cape Verde"],
+    "BP1":           ["England", "Argentina"],
+    "Bass":          ["France", "Argentina"],
+    "Jimmy Barrett": ["France", "Spain"]
+  },
   "adjust": {}
 }
