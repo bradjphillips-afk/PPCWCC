@@ -1,10 +1,12 @@
 {
-  "_howto": "adjust = bonus lines for a player: either a plain number, or a list of {label, points}. Use exact player names from draw.json. Add more lines to Javs each round to fuel El Presidente's rise.",
+  "_notes": [
+    "awards: fill in player names when Golden Boot/Glove/Ball are announced at the final.",
+    "windows: Lifeboat/Captain moves go here.",
+    "adjust: knockout bonuses go here. Either a plain number OR a list of {label, points}.",
+    "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35",
+    "Ghost Pick (dead players only): 30% of chosen team's R16+ points, added manually each round."
+  ],
   "awards": { "boot": "", "glove": "", "ball": "" },
   "windows": {},
-  "adjust": {
-    "Javs": [
-      { "label": "Dinner with Gianni in Boston", "points": 20 }
-    ]
-  }
+  "adjust": {}
 }
