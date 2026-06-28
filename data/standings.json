@@ -1,7 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-27T23:45:28.069Z",
+  "lastChecked": "2026-06-28T04:02:01.468Z",
   "players": [
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 95,
+      "breakdown": [
+        "France = 72",
+        "Algeria = 23"
+      ]
+    },
     {
       "name": "Bull",
       "syndicate": "RP2K",
@@ -11,17 +22,6 @@
       "breakdown": [
         "Netherlands = 53",
         "Côte d'Ivoire = 38"
-      ]
-    },
-    {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
-      "points": 85,
-      "breakdown": [
-        "France = 72",
-        "Algeria = 13"
       ]
     },
     {
@@ -58,6 +58,17 @@
       ]
     },
     {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 69,
+      "breakdown": [
+        "Norway = 43",
+        "Ghana = 26"
+      ]
+    },
+    {
       "name": "Benj",
       "syndicate": "Vamps",
       "anchor": "England",
@@ -69,14 +80,25 @@
       ]
     },
     {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 66,
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 68,
       "breakdown": [
-        "Norway = 43",
-        "Ghana = 23"
+        "Colombia = 46",
+        "DR Congo = 22"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 59,
+      "breakdown": [
+        "Portugal = 40",
+        "Bosnia & Herzegovina = 19"
       ]
     },
     {
@@ -95,10 +117,21 @@
       "syndicate": "RP2K",
       "anchor": "Senegal",
       "wildcard": "Cape Verde",
-      "points": 56,
+      "points": 59,
       "breakdown": [
-        "Senegal = 29",
+        "Senegal = 32",
         "Cape Verde = 27"
+      ]
+    },
+    {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 55,
+      "breakdown": [
+        "Ecuador = 29",
+        "Ghana = 26"
       ]
     },
     {
@@ -136,6 +169,17 @@
       ]
     },
     {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 53,
+      "breakdown": [
+        "Argentina = 58",
+        "Panama = -5"
+      ]
+    },
+    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -158,17 +202,6 @@
       ]
     },
     {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 49,
-      "breakdown": [
-        "Ecuador = 26",
-        "Ghana = 23"
-      ]
-    },
-    {
       "name": "Brucey",
       "syndicate": "Shambles",
       "anchor": "Japan",
@@ -177,17 +210,6 @@
       "breakdown": [
         "Japan = 42",
         "Curaçao = 2"
-      ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 44,
-      "breakdown": [
-        "Portugal = 25",
-        "Bosnia & Herzegovina = 19"
       ]
     },
     {
@@ -202,28 +224,6 @@
       ]
     },
     {
-      "name": "Barry",
-      "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "points": 32,
-      "breakdown": [
-        "Colombia = 28",
-        "DR Congo = 4"
-      ]
-    },
-    {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "points": 30,
-      "breakdown": [
-        "Australia = 27",
-        "Jordan = 3"
-      ]
-    },
-    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -235,14 +235,14 @@
       ]
     },
     {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
       "points": 29,
       "breakdown": [
-        "Argentina = 34",
-        "Panama = -5"
+        "Australia = 27",
+        "Jordan = 2"
       ]
     },
     {
@@ -261,9 +261,9 @@
       "syndicate": "Shambles",
       "anchor": "Austria",
       "wildcard": "Uzbekistan",
-      "points": 13,
+      "points": 22,
       "breakdown": [
-        "Austria = 13",
+        "Austria = 22",
         "Uzbekistan = 0"
       ]
     },
@@ -293,31 +293,63 @@
   "syndicates": [
     {
       "name": "Vamps",
-      "avg": 57.4,
+      "avg": 60.4,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 55.2,
+      "avg": 56.4,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 49.4,
-      "n": 5
-    },
-    {
-      "name": "Bears",
-      "avg": 47,
+      "avg": 53.2,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 38.2,
+      "avg": 48.2,
       "n": 6
+    },
+    {
+      "name": "Bears",
+      "avg": 48,
+      "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-28",
+      "home": "Jordan",
+      "away": "Argentina",
+      "hs": 1,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-28",
+      "home": "Algeria",
+      "away": "Austria",
+      "hs": 3,
+      "as": 3,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "hs": 3,
+      "as": 1,
+      "round": "group"
+    },
+    {
+      "date": "2026-06-27",
+      "home": "Colombia",
+      "away": "Portugal",
+      "hs": 0,
+      "as": 0,
+      "round": "group"
+    },
     {
       "date": "2026-06-27",
       "home": "Panama",
@@ -863,5 +895,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 68
+  "matchCount": 72
 }
