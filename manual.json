@@ -1,7 +1,7 @@
 {
   "_notes": [
     "rescue: 50% of knockout points for each rescue team, applied automatically.",
-    "adjust: punt scores added here after each day of R32 matches.",
+    "adjust: punt scores added after each day of R32 matches.",
     "awards: fill in when Golden Boot/Glove/Ball announced at the final.",
     "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35"
   ],
@@ -24,5 +24,10 @@
     "Bass":          ["France", "Argentina"],
     "Jimmy Barrett": ["France", "Spain"]
   },
-  "adjust": {}
+  "adjust": {
+    "BP2":   [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
+    "Chewy": [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
+    "Noots": [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
+    "Wig":   [{"label": "Punt R32 #1 Canada ✅", "points": 8}]
+  }
 }
