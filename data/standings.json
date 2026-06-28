@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-28T04:02:01.468Z",
+  "lastChecked": "2026-06-28T04:05:04.470Z",
   "players": [
     {
       "name": "Chewy",
@@ -135,18 +135,6 @@
       ]
     },
     {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": 55,
-      "breakdown": [
-        "Belgium = 38",
-        "Haiti = -3",
-        "Dinner with Gianni in Boston +20"
-      ]
-    },
-    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -224,6 +212,17 @@
       ]
     },
     {
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 35,
+      "breakdown": [
+        "Belgium = 38",
+        "Haiti = -3"
+      ]
+    },
+    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -292,12 +291,12 @@
   ],
   "syndicates": [
     {
-      "name": "Vamps",
-      "avg": 60.4,
+      "name": "RP2K",
+      "avg": 56.4,
       "n": 5
     },
     {
-      "name": "RP2K",
+      "name": "Vamps",
       "avg": 56.4,
       "n": 5
     },
