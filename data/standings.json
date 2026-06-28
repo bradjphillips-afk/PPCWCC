@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-28T04:05:04.470Z",
+  "lastChecked": "2026-06-28T10:11:38.415Z",
   "players": [
     {
       "name": "Chewy",
@@ -29,10 +29,10 @@
       "syndicate": "Shambles",
       "anchor": "Spain",
       "wildcard": "Sweden",
-      "points": 81,
+      "points": 84,
       "breakdown": [
         "Spain = 53",
-        "Sweden = 28"
+        "Sweden = 31"
       ]
     },
     {
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "name": "Jones",
+      "name": "Barry",
       "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 69,
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "points": 75,
       "breakdown": [
-        "Germany = 51",
-        "Paraguay = 18"
+        "Colombia = 46",
+        "DR Congo = 29"
       ]
     },
     {
@@ -80,25 +80,25 @@
       ]
     },
     {
-      "name": "Barry",
+      "name": "Wig",
       "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "points": 68,
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 65,
       "breakdown": [
-        "Colombia = 46",
-        "DR Congo = 22"
+        "Argentina = 70",
+        "Panama = -5"
       ]
     },
     {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 59,
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 64,
       "breakdown": [
-        "Portugal = 40",
-        "Bosnia & Herzegovina = 19"
+        "Germany = 51",
+        "Paraguay = 13"
       ]
     },
     {
@@ -113,28 +113,6 @@
       ]
     },
     {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 59,
-      "breakdown": [
-        "Senegal = 32",
-        "Cape Verde = 27"
-      ]
-    },
-    {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 55,
-      "breakdown": [
-        "Ecuador = 29",
-        "Ghana = 26"
-      ]
-    },
-    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -143,6 +121,28 @@
       "breakdown": [
         "USA = 46",
         "New Zealand = 8"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 54,
+      "breakdown": [
+        "Portugal = 40",
+        "Bosnia & Herzegovina = 14"
+      ]
+    },
+    {
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 54,
+      "breakdown": [
+        "Senegal = 27",
+        "Cape Verde = 27"
       ]
     },
     {
@@ -157,17 +157,6 @@
       ]
     },
     {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 53,
-      "breakdown": [
-        "Argentina = 58",
-        "Panama = -5"
-      ]
-    },
-    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -179,14 +168,25 @@
       ]
     },
     {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 50,
+      "breakdown": [
+        "Ecuador = 24",
+        "Ghana = 26"
+      ]
+    },
+    {
       "name": "BT",
       "syndicate": "Bears",
       "anchor": "Croatia",
       "wildcard": "Scotland",
-      "points": 51,
+      "points": 49,
       "breakdown": [
         "Croatia = 39",
-        "Scotland = 12"
+        "Scotland = 10"
       ]
     },
     {
@@ -223,6 +223,17 @@
       ]
     },
     {
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
+      "points": 30,
+      "breakdown": [
+        "Austria = 30",
+        "Uzbekistan = 0"
+      ]
+    },
+    {
       "name": "Pistol",
       "syndicate": "EPAK",
       "anchor": "Canada",
@@ -249,21 +260,10 @@
       "syndicate": "Shambles",
       "anchor": "Iran",
       "wildcard": "Czechia",
-      "points": 24,
-      "breakdown": [
-        "Iran = 17",
-        "Czechia = 7"
-      ]
-    },
-    {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
       "points": 22,
       "breakdown": [
-        "Austria = 22",
-        "Uzbekistan = 0"
+        "Iran = 15",
+        "Czechia = 7"
       ]
     },
     {
@@ -271,9 +271,9 @@
       "syndicate": "EPAK",
       "anchor": "Uruguay",
       "wildcard": "Tunisia",
-      "points": 10,
+      "points": 8,
       "breakdown": [
-        "Uruguay = 7",
+        "Uruguay = 5",
         "Tunisia = 3"
       ]
     },
@@ -282,37 +282,37 @@
       "syndicate": "RP2K",
       "anchor": "South Korea",
       "wildcard": "Haiti",
-      "points": 9,
+      "points": 7,
       "breakdown": [
-        "South Korea = 12",
+        "South Korea = 10",
         "Haiti = -3"
       ]
     }
   ],
   "syndicates": [
     {
-      "name": "RP2K",
-      "avg": 56.4,
-      "n": 5
-    },
-    {
       "name": "Vamps",
-      "avg": 56.4,
+      "avg": 55.4,
       "n": 5
     },
     {
       "name": "Shambles",
-      "avg": 53.2,
+      "avg": 55,
+      "n": 5
+    },
+    {
+      "name": "RP2K",
+      "avg": 55,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 48.2,
+      "avg": 50.2,
       "n": 6
     },
     {
       "name": "Bears",
-      "avg": 48,
+      "avg": 46.6,
       "n": 5
     }
   ],
