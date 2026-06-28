@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  :root{--pitch:#0A1A14;--pitch-2:#0E231A;--panel:#11271D;--chalk:#EDF1E8;--mist:#8AA396;--line:rgba(237,241,232,.14);--line-soft:rgba(237,241,232,.08);--boot:#F4B740;--turf:#34D9A6;--sky:#5BC0EB;}
+  :root{--pitch:#0A1A14;--pitch-2:#0E231A;--panel:#11271D;--chalk:#EDF1E8;--mist:#8AA396;--line:rgba(237,241,232,.14);--line-soft:rgba(237,241,232,.08);--boot:#F4B740;--turf:#34D9A6;--sky:#5BC0EB;--danger:#E8503A;}
   *{box-sizing:border-box}
   body{margin:0;background:var(--pitch);color:var(--chalk);font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:16px;line-height:1.55;background-image:repeating-linear-gradient(180deg,rgba(255,255,255,.012) 0 64px,transparent 64px 128px);min-height:100vh;}
   .wrap{max-width:860px;margin:0 auto;padding:22px 18px 90px}
@@ -31,65 +31,223 @@
   .brk{font-size:11px;color:var(--mist)}
   .prow{cursor:pointer}.detail{display:none}.detail td{background:var(--pitch-2);font-size:12px;color:var(--mist)}.detail.open{display:table-row}
   details{margin-top:18px;border:1px solid var(--line-soft);border-radius:10px;padding:0 14px}
-  summary{cursor:pointer;padding:12px 0;font-size:12px;color:var(--mist);font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase}
+  summary{cursor:pointer;padding:12px 0;font-size:12px;color:var(--mist);font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  details[open] summary{color:var(--boot)}
   details[open]{padding-bottom:14px}
-  .score{margin-top:14px}
-  .score h3{font-family:'Hanken Grotesk',sans-serif;font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--boot);margin:16px 0 4px}
-  .score h3:first-of-type{margin-top:0}
-  .score p{margin:0 0 4px;font-size:14px;color:#cfd9cf;line-height:1.6}
-  .score small{color:var(--mist);font-size:12px}
+  .rules{margin-top:20px;display:flex;flex-direction:column;gap:12px}
+  .rule-block{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .rule-header{display:flex;align-items:center;gap:10px;padding:13px 16px;cursor:pointer;user-select:none}
+  .rule-icon{font-size:20px;flex:none}
+  .rule-title{font-family:'Anton',sans-serif;font-weight:400;font-size:15px;letter-spacing:.04em;text-transform:uppercase;flex:1}
+  .rule-chevron{color:var(--mist);font-size:11px;transition:transform .2s}
+  .rule-body{display:none;padding:0 16px 14px;border-top:1px solid var(--line-soft)}
+  .rule-block.open .rule-body{display:block}
+  .rule-block.open .rule-chevron{transform:rotate(180deg)}
+  .rule-body h4{font-size:11px;font-family:'Space Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--boot);margin:14px 0 5px}
+  .rule-body h4:first-child{margin-top:10px}
+  .rule-body p{font-size:14px;color:#cfd9cf;margin:0 0 6px;line-height:1.65}
+  .rule-body small{font-size:12px;color:var(--mist)}
+  .pill{display:inline-block;font-family:'Space Mono',monospace;font-size:11px;padding:2px 7px;border-radius:4px;margin:2px 2px 2px 0}
+  .pill.pos{background:rgba(52,217,166,.15);color:var(--turf)}
+  .pill.neg{background:rgba(232,80,58,.15);color:var(--danger)}
+  .pill.neu{background:rgba(244,183,64,.12);color:var(--boot)}
+  .rule-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+  .rule-table td{padding:5px 0;border-bottom:1px solid var(--line-soft);color:#cfd9cf}
+  .rule-table td:last-child{text-align:right;font-family:'Space Mono',monospace;color:var(--turf)}
+  .rule-table tr:last-child td{border-bottom:none}
   .foot{color:var(--mist);font-size:12px;margin-top:26px;border-top:1px solid var(--line-soft);padding-top:14px;font-family:'Space Mono',monospace}
-  @media (max-width:560px){.wrap{padding:18px 13px 80px}}
-  @media (prefers-reduced-motion:reduce){.status .dot{animation:none}}
+  @media(max-width:560px){.wrap{padding:18px 13px 80px}}
+  @media(prefers-reduced-motion:reduce){.status .dot{animation:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="crestbar"><div class="crest">⚽</div><div><h1 id="title">The Sweep</h1><div class="sub">2026 World Cup · live leaderboard</div></div></div>
+  <div class="crestbar">
+    <div class="crest">⚽</div>
+    <div><h1 id="title">The Sweep</h1><div class="sub">2026 World Cup · live leaderboard</div></div>
+  </div>
   <div class="status"><span class="dot"></span><span id="status">Loading…</span></div>
   <div id="content"></div>
 
-  <div class="panel score">
-    <p class="eyebrow">How points are earned</p>
-    <h3>Every match</h3>
-    <p>Win +10 · Draw +4 (group games only) · each goal +2 · clean sheet +3 · yellow card −1 · red card −4</p>
-    <p><small>Knockouts: the team that advances gets the win (+10), plus +4 if it's won on penalties.</small></p>
-    <h3>Group finish</h3>
-    <p>1st +12 · 2nd +8 · 3rd &amp; through +5 · 3rd &amp; out +2 · bottom 0</p>
-    <h3>Going deep (banked once)</h3>
-    <p>Round of 16 +6 · Quarter-final +12 · Semi-final +20 · Final +30 · Champions +50</p>
-    <h3>Golden gongs</h3>
-    <p>If the winner is in one of your teams: Golden Boot +25 · Golden Glove +20 · Golden Ball +20</p>
-    <h3>Bonuses</h3>
-    <p>Beat a top-12 seed +8 · a shared team wins a match +6 (counts for both owners) · win all three group games +8</p>
-    <h3>Mid-tournament window (after the groups)</h3>
-    <p>One move each — <b>Lifeboat</b>: swap a knocked-out team for a surviving dark horse, +15 if it reaches the semis · <b>Captain</b>: one team scores double, but −12 if it loses its next knockout · or <b>Pass</b>.</p>
-    <p><small>Your total is both your teams combined. Tap any player above to see where their points came from.</small></p>
+  <div style="margin-top:24px">
+    <p class="eyebrow" style="margin-bottom:12px">How points work</p>
+    <div class="rules">
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">⚽</span>
+          <span class="rule-title">Every match</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <h4>Results</h4>
+          <p><span class="pill pos">Win +10</span> <span class="pill pos">Draw +4</span> <small>(group stage only — knockouts can't draw)</small></p>
+          <h4>Goals scored</h4>
+          <p><span class="pill pos">Each goal +2</span></p>
+          <h4>Clean sheet</h4>
+          <p><span class="pill pos">+3</span> <small>if your team keeps a zero</small></p>
+          <h4>Cards</h4>
+          <p><span class="pill neg">Yellow −1</span> <span class="pill neg">Red −4</span> <small>A second yellow counts as both: −5 total</small></p>
+          <h4>Knockout advance on penalties</h4>
+          <p><span class="pill pos">+4</span> <small>extra for scraping through on spot kicks</small></p>
+          <h4>Giant-killing bonus</h4>
+          <p><span class="pill pos">+8</span> <small>if your team beats a top-12 seed</small></p>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">📊</span>
+          <span class="rule-title">Group stage finish</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p><small>Awarded once when all group games are done.</small></p>
+          <table class="rule-table">
+            <tr><td>1st in group</td><td>+12</td></tr>
+            <tr><td>2nd in group</td><td>+8</td></tr>
+            <tr><td>3rd &amp; advance</td><td>+5</td></tr>
+            <tr><td>3rd &amp; out</td><td>+2</td></tr>
+            <tr><td>Bottom (4th)</td><td>+0</td></tr>
+          </table>
+          <h4>Perfect group bonus</h4>
+          <p><span class="pill pos">+8</span> <small>if your team wins all three group games</small></p>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">🏆</span>
+          <span class="rule-title">Going deep — progression bonuses</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p><small>Banked once each time your team reaches that round.</small></p>
+          <table class="rule-table">
+            <tr><td>Round of 16</td><td>+6</td></tr>
+            <tr><td>Quarter-final</td><td>+12</td></tr>
+            <tr><td>Semi-final</td><td>+20</td></tr>
+            <tr><td>Final</td><td>+30</td></tr>
+            <tr><td>Champions 🥇</td><td>+50</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">🥇</span>
+          <span class="rule-title">End of tournament awards</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p><small>If the award winner is one of your teams, you bank these at the end.</small></p>
+          <table class="rule-table">
+            <tr><td>Golden Boot (top scorer)</td><td>+25</td></tr>
+            <tr><td>Golden Glove (best keeper)</td><td>+20</td></tr>
+            <tr><td>Golden Ball (best player)</td><td>+20</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">🤝</span>
+          <span class="rule-title">Shared teams bonus</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p><span class="pill pos">+6</span> to both owners each time a shared team wins a match.</p>
+          <p><small>Four teams are shared: Cape Verde, Ghana, Haiti, Iraq. If two players drew the same team, both benefit when it wins.</small></p>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">🆘</span>
+          <span class="rule-title">Rescue draft — knockout lifeline</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p>If you lost one or both of your draw teams in the group stage, you can rescue yourself by adopting surviving teams.</p>
+          <table class="rule-table">
+            <tr><td>0 teams left → pick any <b>2</b> surviving teams</td><td></td></tr>
+            <tr><td>1 team left → pick any <b>1</b> surviving team</td><td></td></tr>
+          </table>
+          <h4>What you earn</h4>
+          <p><span class="pill pos">50%</span> of that team's knockout points — wins, goals, clean sheets, progression bonuses, and awards. All halved and rounded.</p>
+          <p><small>Multiple players can rescue the same team. Picks locked in before Round of 32. Shows in your breakdown as e.g. "France (rescue) +31".</small></p>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">🎯</span>
+          <span class="rule-title">The punt — round predictions</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p>Before each knockout round, every player tips the winner of every match in that round. Lock in before the first game kicks off.</p>
+          <table class="rule-table">
+            <tr><td>Round of 32 — correct tip</td><td>+8</td></tr>
+            <tr><td>Round of 16 — correct tip</td><td>+12</td></tr>
+            <tr><td>Quarter-final — correct tip</td><td>+18</td></tr>
+            <tr><td>Semi-final — correct tip</td><td>+25</td></tr>
+            <tr><td>Final — correct tip</td><td>+35</td></tr>
+          </table>
+          <h4>Wrong tip</h4>
+          <p><span class="pill neu">0 pts</span> — no penalty, just nothing.</p>
+          <h4>Default pick</h4>
+          <p><small>Didn't tip? You automatically get the lower-ranked team. You're cheering for the underdog whether you like it or not.</small></p>
+        </div>
+      </div>
+
+      <div class="rule-block">
+        <div class="rule-header" onclick="toggle(this)">
+          <span class="rule-icon">💥</span>
+          <span class="rule-title">The double bunger</span>
+          <span class="rule-chevron">▼</span>
+        </div>
+        <div class="rule-body">
+          <p>If you have a live team in the knockouts, declare a Double Bunger before any of their matches. Tell the commissioner before kickoff — once called, it's locked.</p>
+          <h4>If they win</h4>
+          <p><span class="pill pos">×2</span> on all points from that match.</p>
+          <h4>If they lose</h4>
+          <p><span class="pill neg">−12</span> penalty on top of normal scoring.</p>
+          <p><small>One Double Bunger per round. Fresh choice each round — no obligation to use it. Available from Round of 16 onwards.</small></p>
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  <div class="foot">Updates automatically · FIFA World Cup 2026 · 11 Jun – 19 Jul</div>
+  <div class="foot">Updates every 10 min · FIFA World Cup 2026 · 11 Jun – 19 Jul</div>
 </div>
+
 <script>
 const COLORS=["#F4B740","#34D9A6","#5BC0EB","#E8503A","#C792EA","#FF9F68","#9CCC65"];
 function synColor(map,s){if(!(s in map)){map[s]=COLORS[Object.keys(map).length%COLORS.length];}return map[s];}
+function toggle(header){header.closest('.rule-block').classList.toggle('open');}
 function render(d){
   document.getElementById("title").textContent=d.gameName||"The Sweep";
   document.title=(d.gameName||"The Sweep")+" · Live Leaderboard";
-  const when=d.lastChecked?new Date(d.lastChecked).toLocaleString([], {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):"—";
-  document.getElementById("status").textContent=`Live · ${d.matchCount||0} match${(d.matchCount===1)?"":"es"} scored · updated ${when}`;
+  const when=d.lastChecked?new Date(d.lastChecked).toLocaleString([],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):"—";
+  document.getElementById("status").textContent=`Live · ${d.matchCount||0} match${d.matchCount===1?"":"es"} scored · updated ${when}`;
   const cmap={};
-  let html=`<div class="spread">
-    <div class="panel" style="flex:2 1 360px"><p class="eyebrow">Individual leaderboard</p><table><tbody>`;
+  let html=`<div class="spread"><div class="panel" style="flex:2 1 360px"><p class="eyebrow">Individual leaderboard</p><table><tbody>`;
   d.players.forEach((p,i)=>{
     html+=`<tr class="prow" onclick="this.nextElementSibling.classList.toggle('open')"><td class="rank ${i<3?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,p.syndicate)}"></span>${esc(p.name)}<div class="brk">${esc(p.anchor)} · ${esc(p.wildcard)}</div></td><td class="num"><span class="totpts">${p.points}</span></td></tr>`;
-    html+=`<tr class="detail"><td></td><td colspan="2">${(p.breakdown&&p.breakdown.length?p.breakdown.map(esc).join(" · "):"no points yet")}</td></tr>`;
+    html+=`<tr class="detail"><td></td><td colspan="2">${p.breakdown&&p.breakdown.length?p.breakdown.map(esc).join(" · "):"no points yet"}</td></tr>`;
   });
-  html+=`</tbody></table></div>
-    <div class="panel" style="flex:1 1 220px"><p class="eyebrow">Syndicates · avg / player</p><table><tbody>`;
-  d.syndicates.forEach((s,i)=>{html+=`<tr><td class="rank ${i<1?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,s.name)}"></span>${esc(s.name)} <span style="color:var(--mist);font-size:11px">(${s.n})</span></td><td class="num totpts">${s.avg}</td></tr>`;});
+  html+=`</tbody></table></div><div class="panel" style="flex:1 1 220px"><p class="eyebrow">Syndicates · avg / player</p><table><tbody>`;
+  d.syndicates.forEach((s,i)=>{
+    html+=`<tr><td class="rank ${i<1?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,s.name)}"></span>${esc(s.name)} <span style="color:var(--mist);font-size:11px">(${s.n})</span></td><td class="num totpts">${s.avg}</td></tr>`;
+  });
   html+=`</tbody></table></div></div>`;
   if(d.matches&&d.matches.length){
-    html+=`<details><summary>Matches scored (${d.matches.length})</summary>`+d.matches.map(m=>`<div class="brk">${m.date} · ${esc(m.home)} ${m.hs}-${m.as} ${esc(m.away)} <span style="opacity:.6">(${m.round})</span></div>`).join("")+`</details>`;
+    html+=`<details><summary>Matches scored (${d.matches.length})</summary><div style="padding-top:10px">`
+      +d.matches.map(m=>`<div class="brk" style="padding:3px 0">${m.date} · ${esc(m.home)} ${m.hs}–${m.as} ${esc(m.away)} <span style="opacity:.5">(${m.round})</span></div>`).join("")
+      +`</div></details>`;
   }
   document.getElementById("content").innerHTML=html;
 }
@@ -97,11 +255,11 @@ function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;","
 async function load(){
   try{
     const r=await fetch("data/standings.json?t="+Date.now());
-    if(!r.ok)throw new Error("no data yet");
+    if(!r.ok)throw new Error("no data");
     render(await r.json());
-  }catch(e){ document.getElementById("status").textContent="Waiting for the first results to be published…"; }
+  }catch(e){document.getElementById("status").textContent="Waiting for the first results to be published…";}
 }
-load(); setInterval(load,60*1000);
+load();setInterval(load,60*1000);
 </script>
 </body>
 </html>
