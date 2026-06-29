@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-29T14:38:59.697Z",
+  "lastChecked": "2026-06-29T20:58:11.458Z",
   "players": [
     {
       "name": "Chewy",
@@ -42,9 +42,9 @@
       "syndicate": "Vamps",
       "anchor": "Brazil",
       "wildcard": "Cape Verde",
-      "points": 78,
+      "points": 90,
       "breakdown": [
-        "Brazil = 51",
+        "Brazil = 63",
         "Cape Verde = 27"
       ]
     },
@@ -198,9 +198,9 @@
       "syndicate": "Shambles",
       "anchor": "Japan",
       "wildcard": "Curaçao",
-      "points": 44,
+      "points": 43,
       "breakdown": [
-        "Japan = 42",
+        "Japan = 41",
         "Curaçao = 2"
       ]
     },
@@ -296,12 +296,12 @@
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 58.2,
+      "avg": 58,
       "n": 5
     },
     {
       "name": "Vamps",
-      "avg": 55.4,
+      "avg": 57.8,
       "n": 5
     },
     {
@@ -321,6 +321,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-29",
+      "home": "Brazil",
+      "away": "Japan",
+      "hs": 2,
+      "as": 1,
+      "round": "r32"
+    },
     {
       "date": "2026-06-28",
       "home": "South Africa",
@@ -906,5 +914,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 73
+  "matchCount": 74
 }
