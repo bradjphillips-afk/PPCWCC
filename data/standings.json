@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-29T20:58:11.458Z",
+  "lastChecked": "2026-06-30T08:45:15.843Z",
   "players": [
     {
       "name": "Chewy",
@@ -12,6 +12,17 @@
         "France = 72",
         "Algeria = 23",
         "Punt R32 #1 Canada ✅ +8"
+      ]
+    },
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "points": 93,
+      "breakdown": [
+        "Netherlands = 55",
+        "Côte d'Ivoire = 38"
       ]
     },
     {
@@ -27,17 +38,6 @@
       ]
     },
     {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
-      "points": 91,
-      "breakdown": [
-        "Netherlands = 53",
-        "Côte d'Ivoire = 38"
-      ]
-    },
-    {
       "name": "Cleets",
       "syndicate": "Vamps",
       "anchor": "Brazil",
@@ -46,6 +46,17 @@
       "breakdown": [
         "Brazil = 63",
         "Cape Verde = 27"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 82,
+      "breakdown": [
+        "Germany = 49",
+        "Paraguay = 33"
       ]
     },
     {
@@ -94,14 +105,14 @@
       ]
     },
     {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 64,
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "points": 63,
       "breakdown": [
-        "Germany = 51",
-        "Paraguay = 13"
+        "Morocco = 67",
+        "Qatar = -4"
       ]
     },
     {
@@ -194,6 +205,17 @@
       ]
     },
     {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "points": 49,
+      "breakdown": [
+        "Canada = 55",
+        "Iraq = -6"
+      ]
+    },
+    {
       "name": "Brucey",
       "syndicate": "Shambles",
       "anchor": "Japan",
@@ -202,28 +224,6 @@
       "breakdown": [
         "Japan = 41",
         "Curaçao = 2"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "points": 43,
-      "breakdown": [
-        "Canada = 49",
-        "Iraq = -6"
-      ]
-    },
-    {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "points": 42,
-      "breakdown": [
-        "Morocco = 46",
-        "Qatar = -4"
       ]
     },
     {
@@ -295,24 +295,24 @@
   ],
   "syndicates": [
     {
+      "name": "Vamps",
+      "avg": 62,
+      "n": 5
+    },
+    {
       "name": "Shambles",
       "avg": 58,
       "n": 5
     },
     {
-      "name": "Vamps",
-      "avg": 57.8,
-      "n": 5
+      "name": "EPAK",
+      "avg": 57.7,
+      "n": 6
     },
     {
       "name": "RP2K",
-      "avg": 55,
+      "avg": 55.4,
       "n": 5
-    },
-    {
-      "name": "EPAK",
-      "avg": 53.7,
-      "n": 6
     },
     {
       "name": "Bears",
@@ -321,6 +321,22 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-30",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "hs": 1,
+      "as": 1,
+      "round": "r32"
+    },
+    {
+      "date": "2026-06-29",
+      "home": "Germany",
+      "away": "Paraguay",
+      "hs": 1,
+      "as": 1,
+      "round": "r32"
+    },
     {
       "date": "2026-06-29",
       "home": "Brazil",
@@ -914,5 +930,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 74
+  "matchCount": 76
 }
