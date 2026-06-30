@@ -1,17 +1,18 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-30T08:45:15.843Z",
+  "lastChecked": "2026-06-30T09:55:03.498Z",
   "players": [
     {
       "name": "Chewy",
       "syndicate": "Shambles",
       "anchor": "France",
       "wildcard": "Algeria",
-      "points": 103,
+      "points": 111,
       "breakdown": [
         "France = 72",
         "Algeria = 23",
-        "Punt R32 #1 Canada ✅ +8"
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -19,22 +20,12 @@
       "syndicate": "RP2K",
       "anchor": "Netherlands",
       "wildcard": "Côte d'Ivoire",
-      "points": 93,
+      "points": 109,
       "breakdown": [
         "Netherlands = 55",
-        "Côte d'Ivoire = 38"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 92,
-      "breakdown": [
-        "Spain = 53",
-        "Sweden = 31",
-        "Punt R32 #1 Canada ✅ +8"
+        "Côte d'Ivoire = 38",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -42,10 +33,25 @@
       "syndicate": "Vamps",
       "anchor": "Brazil",
       "wildcard": "Cape Verde",
-      "points": 90,
+      "points": 106,
       "breakdown": [
         "Brazil = 63",
-        "Cape Verde = 27"
+        "Cape Verde = 27",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 100,
+      "breakdown": [
+        "Spain = 53",
+        "Sweden = 31",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -53,10 +59,12 @@
       "syndicate": "EPAK",
       "anchor": "Germany",
       "wildcard": "Paraguay",
-      "points": 82,
+      "points": 98,
       "breakdown": [
         "Germany = 49",
-        "Paraguay = 33"
+        "Paraguay = 33",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -64,22 +72,12 @@
       "syndicate": "EPAK",
       "anchor": "Colombia",
       "wildcard": "DR Congo",
-      "points": 75,
+      "points": 91,
       "breakdown": [
         "Colombia = 46",
-        "DR Congo = 29"
-      ]
-    },
-    {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 73,
-      "breakdown": [
-        "Argentina = 70",
-        "Panama = -5",
-        "Punt R32 #1 Canada ✅ +8"
+        "DR Congo = 29",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -87,10 +85,12 @@
       "syndicate": "RP2K",
       "anchor": "Norway",
       "wildcard": "Ghana",
-      "points": 69,
+      "points": 85,
       "breakdown": [
         "Norway = 43",
-        "Ghana = 26"
+        "Ghana = 26",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -98,10 +98,25 @@
       "syndicate": "Vamps",
       "anchor": "England",
       "wildcard": "South Africa",
-      "points": 68,
+      "points": 84,
       "breakdown": [
         "England = 52",
-        "South Africa = 16"
+        "South Africa = 16",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 81,
+      "breakdown": [
+        "Argentina = 70",
+        "Panama = -5",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -109,10 +124,12 @@
       "syndicate": "Vamps",
       "anchor": "Morocco",
       "wildcard": "Qatar",
-      "points": 63,
+      "points": 79,
       "breakdown": [
         "Morocco = 67",
-        "Qatar = -4"
+        "Qatar = -4",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -120,22 +137,13 @@
       "syndicate": "Bears",
       "anchor": "USA",
       "wildcard": "New Zealand",
-      "points": 62,
+      "points": 78,
       "breakdown": [
         "USA = 46",
         "New Zealand = 8",
-        "Punt R32 #1 Canada ✅ +8"
-      ]
-    },
-    {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 59,
-      "breakdown": [
-        "Mexico = 65",
-        "Iraq = -6"
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -143,10 +151,12 @@
       "syndicate": "Vamps",
       "anchor": "Portugal",
       "wildcard": "Bosnia & Herzegovina",
-      "points": 54,
+      "points": 70,
       "breakdown": [
         "Portugal = 40",
-        "Bosnia & Herzegovina = 14"
+        "Bosnia & Herzegovina = 14",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -154,10 +164,12 @@
       "syndicate": "RP2K",
       "anchor": "Senegal",
       "wildcard": "Cape Verde",
-      "points": 54,
+      "points": 70,
       "breakdown": [
         "Senegal = 27",
-        "Cape Verde = 27"
+        "Cape Verde = 27",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -165,10 +177,12 @@
       "syndicate": "RP2K",
       "anchor": "Switzerland",
       "wildcard": "Saudi Arabia",
-      "points": 54,
+      "points": 70,
       "breakdown": [
         "Switzerland = 47",
-        "Saudi Arabia = 7"
+        "Saudi Arabia = 7",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -176,10 +190,24 @@
       "syndicate": "Bears",
       "anchor": "Egypt",
       "wildcard": "Türkiye",
-      "points": 51,
+      "points": 67,
       "breakdown": [
         "Egypt = 30",
-        "Türkiye = 21"
+        "Türkiye = 21",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 67,
+      "breakdown": [
+        "Mexico = 65",
+        "Iraq = -6",
+        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -187,10 +215,12 @@
       "syndicate": "Bears",
       "anchor": "Ecuador",
       "wildcard": "Ghana",
-      "points": 50,
+      "points": 66,
       "breakdown": [
         "Ecuador = 24",
-        "Ghana = 26"
+        "Ghana = 26",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -198,10 +228,12 @@
       "syndicate": "Bears",
       "anchor": "Croatia",
       "wildcard": "Scotland",
-      "points": 49,
+      "points": 65,
       "breakdown": [
         "Croatia = 39",
-        "Scotland = 10"
+        "Scotland = 10",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -209,10 +241,12 @@
       "syndicate": "EPAK",
       "anchor": "Canada",
       "wildcard": "Iraq",
-      "points": 49,
+      "points": 65,
       "breakdown": [
         "Canada = 55",
-        "Iraq = -6"
+        "Iraq = -6",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -220,10 +254,12 @@
       "syndicate": "Shambles",
       "anchor": "Japan",
       "wildcard": "Curaçao",
-      "points": 43,
+      "points": 59,
       "breakdown": [
         "Japan = 41",
-        "Curaçao = 2"
+        "Curaçao = 2",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -231,10 +267,12 @@
       "syndicate": "Vamps",
       "anchor": "Belgium",
       "wildcard": "Haiti",
-      "points": 35,
+      "points": 51,
       "breakdown": [
         "Belgium = 38",
-        "Haiti = -3"
+        "Haiti = -3",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -242,10 +280,12 @@
       "syndicate": "Shambles",
       "anchor": "Austria",
       "wildcard": "Uzbekistan",
-      "points": 30,
+      "points": 46,
       "breakdown": [
         "Austria = 30",
-        "Uzbekistan = 0"
+        "Uzbekistan = 0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -253,10 +293,12 @@
       "syndicate": "Bears",
       "anchor": "Australia",
       "wildcard": "Jordan",
-      "points": 29,
+      "points": 45,
       "breakdown": [
         "Australia = 27",
-        "Jordan = 2"
+        "Jordan = 2",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -264,10 +306,12 @@
       "syndicate": "Shambles",
       "anchor": "Iran",
       "wildcard": "Czechia",
-      "points": 22,
+      "points": 38,
       "breakdown": [
         "Iran = 15",
-        "Czechia = 7"
+        "Czechia = 7",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -275,10 +319,12 @@
       "syndicate": "EPAK",
       "anchor": "Uruguay",
       "wildcard": "Tunisia",
-      "points": 8,
+      "points": 24,
       "breakdown": [
         "Uruguay = 5",
-        "Tunisia = 3"
+        "Tunisia = 3",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
@@ -286,37 +332,39 @@
       "syndicate": "RP2K",
       "anchor": "South Korea",
       "wildcard": "Haiti",
-      "points": 7,
+      "points": 23,
       "breakdown": [
         "South Korea = 10",
-        "Haiti = -3"
+        "Haiti = -3",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
       ]
     }
   ],
   "syndicates": [
     {
       "name": "Vamps",
-      "avg": 62,
+      "avg": 78,
       "n": 5
     },
     {
-      "name": "Shambles",
-      "avg": 58,
+      "name": "RP2K",
+      "avg": 71.4,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 57.7,
+      "avg": 71,
       "n": 6
     },
     {
-      "name": "RP2K",
-      "avg": 55.4,
+      "name": "Shambles",
+      "avg": 70.8,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 48.2,
+      "avg": 64.2,
       "n": 5
     }
   ],
