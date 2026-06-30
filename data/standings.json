@@ -1,7 +1,20 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-30T16:37:28.026Z",
+  "lastChecked": "2026-06-30T22:01:49.390Z",
   "players": [
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "points": 112,
+      "breakdown": [
+        "Brazil = 69",
+        "Cape Verde = 27",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
     {
       "name": "Chewy",
       "syndicate": "Shambles",
@@ -20,23 +33,23 @@
       "syndicate": "RP2K",
       "anchor": "Netherlands",
       "wildcard": "Côte d'Ivoire",
-      "points": 109,
+      "points": 111,
       "breakdown": [
         "Netherlands = 55",
-        "Côte d'Ivoire = 38",
+        "Côte d'Ivoire = 40",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "points": 106,
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "points": 104,
       "breakdown": [
-        "Brazil = 63",
-        "Cape Verde = 27",
+        "Norway = 62",
+        "Ghana = 26",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -76,19 +89,6 @@
       "breakdown": [
         "Colombia = 46",
         "DR Congo = 29",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "points": 85,
-      "breakdown": [
-        "Norway = 43",
-        "Ghana = 26",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -344,12 +344,12 @@
   "syndicates": [
     {
       "name": "Vamps",
-      "avg": 78,
+      "avg": 79.2,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 71.4,
+      "avg": 75.6,
       "n": 5
     },
     {
@@ -369,6 +369,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-06-30",
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
+      "hs": 1,
+      "as": 2,
+      "round": "r32"
+    },
     {
       "date": "2026-06-30",
       "home": "Netherlands",
@@ -978,5 +986,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 76
+  "matchCount": 77
 }
