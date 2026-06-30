@@ -5,29 +5,322 @@
     "awards: fill in when Golden Boot/Glove/Ball announced at the final.",
     "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35"
   ],
-  "awards": { "boot": "", "glove": "", "ball": "" },
+  "awards": {
+    "boot": "",
+    "glove": "",
+    "ball": ""
+  },
   "windows": {},
   "rescue": {
-    "Brucey":        ["France"],
-    "Geoffro":       ["Spain"],
-    "BT":            ["England"],
-    "Javs":          ["Netherlands"],
-    "Zip":           ["Netherlands"],
-    "Nath":          ["France"],
-    "Muller":        ["Spain"],
-    "Wig":           ["France"],
-    "BP2":           ["France"],
-    "Pistol":        ["France"],
-    "Dog":           ["Brazil"],
-    "Daxy":          ["Cape Verde"],
-    "BP1":           ["England", "Argentina"],
-    "Bass":          ["France", "Argentina"],
-    "Jimmy Barrett": ["France", "Spain"]
+    "Brucey": [
+      "France"
+    ],
+    "Geoffro": [
+      "Spain"
+    ],
+    "BT": [
+      "England"
+    ],
+    "Javs": [
+      "Netherlands"
+    ],
+    "Zip": [
+      "Netherlands"
+    ],
+    "Nath": [
+      "France"
+    ],
+    "Muller": [
+      "Spain"
+    ],
+    "Wig": [
+      "France"
+    ],
+    "BP2": [
+      "France"
+    ],
+    "Pistol": [
+      "France"
+    ],
+    "Dog": [
+      "Brazil"
+    ],
+    "Daxy": [
+      "Cape Verde"
+    ],
+    "BP1": [
+      "England",
+      "Argentina"
+    ],
+    "Bass": [
+      "France",
+      "Argentina"
+    ],
+    "Jimmy Barrett": [
+      "France",
+      "Spain"
+    ]
   },
   "adjust": {
-    "BP2":   [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
-    "Chewy": [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
-    "Noots": [{"label": "Punt R32 #1 Canada ✅", "points": 8}],
-    "Wig":   [{"label": "Punt R32 #1 Canada ✅", "points": 8}]
+    "BP2": [
+      {
+        "label": "Punt R32 #1 Canada ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #2 Brazil ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Chewy": [
+      {
+        "label": "Punt R32 #1 Canada ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #2 Brazil ✅",
+        "points": 8
+      }
+    ],
+    "Noots": [
+      {
+        "label": "Punt R32 #1 Canada ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #2 Brazil ✅",
+        "points": 8
+      }
+    ],
+    "Wig": [
+      {
+        "label": "Punt R32 #1 Canada ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #2 Brazil ✅",
+        "points": 8
+      }
+    ],
+    "Muller": [
+      {
+        "label": "Punt R32 #2 Brazil ✅",
+        "points": 8
+      }
+    ],
+    "Daxy": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Unit": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "BT": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Dog": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Brucey": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "BP1": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Geoffro": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Benj": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Zip": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Javs": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Beesh": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Cleets": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Barry": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Jones": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Jimmy Barrett": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Pistol": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Voss": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Kaak": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Nath": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Bull": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ],
+    "Bass": [
+      {
+        "label": "Punt R32 #3 Paraguay ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R32 #4 Morocco ✅",
+        "points": 8
+      }
+    ]
   }
 }
