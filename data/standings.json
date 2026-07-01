@@ -1,7 +1,20 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-06-30T22:01:49.390Z",
+  "lastChecked": "2026-07-01T10:56:06.080Z",
   "players": [
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "points": 136,
+      "breakdown": [
+        "France = 97",
+        "Algeria = 23",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8"
+      ]
+    },
     {
       "name": "Cleets",
       "syndicate": "Vamps",
@@ -16,19 +29,6 @@
       ]
     },
     {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
-      "points": 111,
-      "breakdown": [
-        "France = 72",
-        "Algeria = 23",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8"
-      ]
-    },
-    {
       "name": "Bull",
       "syndicate": "RP2K",
       "anchor": "Netherlands",
@@ -37,6 +37,19 @@
       "breakdown": [
         "Netherlands = 55",
         "Côte d'Ivoire = 40",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "points": 104,
+      "breakdown": [
+        "Germany = 49",
+        "Paraguay = 39",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -68,19 +81,6 @@
       ]
     },
     {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "points": 98,
-      "breakdown": [
-        "Germany = 49",
-        "Paraguay = 33",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
       "name": "Barry",
       "syndicate": "EPAK",
       "anchor": "Colombia",
@@ -104,6 +104,18 @@
         "South Africa = 16",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 84,
+      "breakdown": [
+        "Mexico = 82",
+        "Iraq = -6",
+        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -199,31 +211,6 @@
       ]
     },
     {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 67,
-      "breakdown": [
-        "Mexico = 65",
-        "Iraq = -6",
-        "Punt R32 #2 Brazil ✅ +8"
-      ]
-    },
-    {
-      "name": "Unit",
-      "syndicate": "Bears",
-      "anchor": "Ecuador",
-      "wildcard": "Ghana",
-      "points": 66,
-      "breakdown": [
-        "Ecuador = 24",
-        "Ghana = 26",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
       "name": "BT",
       "syndicate": "Bears",
       "anchor": "Croatia",
@@ -245,6 +232,19 @@
       "breakdown": [
         "Canada = 55",
         "Iraq = -6",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Unit",
+      "syndicate": "Bears",
+      "anchor": "Ecuador",
+      "wildcard": "Ghana",
+      "points": 59,
+      "breakdown": [
+        "Ecuador = 17",
+        "Ghana = 26",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -348,27 +348,43 @@
       "n": 5
     },
     {
+      "name": "Shambles",
+      "avg": 75.8,
+      "n": 5
+    },
+    {
       "name": "RP2K",
       "avg": 75.6,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 71,
+      "avg": 74.8,
       "n": 6
     },
     {
-      "name": "Shambles",
-      "avg": 70.8,
-      "n": 5
-    },
-    {
       "name": "Bears",
-      "avg": 64.2,
+      "avg": 62.8,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-01",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "hs": 2,
+      "as": 0,
+      "round": "r32"
+    },
+    {
+      "date": "2026-06-30",
+      "home": "France",
+      "away": "Sweden",
+      "hs": 3,
+      "as": 0,
+      "round": "r32"
+    },
     {
       "date": "2026-06-30",
       "home": "Côte d'Ivoire",
@@ -986,5 +1002,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 77
+  "matchCount": 79
 }
