@@ -1,18 +1,94 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-02T10:15:13.918Z",
+  "lastChecked": "2026-07-02T11:08:22.993Z",
   "players": [
     {
       "name": "Chewy",
       "syndicate": "Shambles",
       "anchor": "France",
       "wildcard": "Algeria",
-      "points": 136,
+      "points": 176,
       "breakdown": [
         "France = 97",
         "Algeria = 23",
         "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8"
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8"
+      ]
+    },
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "points": 140,
+      "breakdown": [
+        "Spain = 53",
+        "Sweden = 31",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8"
+      ]
+    },
+    {
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
+      "points": 137,
+      "breakdown": [
+        "USA = 65",
+        "New Zealand = 8",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8"
+      ]
+    },
+    {
+      "name": "Muller",
+      "syndicate": "EPAK",
+      "anchor": "Mexico",
+      "wildcard": "Iraq",
+      "points": 122,
+      "breakdown": [
+        "Mexico = 88",
+        "Iraq = -6",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "points": 121,
+      "breakdown": [
+        "Argentina = 70",
+        "Panama = -5",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8"
       ]
     },
     {
@@ -81,33 +157,6 @@
       ]
     },
     {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "points": 100,
-      "breakdown": [
-        "Spain = 53",
-        "Sweden = 31",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8"
-      ]
-    },
-    {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 97,
-      "breakdown": [
-        "USA = 65",
-        "New Zealand = 8",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
       "name": "Barry",
       "syndicate": "EPAK",
       "anchor": "Colombia",
@@ -118,31 +167,6 @@
         "DR Congo = 30",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
-      "name": "Muller",
-      "syndicate": "EPAK",
-      "anchor": "Mexico",
-      "wildcard": "Iraq",
-      "points": 90,
-      "breakdown": [
-        "Mexico = 88",
-        "Iraq = -6",
-        "Punt R32 #2 Brazil ✅ +8"
-      ]
-    },
-    {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "points": 81,
-      "breakdown": [
-        "Argentina = 70",
-        "Panama = -5",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8"
       ]
     },
     {
@@ -343,6 +367,16 @@
   ],
   "syndicates": [
     {
+      "name": "Shambles",
+      "avg": 91.8,
+      "n": 5
+    },
+    {
+      "name": "EPAK",
+      "avg": 88,
+      "n": 6
+    },
+    {
       "name": "Vamps",
       "avg": 86.8,
       "n": 5
@@ -353,18 +387,8 @@
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 76,
-      "n": 6
-    },
-    {
-      "name": "Shambles",
-      "avg": 75.8,
-      "n": 5
-    },
-    {
       "name": "Bears",
-      "avg": 66.6,
+      "avg": 74.6,
       "n": 5
     }
   ],
