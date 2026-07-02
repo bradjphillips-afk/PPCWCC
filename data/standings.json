@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-01T22:43:29.168Z",
+  "lastChecked": "2026-07-02T10:15:13.918Z",
   "players": [
     {
       "name": "Chewy",
@@ -68,6 +68,19 @@
       ]
     },
     {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "points": 103,
+      "breakdown": [
+        "England = 71",
+        "South Africa = 16",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
       "name": "Noots",
       "syndicate": "Shambles",
       "anchor": "Spain",
@@ -81,15 +94,16 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
+      "name": "BP2",
+      "syndicate": "Bears",
+      "anchor": "USA",
+      "wildcard": "New Zealand",
       "points": 97,
       "breakdown": [
-        "England = 65",
-        "South Africa = 16",
-        "Punt R32 #3 Paraguay ✅ +8",
+        "USA = 65",
+        "New Zealand = 8",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
     },
@@ -111,9 +125,9 @@
       "syndicate": "EPAK",
       "anchor": "Mexico",
       "wildcard": "Iraq",
-      "points": 84,
+      "points": 90,
       "breakdown": [
-        "Mexico = 82",
+        "Mexico = 88",
         "Iraq = -6",
         "Punt R32 #2 Brazil ✅ +8"
       ]
@@ -145,41 +159,27 @@
       ]
     },
     {
-      "name": "BP2",
-      "syndicate": "Bears",
-      "anchor": "USA",
-      "wildcard": "New Zealand",
-      "points": 78,
+      "name": "Kaak",
+      "syndicate": "RP2K",
+      "anchor": "Senegal",
+      "wildcard": "Cape Verde",
+      "points": 73,
       "breakdown": [
-        "USA = 46",
-        "New Zealand = 8",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "points": 70,
-      "breakdown": [
-        "Portugal = 40",
-        "Bosnia & Herzegovina = 14",
+        "Senegal = 30",
+        "Cape Verde = 27",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
     },
     {
-      "name": "Kaak",
-      "syndicate": "RP2K",
-      "anchor": "Senegal",
-      "wildcard": "Cape Verde",
-      "points": 70,
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
+      "points": 72,
       "breakdown": [
-        "Senegal = 27",
-        "Cape Verde = 27",
+        "Belgium = 59",
+        "Haiti = -3",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -193,6 +193,19 @@
       "breakdown": [
         "Switzerland = 47",
         "Saudi Arabia = 7",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "points": 68,
+      "breakdown": [
+        "Portugal = 40",
+        "Bosnia & Herzegovina = 12",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -258,19 +271,6 @@
       "breakdown": [
         "Japan = 41",
         "Curaçao = 2",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
-      "points": 51,
-      "breakdown": [
-        "Belgium = 38",
-        "Haiti = -3",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8"
       ]
@@ -344,8 +344,18 @@
   "syndicates": [
     {
       "name": "Vamps",
-      "avg": 81.8,
+      "avg": 86.8,
       "n": 5
+    },
+    {
+      "name": "RP2K",
+      "avg": 76.2,
+      "n": 5
+    },
+    {
+      "name": "EPAK",
+      "avg": 76,
+      "n": 6
     },
     {
       "name": "Shambles",
@@ -353,22 +363,28 @@
       "n": 5
     },
     {
-      "name": "RP2K",
-      "avg": 75.6,
-      "n": 5
-    },
-    {
-      "name": "EPAK",
-      "avg": 75,
-      "n": 6
-    },
-    {
       "name": "Bears",
-      "avg": 62.8,
+      "avg": 66.6,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-02",
+      "home": "USA",
+      "away": "Bosnia & Herzegovina",
+      "hs": 2,
+      "as": 0,
+      "round": "r32"
+    },
+    {
+      "date": "2026-07-01",
+      "home": "Belgium",
+      "away": "Senegal",
+      "hs": 3,
+      "as": 2,
+      "round": "r32"
+    },
     {
       "date": "2026-07-01",
       "home": "England",
@@ -1010,5 +1026,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 80
+  "matchCount": 82
 }
