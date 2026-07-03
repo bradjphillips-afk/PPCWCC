@@ -30,11 +30,15 @@
   .totpts{font-family:'Space Mono',monospace;font-weight:700;color:var(--boot)}
   .brk{font-size:11px;color:var(--mist)}
   .prow{cursor:pointer}.detail{display:none}.detail td{background:var(--pitch-2);font-size:12px;color:var(--mist)}.detail.open{display:table-row}
+
+  /* ---- matches accordion ---- */
   details{margin-top:18px;border:1px solid var(--line-soft);border-radius:10px;padding:0 14px}
   summary{cursor:pointer;padding:12px 0;font-size:12px;color:var(--mist);font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;list-style:none}
   summary::-webkit-details-marker{display:none}
   details[open] summary{color:var(--boot)}
   details[open]{padding-bottom:14px}
+
+  /* ---- how points work ---- */
   .rules{margin-top:20px;display:flex;flex-direction:column;gap:12px}
   .rule-block{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
   .rule-header{display:flex;align-items:center;gap:10px;padding:13px 16px;cursor:pointer;user-select:none}
@@ -56,6 +60,7 @@
   .rule-table td{padding:5px 0;border-bottom:1px solid var(--line-soft);color:#cfd9cf}
   .rule-table td:last-child{text-align:right;font-family:'Space Mono',monospace;color:var(--turf)}
   .rule-table tr:last-child td{border-bottom:none}
+
   .foot{color:var(--mist);font-size:12px;margin-top:26px;border-top:1px solid var(--line-soft);padding-top:14px;font-family:'Space Mono',monospace}
   @media(max-width:560px){.wrap{padding:18px 13px 80px}}
   @media(prefers-reduced-motion:reduce){.status .dot{animation:none}}
@@ -63,6 +68,7 @@
 </head>
 <body>
 <div class="wrap">
+
   <div class="crestbar">
     <div class="crest">⚽</div>
     <div><h1 id="title">The Sweep</h1><div class="sub">2026 World Cup · live leaderboard</div></div>
@@ -70,10 +76,12 @@
   <div class="status"><span class="dot"></span><span id="status">Loading…</span></div>
   <div id="content"></div>
 
+  <!-- ===== HOW POINTS WORK ===== -->
   <div style="margin-top:24px">
     <p class="eyebrow" style="margin-bottom:12px">How points work</p>
     <div class="rules">
 
+      <!-- EVERY MATCH -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">⚽</span>
@@ -96,6 +104,7 @@
         </div>
       </div>
 
+      <!-- GROUP STAGE -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">📊</span>
@@ -116,6 +125,7 @@
         </div>
       </div>
 
+      <!-- GOING DEEP -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">🏆</span>
@@ -134,6 +144,7 @@
         </div>
       </div>
 
+      <!-- END OF TOURNAMENT AWARDS -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">🥇</span>
@@ -150,6 +161,7 @@
         </div>
       </div>
 
+      <!-- SHARED TEAMS -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">🤝</span>
@@ -162,6 +174,7 @@
         </div>
       </div>
 
+      <!-- RESCUE DRAFT -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">🆘</span>
@@ -175,11 +188,12 @@
             <tr><td>1 team left → pick any <b>1</b> surviving team</td><td></td></tr>
           </table>
           <h4>What you earn</h4>
-          <p><span class="pill pos">50%</span> of that team's knockout points — wins, goals, clean sheets, progression bonuses, and awards. All halved and rounded.</p>
-          <p><small>Multiple players can rescue the same team. Picks locked in before Round of 32. Shows in your breakdown as e.g. "France (rescue) +31".</small></p>
+          <p><span class="pill pos">50%</span> of that team's knockout points — match wins, goals, clean sheets, progression bonuses, and end-of-tournament awards. All halved and rounded.</p>
+          <p><small>Multiple players can rescue the same team. Picks locked in before Round of 32 starts and can't be changed. Shows in your breakdown as e.g. "France (rescue) +31".</small></p>
         </div>
       </div>
 
+      <!-- THE PUNT -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">🎯</span>
@@ -187,7 +201,7 @@
           <span class="rule-chevron">▼</span>
         </div>
         <div class="rule-body">
-          <p>Before each knockout round, every player tips the winner of every match in that round. Lock in before the first game kicks off.</p>
+          <p>Before each knockout round, every player tips the winner of every match in that round. Lock in before the first game of the round kicks off.</p>
           <table class="rule-table">
             <tr><td>Round of 32 — correct tip</td><td>+8</td></tr>
             <tr><td>Round of 16 — correct tip</td><td>+12</td></tr>
@@ -198,10 +212,11 @@
           <h4>Wrong tip</h4>
           <p><span class="pill neu">0 pts</span> — no penalty, just nothing.</p>
           <h4>Default pick</h4>
-          <p><small>Didn't tip? You automatically get the lower-ranked team. You're cheering for the underdog whether you like it or not.</small></p>
+          <p><small>Didn't tip? You automatically get the lower-ranked team as your pick. You're cheering for the underdog whether you like it or not.</small></p>
         </div>
       </div>
 
+      <!-- DOUBLE BUNGER -->
       <div class="rule-block">
         <div class="rule-header" onclick="toggle(this)">
           <span class="rule-icon">💥</span>
@@ -209,17 +224,18 @@
           <span class="rule-chevron">▼</span>
         </div>
         <div class="rule-body">
-          <p>If you have a live team in the knockouts, declare a Double Bunger before any of their matches. Tell the commissioner before kickoff — once called, it's locked.</p>
+          <p>If you have a live team in the knockouts, you can call a Double Bunger before any of their matches. Declare it to the commissioner before kickoff — once called, it's locked.</p>
           <h4>If they win</h4>
           <p><span class="pill pos">×2</span> on all points from that match.</p>
           <h4>If they lose</h4>
           <p><span class="pill neg">−12</span> penalty on top of normal scoring.</p>
-          <p><small>One Double Bunger per round. Fresh choice each round — no obligation to use it. Available from Round of 16 onwards.</small></p>
+          <p><small>One Double Bunger per round. Fresh choice each round — no obligation to use it.</small></p>
         </div>
       </div>
 
     </div>
   </div>
+  <!-- ===== END HOW POINTS WORK ===== -->
 
   <div class="foot">Updates every 10 min · FIFA World Cup 2026 · 11 Jun – 19 Jul</div>
 </div>
@@ -227,21 +243,33 @@
 <script>
 const COLORS=["#F4B740","#34D9A6","#5BC0EB","#E8503A","#C792EA","#FF9F68","#9CCC65"];
 function synColor(map,s){if(!(s in map)){map[s]=COLORS[Object.keys(map).length%COLORS.length];}return map[s];}
-function toggle(header){header.closest('.rule-block').classList.toggle('open');}
+
+function toggle(header){
+  const block=header.closest('.rule-block');
+  block.classList.toggle('open');
+}
+
 function render(d){
   document.getElementById("title").textContent=d.gameName||"The Sweep";
   document.title=(d.gameName||"The Sweep")+" · Live Leaderboard";
   const when=d.lastChecked?new Date(d.lastChecked).toLocaleString([],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):"—";
   document.getElementById("status").textContent=`Live · ${d.matchCount||0} match${d.matchCount===1?"":"es"} scored · updated ${when}`;
   const cmap={};
-  let html=`<div class="spread"><div class="panel" style="flex:2 1 360px"><p class="eyebrow">Individual leaderboard</p><table><tbody>`;
+  let html=`<div class="spread">
+    <div class="panel" style="flex:2 1 360px"><p class="eyebrow">Individual leaderboard</p><table><tbody>`;
   d.players.forEach((p,i)=>{
-    html+=`<tr class="prow" onclick="this.nextElementSibling.classList.toggle('open')"><td class="rank ${i<3?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,p.syndicate)}"></span>${esc(p.name)}<div class="brk">${esc(p.anchor)} · ${esc(p.wildcard)}</div></td><td class="num"><span class="totpts">${p.points}</span></td></tr>`;
+    html+=`<tr class="prow" onclick="this.nextElementSibling.classList.toggle('open')">
+      <td class="rank ${i<3?'top':''}">${i+1}</td>
+      <td><span class="synchip" style="background:${synColor(cmap,p.syndicate)}"></span>${esc(p.name)}<div class="brk">${esc(p.anchor)} · ${esc(p.wildcard)}${p.rescueTeams&&p.rescueTeams.length?' <span style="opacity:.5">+</span> <span style="color:var(--turf)">'+p.rescueTeams.map(esc).join(' · ')+'</span>':''}</div></td>
+      <td class="num"><span class="totpts">${p.points}</span></td></tr>`;
     html+=`<tr class="detail"><td></td><td colspan="2">${p.breakdown&&p.breakdown.length?p.breakdown.map(esc).join(" · "):"no points yet"}</td></tr>`;
   });
-  html+=`</tbody></table></div><div class="panel" style="flex:1 1 220px"><p class="eyebrow">Syndicates · avg / player</p><table><tbody>`;
+  html+=`</tbody></table></div>
+    <div class="panel" style="flex:1 1 220px"><p class="eyebrow">Syndicates · avg / player</p><table><tbody>`;
   d.syndicates.forEach((s,i)=>{
-    html+=`<tr><td class="rank ${i<1?'top':''}">${i+1}</td><td><span class="synchip" style="background:${synColor(cmap,s.name)}"></span>${esc(s.name)} <span style="color:var(--mist);font-size:11px">(${s.n})</span></td><td class="num totpts">${s.avg}</td></tr>`;
+    html+=`<tr><td class="rank ${i<1?'top':''}">${i+1}</td>
+      <td><span class="synchip" style="background:${synColor(cmap,s.name)}"></span>${esc(s.name)} <span style="color:var(--mist);font-size:11px">(${s.n})</span></td>
+      <td class="num totpts">${s.avg}</td></tr>`;
   });
   html+=`</tbody></table></div></div>`;
   if(d.matches&&d.matches.length){
@@ -251,13 +279,17 @@ function render(d){
   }
   document.getElementById("content").innerHTML=html;
 }
+
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
 async function load(){
   try{
     const r=await fetch("data/standings.json?t="+Date.now());
     if(!r.ok)throw new Error("no data");
     render(await r.json());
-  }catch(e){document.getElementById("status").textContent="Waiting for the first results to be published…";}
+  }catch(e){
+    document.getElementById("status").textContent="Waiting for the first results to be published…";
+  }
 }
 load();setInterval(load,60*1000);
 </script>
