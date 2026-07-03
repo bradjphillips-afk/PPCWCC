@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-03T08:37:01.759Z",
+  "lastChecked": "2026-07-03T09:48:12.987Z",
   "players": [
     {
       "name": "Chewy",
@@ -8,7 +8,7 @@
       "anchor": "France",
       "wildcard": "Algeria",
       "rescueTeams": [],
-      "points": 174,
+      "points": 198,
       "breakdown": [
         "France = 97",
         "Algeria = 21",
@@ -18,7 +18,10 @@
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
         "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8"
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8"
       ]
     },
     {
@@ -27,7 +30,7 @@
       "anchor": "Spain",
       "wildcard": "Sweden",
       "rescueTeams": [],
-      "points": 165,
+      "points": 197,
       "breakdown": [
         "Spain = 78",
         "Sweden = 31",
@@ -37,7 +40,11 @@
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
         "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8"
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8"
       ]
     },
     {
@@ -48,7 +55,7 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 150,
+      "points": 174,
       "breakdown": [
         "USA = 65",
         "New Zealand = 8",
@@ -60,7 +67,10 @@
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
         "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8"
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8"
       ]
     },
     {
@@ -71,7 +81,7 @@
       "rescueTeams": [
         "Spain"
       ],
-      "points": 135,
+      "points": 167,
       "breakdown": [
         "Mexico = 88",
         "Iraq = -6",
@@ -80,7 +90,11 @@
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
         "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8"
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8"
       ]
     },
     {
@@ -91,7 +105,7 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 134,
+      "points": 166,
       "breakdown": [
         "Argentina = 70",
         "Panama = -5",
@@ -102,7 +116,11 @@
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
         "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8"
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8"
       ]
     },
     {
@@ -445,12 +463,12 @@
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 103.4,
+      "avg": 114.6,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 98.8,
+      "avg": 109.5,
       "n": 6
     },
     {
@@ -459,13 +477,13 @@
       "n": 5
     },
     {
-      "name": "RP2K",
-      "avg": 84.8,
+      "name": "Bears",
+      "avg": 85.8,
       "n": 5
     },
     {
-      "name": "Bears",
-      "avg": 81,
+      "name": "RP2K",
+      "avg": 84.8,
       "n": 5
     }
   ],
