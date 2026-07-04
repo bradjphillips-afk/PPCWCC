@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-04T16:34:02.388Z",
+  "lastChecked": "2026-07-04T20:16:40.222Z",
   "players": [
     {
       "name": "Noots",
@@ -243,6 +243,24 @@
       ]
     },
     {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "rescueTeams": [
+        "Netherlands"
+      ],
+      "points": 103,
+      "breakdown": [
+        "Morocco = 82",
+        "Qatar = -4",
+        "Netherlands (rescue) +1",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -276,42 +294,6 @@
       ]
     },
     {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "rescueTeams": [
-        "Netherlands"
-      ],
-      "points": 88,
-      "breakdown": [
-        "Morocco = 67",
-        "Qatar = -4",
-        "Netherlands (rescue) +1",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 86,
-      "breakdown": [
-        "Canada = 55",
-        "Iraq = -6",
-        "France (rescue) +13",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -339,6 +321,24 @@
         "Croatia = 39",
         "Scotland = 10",
         "England (rescue) +10",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 82,
+      "breakdown": [
+        "Canada = 51",
+        "Iraq = -6",
+        "France (rescue) +13",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -494,22 +494,22 @@
   ],
   "syndicates": [
     {
-      "name": "EPAK",
-      "avg": 128.2,
-      "n": 6
-    },
-    {
       "name": "Shambles",
       "avg": 128,
       "n": 5
     },
     {
-      "name": "Bears",
-      "avg": 99.6,
-      "n": 5
+      "name": "EPAK",
+      "avg": 127.5,
+      "n": 6
     },
     {
       "name": "Vamps",
+      "avg": 102.6,
+      "n": 5
+    },
+    {
+      "name": "Bears",
       "avg": 99.6,
       "n": 5
     },
@@ -520,6 +520,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-04",
+      "home": "Canada",
+      "away": "Morocco",
+      "hs": 0,
+      "as": 3,
+      "round": "r16"
+    },
     {
       "date": "2026-07-04",
       "home": "Colombia",
@@ -1225,5 +1233,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 88
+  "matchCount": 89
 }
