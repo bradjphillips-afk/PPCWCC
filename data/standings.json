@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-03T20:21:01.305Z",
+  "lastChecked": "2026-07-04T00:16:30.105Z",
   "players": [
     {
       "name": "Chewy",
@@ -239,6 +239,23 @@
       ]
     },
     {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "rescueTeams": [
+        "Cape Verde"
+      ],
+      "points": 81,
+      "breakdown": [
+        "Egypt = 44",
+        "Türkiye = 21",
+        "Cape Verde (rescue) +0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8"
+      ]
+    },
+    {
       "name": "Zip",
       "syndicate": "Vamps",
       "anchor": "Morocco",
@@ -338,23 +355,6 @@
       ]
     },
     {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "rescueTeams": [
-        "Cape Verde"
-      ],
-      "points": 67,
-      "breakdown": [
-        "Egypt = 30",
-        "Türkiye = 21",
-        "Cape Verde (rescue) +0",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8"
-      ]
-    },
-    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -393,9 +393,9 @@
       "rescueTeams": [
         "Brazil"
       ],
-      "points": 54,
+      "points": 56,
       "breakdown": [
-        "Australia = 27",
+        "Australia = 29",
         "Jordan = 2",
         "Brazil (rescue) +9",
         "Punt R32 #3 Paraguay ✅ +8",
@@ -478,7 +478,7 @@
     },
     {
       "name": "Bears",
-      "avg": 85.8,
+      "avg": 89,
       "n": 5
     },
     {
@@ -488,6 +488,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-03",
+      "home": "Australia",
+      "away": "Egypt",
+      "hs": 1,
+      "as": 1,
+      "round": "r32"
+    },
     {
       "date": "2026-07-03",
       "home": "Switzerland",
@@ -1169,5 +1177,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 85
+  "matchCount": 86
 }
