@@ -1,7 +1,59 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-04T23:45:59.222Z",
+  "lastChecked": "2026-07-05T09:45:48.186Z",
   "players": [
+    {
+      "name": "Chewy",
+      "syndicate": "Shambles",
+      "anchor": "France",
+      "wildcard": "Algeria",
+      "rescueTeams": [],
+      "points": 230,
+      "breakdown": [
+        "France = 121",
+        "Algeria = 21",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8",
+        "Punt R32 #15 Argentina ✅ +8"
+      ]
+    },
+    {
+      "name": "Wig",
+      "syndicate": "EPAK",
+      "anchor": "Argentina",
+      "wildcard": "Panama",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 223,
+      "breakdown": [
+        "Argentina = 91",
+        "Panama = -5",
+        "France (rescue) +25",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R32 #15 Argentina ✅ +8",
+        "Punt R32 #16 Colombia ✅ +8"
+      ]
+    },
     {
       "name": "Noots",
       "syndicate": "Shambles",
@@ -29,58 +81,6 @@
       ]
     },
     {
-      "name": "Chewy",
-      "syndicate": "Shambles",
-      "anchor": "France",
-      "wildcard": "Algeria",
-      "rescueTeams": [],
-      "points": 218,
-      "breakdown": [
-        "France = 109",
-        "Algeria = 21",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8",
-        "Punt R32 #5 Norway ✅ +8",
-        "Punt R32 #6 France ✅ +8",
-        "Punt R32 #7 Mexico ✅ +8",
-        "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8",
-        "Punt R32 #10 USA ✅ +8",
-        "Punt R32 #11 Spain ✅ +8",
-        "Punt R32 #13 Switzerland ✅ +8",
-        "Punt R32 #15 Argentina ✅ +8"
-      ]
-    },
-    {
-      "name": "Wig",
-      "syndicate": "EPAK",
-      "anchor": "Argentina",
-      "wildcard": "Panama",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 217,
-      "breakdown": [
-        "Argentina = 91",
-        "Panama = -5",
-        "France (rescue) +19",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8",
-        "Punt R32 #5 Norway ✅ +8",
-        "Punt R32 #6 France ✅ +8",
-        "Punt R32 #7 Mexico ✅ +8",
-        "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8",
-        "Punt R32 #10 USA ✅ +8",
-        "Punt R32 #11 Spain ✅ +8",
-        "Punt R32 #12 Portugal ✅ +8",
-        "Punt R32 #13 Switzerland ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R32 #15 Argentina ✅ +8",
-        "Punt R32 #16 Colombia ✅ +8"
-      ]
-    },
-    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -88,11 +88,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 196,
+      "points": 202,
       "breakdown": [
         "USA = 65",
         "New Zealand = 8",
-        "France (rescue) +19",
+        "France (rescue) +25",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -135,6 +135,24 @@
       ]
     },
     {
+      "name": "Nath",
+      "syndicate": "RP2K",
+      "anchor": "Switzerland",
+      "wildcard": "Saudi Arabia",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 126,
+      "breakdown": [
+        "Switzerland = 70",
+        "Saudi Arabia = 7",
+        "France (rescue) +25",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
       "name": "Cleets",
       "syndicate": "Vamps",
       "anchor": "Brazil",
@@ -144,24 +162,6 @@
       "breakdown": [
         "Brazil = 69",
         "Cape Verde = 30",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
-      "name": "Nath",
-      "syndicate": "RP2K",
-      "anchor": "Switzerland",
-      "wildcard": "Saudi Arabia",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 120,
-      "breakdown": [
-        "Switzerland = 70",
-        "Saudi Arabia = 7",
-        "France (rescue) +19",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -192,6 +192,24 @@
       "breakdown": [
         "Netherlands = 55",
         "Côte d'Ivoire = 40",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "rescueTeams": [
+        "Netherlands"
+      ],
+      "points": 115,
+      "breakdown": [
+        "Morocco = 94",
+        "Qatar = -4",
+        "Netherlands (rescue) +1",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -243,24 +261,6 @@
       ]
     },
     {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "rescueTeams": [
-        "Netherlands"
-      ],
-      "points": 103,
-      "breakdown": [
-        "Morocco = 82",
-        "Qatar = -4",
-        "Netherlands (rescue) +1",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
       "name": "Daxy",
       "syndicate": "Bears",
       "anchor": "Egypt",
@@ -301,11 +301,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 88,
+      "points": 94,
       "breakdown": [
         "Canada = 51",
         "Iraq = -6",
-        "France (rescue) +19",
+        "France (rescue) +25",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -319,11 +319,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 86,
+      "points": 92,
       "breakdown": [
         "Japan = 41",
         "Curaçao = 2",
-        "France (rescue) +19",
+        "France (rescue) +25",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -381,6 +381,26 @@
       ]
     },
     {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "rescueTeams": [
+        "France",
+        "Spain"
+      ],
+      "points": 70,
+      "breakdown": [
+        "Uruguay = 5",
+        "Tunisia = 3",
+        "France (rescue) +25",
+        "Spain (rescue) +13",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
       "name": "BP1",
       "syndicate": "Shambles",
       "anchor": "Iran",
@@ -394,6 +414,26 @@
         "Iran = 15",
         "Czechia = 7",
         "England (rescue) +10",
+        "Argentina (rescue) +11",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
+      "rescueTeams": [
+        "France",
+        "Argentina"
+      ],
+      "points": 67,
+      "breakdown": [
+        "South Korea = 10",
+        "Haiti = -3",
+        "France (rescue) +25",
         "Argentina (rescue) +11",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -450,72 +490,32 @@
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
       ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "rescueTeams": [
-        "France",
-        "Spain"
-      ],
-      "points": 64,
-      "breakdown": [
-        "Uruguay = 5",
-        "Tunisia = 3",
-        "France (rescue) +19",
-        "Spain (rescue) +13",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
-      "name": "Bass",
-      "syndicate": "RP2K",
-      "anchor": "South Korea",
-      "wildcard": "Haiti",
-      "rescueTeams": [
-        "France",
-        "Argentina"
-      ],
-      "points": 61,
-      "breakdown": [
-        "South Korea = 10",
-        "Haiti = -3",
-        "France (rescue) +19",
-        "Argentina (rescue) +11",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
     }
   ],
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 131.6,
+      "avg": 135.2,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 130.5,
+      "avg": 133.5,
       "n": 6
     },
     {
       "name": "Vamps",
-      "avg": 102.6,
+      "avg": 105,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 100.8,
+      "avg": 102,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 98.6,
+      "avg": 101,
       "n": 5
     }
   ],
