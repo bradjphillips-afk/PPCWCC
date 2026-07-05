@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-05T18:44:27.678Z",
+  "lastChecked": "2026-07-05T22:15:01.652Z",
   "players": [
     {
       "name": "Chewy",
@@ -135,6 +135,21 @@
       ]
     },
     {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "rescueTeams": [],
+      "points": 131,
+      "breakdown": [
+        "Norway = 84",
+        "Ghana = 23",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
       "name": "Nath",
       "syndicate": "RP2K",
       "anchor": "Switzerland",
@@ -158,9 +173,9 @@
       "anchor": "Brazil",
       "wildcard": "Cape Verde",
       "rescueTeams": [],
-      "points": 123,
+      "points": 124,
       "breakdown": [
-        "Brazil = 69",
+        "Brazil = 70",
         "Cape Verde = 30",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -240,21 +255,6 @@
       "breakdown": [
         "England = 71",
         "South Africa = 16",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "rescueTeams": [],
-      "points": 109,
-      "breakdown": [
-        "Norway = 62",
-        "Ghana = 23",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -459,6 +459,24 @@
       ]
     },
     {
+      "name": "Dog",
+      "syndicate": "Bears",
+      "anchor": "Australia",
+      "wildcard": "Jordan",
+      "rescueTeams": [
+        "Brazil"
+      ],
+      "points": 65,
+      "breakdown": [
+        "Australia = 29",
+        "Jordan = 2",
+        "Brazil (rescue) +10",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8"
+      ]
+    },
+    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -468,24 +486,6 @@
       "breakdown": [
         "Ecuador = 17",
         "Ghana = 23",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8"
-      ]
-    },
-    {
-      "name": "Dog",
-      "syndicate": "Bears",
-      "anchor": "Australia",
-      "wildcard": "Jordan",
-      "rescueTeams": [
-        "Brazil"
-      ],
-      "points": 64,
-      "breakdown": [
-        "Australia = 29",
-        "Jordan = 2",
-        "Brazil (rescue) +9",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8"
@@ -504,22 +504,30 @@
       "n": 6
     },
     {
+      "name": "RP2K",
+      "avg": 105.4,
+      "n": 5
+    },
+    {
       "name": "Vamps",
-      "avg": 105,
+      "avg": 105.2,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 102,
-      "n": 5
-    },
-    {
-      "name": "RP2K",
-      "avg": 101,
+      "avg": 102.2,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-05",
+      "home": "Brazil",
+      "away": "Norway",
+      "hs": 1,
+      "as": 2,
+      "round": "r16"
+    },
     {
       "date": "2026-07-04",
       "home": "Paraguay",
@@ -1241,5 +1249,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 90
+  "matchCount": 91
 }
