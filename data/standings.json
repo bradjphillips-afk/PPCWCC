@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-06T04:20:54.959Z",
+  "lastChecked": "2026-07-06T12:31:16.113Z",
   "players": [
     {
       "name": "Chewy",
@@ -66,10 +66,10 @@
       "anchor": "Spain",
       "wildcard": "Sweden",
       "rescueTeams": [],
-      "points": 242,
+      "points": 245,
       "breakdown": [
         "Spain = 78",
-        "Sweden = 28",
+        "Sweden = 31",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #5 Norway ✅ +8",
@@ -176,10 +176,26 @@
       "anchor": "Norway",
       "wildcard": "Ghana",
       "rescueTeams": [],
+      "points": 155,
+      "breakdown": [
+        "Norway = 96",
+        "Ghana = 23",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "rescueTeams": [],
       "points": 143,
       "breakdown": [
-        "Norway = 84",
-        "Ghana = 23",
+        "England = 91",
+        "South Africa = 16",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -219,22 +235,6 @@
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Late rescue offset (France R32) -10"
-      ]
-    },
-    {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "rescueTeams": [],
-      "points": 131,
-      "breakdown": [
-        "England = 79",
-        "South Africa = 16",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12"
       ]
     },
     {
@@ -390,6 +390,25 @@
       ]
     },
     {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "rescueTeams": [
+        "England"
+      ],
+      "points": 105,
+      "breakdown": [
+        "Croatia = 39",
+        "Scotland = 10",
+        "England (rescue) +20",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #2 France ✅ +12"
+      ]
+    },
+    {
       "name": "Brucey",
       "syndicate": "Shambles",
       "anchor": "Japan",
@@ -406,25 +425,6 @@
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Punt R16 #3 Norway ✅ +12"
-      ]
-    },
-    {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "rescueTeams": [
-        "England"
-      ],
-      "points": 99,
-      "breakdown": [
-        "Croatia = 39",
-        "Scotland = 10",
-        "England (rescue) +14",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #2 France ✅ +12"
       ]
     },
     {
@@ -455,11 +455,11 @@
         "England",
         "Argentina"
       ],
-      "points": 85,
+      "points": 89,
       "breakdown": [
-        "Iran = 17",
+        "Iran = 15",
         "Czechia = 7",
-        "England (rescue) +14",
+        "England (rescue) +20",
         "Argentina (rescue) +11",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -475,9 +475,9 @@
       "rescueTeams": [
         "Argentina"
       ],
-      "points": 84,
+      "points": 79,
       "breakdown": [
-        "Ecuador = 22",
+        "Ecuador = 17",
         "Ghana = 23",
         "Argentina (rescue) +11",
         "Punt R32 #3 Paraguay ✅ +8",
@@ -555,22 +555,22 @@
     },
     {
       "name": "Shambles",
-      "avg": 155.6,
+      "avg": 157,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 127.4,
-      "n": 5
-    },
-    {
-      "name": "Bears",
-      "avg": 119,
+      "avg": 129.8,
       "n": 5
     },
     {
       "name": "Vamps",
-      "avg": 118.8,
+      "avg": 121.2,
+      "n": 5
+    },
+    {
+      "name": "Bears",
+      "avg": 119.2,
       "n": 5
     }
   ],
