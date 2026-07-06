@@ -59,6 +59,15 @@
     "Jimmy Barrett": [
       "France",
       "Spain"
+    ],
+    "Bull": [
+      "France"
+    ],
+    "Kaak": [
+      "Argentina"
+    ],
+    "Unit": [
+      "Argentina"
     ]
   },
   "adjust": {
@@ -114,6 +123,14 @@
       {
         "label": "Punt R32 #16 Colombia ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
       }
     ],
     "Chewy": [
@@ -160,6 +177,18 @@
       {
         "label": "Punt R32 #15 Argentina ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger France R16 ✅",
+        "points": 15
       }
     ],
     "Noots": [
@@ -218,6 +247,14 @@
       {
         "label": "Punt R32 #16 Colombia ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
       }
     ],
     "Wig": [
@@ -276,6 +313,18 @@
       {
         "label": "Punt R32 #16 Colombia ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #4 England ✅",
+        "points": 12
       }
     ],
     "Muller": [
@@ -322,6 +371,22 @@
       {
         "label": "Punt R32 #16 Colombia ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger Mexico R16 ❌",
+        "points": -12
       }
     ],
     "Daxy": [
@@ -336,6 +401,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Unit": [
@@ -350,6 +419,14 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Late rescue offset (Argentina R32)",
+        "points": -8
+      },
+      {
+        "label": "Punt R16 #4 England ✅",
+        "points": 12
       }
     ],
     "BT": [
@@ -364,6 +441,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
       }
     ],
     "Dog": [
@@ -378,6 +459,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Brucey": [
@@ -392,6 +477,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "BP1": [
@@ -406,6 +495,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Geoffro": [
@@ -420,6 +513,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Benj": [
@@ -434,6 +531,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Zip": [
@@ -448,6 +549,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Javs": [
@@ -462,6 +567,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Beesh": [
@@ -476,6 +585,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Cleets": [
@@ -490,6 +603,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Barry": [
@@ -504,6 +621,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Jones": [
@@ -518,6 +639,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Jimmy Barrett": [
@@ -532,6 +657,22 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger France R16 ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R16 #4 England ✅",
+        "points": 12
       }
     ],
     "Pistol": [
@@ -546,6 +687,18 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #4 England ✅",
+        "points": 12
       }
     ],
     "Voss": [
@@ -560,6 +713,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ],
     "Kaak": [
@@ -574,6 +731,18 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Late rescue offset (Argentina R32)",
+        "points": -8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
       }
     ],
     "Nath": [
@@ -588,6 +757,22 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #1 Morocco ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger France R16 ✅",
+        "points": 8
+      },
+      {
+        "label": "Punt R16 #4 England ✅",
+        "points": 12
       }
     ],
     "Bull": [
@@ -602,6 +787,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Late rescue offset (France R32)",
+        "points": -10
       }
     ],
     "Bass": [
@@ -616,6 +805,10 @@
       {
         "label": "Punt R32 #14 Egypt ✅",
         "points": 8
+      },
+      {
+        "label": "Punt R16 #3 Norway ✅",
+        "points": 12
       }
     ]
   }
