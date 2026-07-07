@@ -1,7 +1,35 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-06T22:52:12.054Z",
+  "lastChecked": "2026-07-07T10:38:56.948Z",
   "players": [
+    {
+      "name": "Noots",
+      "syndicate": "Shambles",
+      "anchor": "Spain",
+      "wildcard": "Sweden",
+      "rescueTeams": [],
+      "points": 271,
+      "breakdown": [
+        "Spain = 104",
+        "Sweden = 31",
+        "Punt R32 #1 Canada ✅ +8",
+        "Punt R32 #2 Brazil ✅ +8",
+        "Punt R32 #5 Norway ✅ +8",
+        "Punt R32 #6 France ✅ +8",
+        "Punt R32 #7 Mexico ✅ +8",
+        "Punt R32 #8 England ✅ +8",
+        "Punt R32 #9 Belgium ✅ +8",
+        "Punt R32 #10 USA ✅ +8",
+        "Punt R32 #11 Spain ✅ +8",
+        "Punt R32 #12 Portugal ✅ +8",
+        "Punt R32 #13 Switzerland ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R32 #15 Argentina ✅ +8",
+        "Punt R32 #16 Colombia ✅ +8",
+        "Punt R16 #1 Morocco ✅ +12",
+        "Punt R16 #2 France ✅ +12"
+      ]
+    },
     {
       "name": "Chewy",
       "syndicate": "Shambles",
@@ -26,34 +54,6 @@
         "Punt R16 #1 Morocco ✅ +12",
         "Punt R16 #2 France ✅ +12",
         "Double Bunger France R16 ✅ +15"
-      ]
-    },
-    {
-      "name": "Noots",
-      "syndicate": "Shambles",
-      "anchor": "Spain",
-      "wildcard": "Sweden",
-      "rescueTeams": [],
-      "points": 259,
-      "breakdown": [
-        "Spain = 92",
-        "Sweden = 31",
-        "Punt R32 #1 Canada ✅ +8",
-        "Punt R32 #2 Brazil ✅ +8",
-        "Punt R32 #5 Norway ✅ +8",
-        "Punt R32 #6 France ✅ +8",
-        "Punt R32 #7 Mexico ✅ +8",
-        "Punt R32 #8 England ✅ +8",
-        "Punt R32 #9 Belgium ✅ +8",
-        "Punt R32 #10 USA ✅ +8",
-        "Punt R32 #11 Spain ✅ +8",
-        "Punt R32 #12 Portugal ✅ +8",
-        "Punt R32 #13 Switzerland ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R32 #15 Argentina ✅ +8",
-        "Punt R32 #16 Colombia ✅ +8",
-        "Punt R16 #1 Morocco ✅ +12",
-        "Punt R16 #2 France ✅ +12"
       ]
     },
     {
@@ -126,11 +126,11 @@
       "rescueTeams": [
         "Spain"
       ],
-      "points": 216,
+      "points": 222,
       "breakdown": [
         "Mexico = 90",
         "Iraq = -6",
-        "Spain (rescue) +20",
+        "Spain (rescue) +26",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
@@ -294,6 +294,30 @@
       ]
     },
     {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "rescueTeams": [
+        "France",
+        "Spain"
+      ],
+      "points": 127,
+      "breakdown": [
+        "Uruguay = 5",
+        "Tunisia = 3",
+        "France (rescue) +25",
+        "Spain (rescue) +26",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #1 Morocco ✅ +12",
+        "Punt R16 #2 France ✅ +12",
+        "Double Bunger France R16 ✅ +8",
+        "Punt R16 #4 England ✅ +12"
+      ]
+    },
+    {
       "name": "Jones",
       "syndicate": "EPAK",
       "anchor": "Germany",
@@ -310,27 +334,22 @@
       ]
     },
     {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
+      "name": "Javs",
+      "syndicate": "Vamps",
+      "anchor": "Belgium",
+      "wildcard": "Haiti",
       "rescueTeams": [
-        "France",
-        "Spain"
+        "Netherlands"
       ],
-      "points": 121,
+      "points": 123,
       "breakdown": [
-        "Uruguay = 5",
-        "Tunisia = 3",
-        "France (rescue) +25",
-        "Spain (rescue) +20",
+        "Belgium = 89",
+        "Haiti = -3",
+        "Netherlands (rescue) +1",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #1 Morocco ✅ +12",
-        "Punt R16 #2 France ✅ +12",
-        "Double Bunger France R16 ✅ +8",
-        "Punt R16 #4 England ✅ +12"
+        "Punt R16 #3 Norway ✅ +12"
       ]
     },
     {
@@ -428,18 +447,18 @@
       ]
     },
     {
-      "name": "Javs",
-      "syndicate": "Vamps",
-      "anchor": "Belgium",
-      "wildcard": "Haiti",
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
       "rescueTeams": [
-        "Netherlands"
+        "Spain"
       ],
-      "points": 93,
+      "points": 91,
       "breakdown": [
-        "Belgium = 59",
-        "Haiti = -3",
-        "Netherlands (rescue) +1",
+        "Austria = 29",
+        "Uzbekistan = 0",
+        "Spain (rescue) +26",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -461,25 +480,6 @@
         "Czechia = 7",
         "England (rescue) +20",
         "Argentina (rescue) +11",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12"
-      ]
-    },
-    {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
-      "rescueTeams": [
-        "Spain"
-      ],
-      "points": 85,
-      "breakdown": [
-        "Austria = 29",
-        "Uzbekistan = 0",
-        "Spain (rescue) +20",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -550,12 +550,12 @@
   "syndicates": [
     {
       "name": "EPAK",
-      "avg": 163.5,
+      "avg": 165.5,
       "n": 6
     },
     {
       "name": "Shambles",
-      "avg": 161.2,
+      "avg": 164.8,
       "n": 5
     },
     {
@@ -565,7 +565,7 @@
     },
     {
       "name": "Vamps",
-      "avg": 120.8,
+      "avg": 126.8,
       "n": 5
     },
     {
@@ -575,6 +575,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-07",
+      "home": "USA",
+      "away": "Belgium",
+      "hs": 1,
+      "as": 4,
+      "round": "r16"
+    },
     {
       "date": "2026-07-06",
       "home": "Portugal",
@@ -1320,5 +1328,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 93
+  "matchCount": 94
 }
