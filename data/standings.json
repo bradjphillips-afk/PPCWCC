@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-09T05:11:47.761Z",
+  "lastChecked": "2026-07-09T06:00:23.832Z",
   "players": [
     {
       "name": "Wig",
@@ -198,7 +198,7 @@
       "rescueTeams": [
         "Argentina"
       ],
-      "points": 161,
+      "points": 169,
       "breakdown": [
         "Senegal = 30",
         "Cape Verde = 30",
@@ -211,7 +211,8 @@
         "Punt R16 #2 France ✅ +12",
         "Punt R16 #5 Spain ✅ +12",
         "Punt R16 #6 Belgium ✅ +12",
-        "Punt R16 #7 Argentina ✅ +12"
+        "Punt R16 #7 Argentina ✅ +12",
+        "Double Bunger Argentina R16 ✅ +8"
       ]
     },
     {
@@ -593,7 +594,7 @@
     },
     {
       "name": "RP2K",
-      "avg": 157.4,
+      "avg": 159,
       "n": 5
     },
     {
