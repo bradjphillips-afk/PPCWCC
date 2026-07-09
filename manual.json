@@ -131,6 +131,18 @@
       {
         "label": "Punt R16 #2 France ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger USA R16 ❌",
+        "points": -12
       }
     ],
     "Chewy": [
@@ -189,6 +201,22 @@
       {
         "label": "Double Bunger France R16 ✅",
         "points": 15
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #8 Switzerland ✅",
+        "points": 12
       }
     ],
     "Noots": [
@@ -255,6 +283,18 @@
       {
         "label": "Punt R16 #2 France ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger Spain R16 ✅",
+        "points": 15
       }
     ],
     "Wig": [
@@ -325,6 +365,22 @@
       {
         "label": "Punt R16 #4 England ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Double Bunger Argentina R16 ✅",
+        "points": 16
       }
     ],
     "Muller": [
@@ -387,6 +443,14 @@
       {
         "label": "Double Bunger Mexico R16 ❌",
         "points": -12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
       }
     ],
     "Daxy": [
@@ -427,6 +491,14 @@
       {
         "label": "Punt R16 #4 England ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
       }
     ],
     "BT": [
@@ -444,6 +516,22 @@
       },
       {
         "label": "Punt R16 #2 France ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #8 Switzerland ✅",
         "points": 12
       }
     ],
@@ -673,6 +761,14 @@
       {
         "label": "Punt R16 #4 England ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
       }
     ],
     "Pistol": [
@@ -698,6 +794,14 @@
       },
       {
         "label": "Punt R16 #4 England ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
         "points": 12
       }
     ],
@@ -743,6 +847,18 @@
       {
         "label": "Punt R16 #2 France ✅",
         "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
       }
     ],
     "Nath": [
@@ -772,6 +888,22 @@
       },
       {
         "label": "Punt R16 #4 England ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #5 Spain ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #6 Belgium ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #7 Argentina ✅",
+        "points": 12
+      },
+      {
+        "label": "Punt R16 #8 Switzerland ✅",
         "points": 12
       }
     ],
