@@ -143,6 +143,14 @@
       {
         "label": "Double Bunger USA R16 ❌",
         "points": -12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
+      },
+      {
+        "label": "Double Bunger France QF ✅",
+        "points": 9
       }
     ],
     "Chewy": [
@@ -217,6 +225,14 @@
       {
         "label": "Punt R16 #8 Switzerland ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
+      },
+      {
+        "label": "Smackdown QF #1 Shambles ✅",
+        "points": 20
       }
     ],
     "Noots": [
@@ -295,6 +311,14 @@
       {
         "label": "Double Bunger Spain R16 ✅",
         "points": 15
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
+      },
+      {
+        "label": "Smackdown QF #1 Shambles ✅",
+        "points": 20
       }
     ],
     "Wig": [
@@ -381,6 +405,14 @@
       {
         "label": "Double Bunger Argentina R16 ✅",
         "points": 16
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
+      },
+      {
+        "label": "Double Bunger France QF ✅",
+        "points": 9
       }
     ],
     "Muller": [
@@ -451,6 +483,10 @@
       {
         "label": "Punt R16 #6 Belgium ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Daxy": [
@@ -499,6 +535,14 @@
       {
         "label": "Punt R16 #7 Argentina ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
+      },
+      {
+        "label": "Double Bunger France QF ✅",
+        "points": 9
       }
     ],
     "BT": [
@@ -569,6 +613,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Smackdown QF #1 Shambles ✅",
+        "points": 20
       }
     ],
     "BP1": [
@@ -587,6 +635,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Smackdown QF #1 Shambles ✅",
+        "points": 20
       }
     ],
     "Geoffro": [
@@ -605,6 +657,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Smackdown QF #1 Shambles ✅",
+        "points": 20
       }
     ],
     "Benj": [
@@ -641,6 +697,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Javs": [
@@ -659,6 +719,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Beesh": [
@@ -769,6 +833,10 @@
       {
         "label": "Punt R16 #7 Argentina ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Pistol": [
@@ -803,6 +871,10 @@
       {
         "label": "Punt R16 #7 Argentina ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Voss": [
@@ -863,6 +935,10 @@
       {
         "label": "Double Bunger Argentina R16 ✅",
         "points": 8
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Nath": [
@@ -909,6 +985,10 @@
       {
         "label": "Punt R16 #8 Switzerland ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ],
     "Bull": [
@@ -945,6 +1025,10 @@
       {
         "label": "Punt R16 #3 Norway ✅",
         "points": 12
+      },
+      {
+        "label": "Punt QF #1 France ✅",
+        "points": 18
       }
     ]
   }
