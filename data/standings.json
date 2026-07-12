@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-11T23:36:38.432Z",
+  "lastChecked": "2026-07-12T01:09:44.389Z",
   "players": [
     {
       "name": "Noots",
@@ -293,9 +293,9 @@
       "anchor": "Norway",
       "wildcard": "Ghana",
       "rescueTeams": [],
-      "points": 173,
+      "points": 174,
       "breakdown": [
-        "Norway = 96",
+        "Norway = 97",
         "Ghana = 23",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -372,6 +372,29 @@
       ]
     },
     {
+      "name": "BT",
+      "syndicate": "Bears",
+      "anchor": "Croatia",
+      "wildcard": "Scotland",
+      "rescueTeams": [
+        "England"
+      ],
+      "points": 160,
+      "breakdown": [
+        "Croatia = 39",
+        "Scotland = 10",
+        "England (rescue) +27",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #2 France ✅ +12",
+        "Punt R16 #5 Spain ✅ +12",
+        "Punt R16 #6 Belgium ✅ +12",
+        "Punt R16 #7 Argentina ✅ +12",
+        "Punt R16 #8 Switzerland ✅ +12"
+      ]
+    },
+    {
       "name": "Javs",
       "syndicate": "Vamps",
       "anchor": "Belgium",
@@ -393,26 +416,19 @@
       ]
     },
     {
-      "name": "BT",
-      "syndicate": "Bears",
-      "anchor": "Croatia",
-      "wildcard": "Scotland",
-      "rescueTeams": [
-        "England"
-      ],
-      "points": 153,
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "rescueTeams": [],
+      "points": 157,
       "breakdown": [
-        "Croatia = 39",
-        "Scotland = 10",
-        "England (rescue) +20",
+        "England = 105",
+        "South Africa = 16",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #2 France ✅ +12",
-        "Punt R16 #5 Spain ✅ +12",
-        "Punt R16 #6 Belgium ✅ +12",
-        "Punt R16 #7 Argentina ✅ +12",
-        "Punt R16 #8 Switzerland ✅ +12"
+        "Punt R16 #3 Norway ✅ +12"
       ]
     },
     {
@@ -432,6 +448,29 @@
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Late rescue offset (France R32) -10"
+      ]
+    },
+    {
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "rescueTeams": [
+        "England",
+        "Argentina"
+      ],
+      "points": 150,
+      "breakdown": [
+        "Iran = 15",
+        "Czechia = 7",
+        "England (rescue) +27",
+        "Argentina (rescue) +25",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #1 Shambles ✅ +20",
+        "Smackdown QF #2 Shambles ✅ +20"
       ]
     },
     {
@@ -476,45 +515,6 @@
         "Punt R16 #3 Norway ✅ +12",
         "Punt QF #1 France ✅ +18",
         "Punt QF #2 Spain ✅ +18"
-      ]
-    },
-    {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
-      "rescueTeams": [
-        "England",
-        "Argentina"
-      ],
-      "points": 143,
-      "breakdown": [
-        "Iran = 15",
-        "Czechia = 7",
-        "England (rescue) +20",
-        "Argentina (rescue) +25",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #1 Shambles ✅ +20",
-        "Smackdown QF #2 Shambles ✅ +20"
-      ]
-    },
-    {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "rescueTeams": [],
-      "points": 143,
-      "breakdown": [
-        "England = 91",
-        "South Africa = 16",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12"
       ]
     },
     {
@@ -623,7 +623,7 @@
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 256.4,
+      "avg": 257.8,
       "n": 5
     },
     {
@@ -633,21 +633,29 @@
     },
     {
       "name": "RP2K",
-      "avg": 187.8,
+      "avg": 188,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 160.2,
+      "avg": 161.6,
       "n": 5
     },
     {
       "name": "Vamps",
-      "avg": 141,
+      "avg": 143.8,
       "n": 5
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-11",
+      "home": "Norway",
+      "away": "England",
+      "hs": 1,
+      "as": 2,
+      "round": "qf"
+    },
     {
       "date": "2026-07-10",
       "home": "Spain",
@@ -1433,5 +1441,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 98
+  "matchCount": 99
 }
