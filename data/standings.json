@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-14T20:10:06.942Z",
+  "lastChecked": "2026-07-14T21:12:35.309Z",
   "players": [
     {
       "name": "Wig",
@@ -10,11 +10,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 531,
+      "points": 530,
       "breakdown": [
         "Argentina = 152",
         "Panama = -5",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #5 Norway ✅ +8",
@@ -51,9 +51,9 @@
       "anchor": "Spain",
       "wildcard": "Sweden",
       "rescueTeams": [],
-      "points": 494,
+      "points": 510,
       "breakdown": [
-        "Spain = 136",
+        "Spain = 152",
         "Sweden = 31",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
@@ -89,9 +89,9 @@
       "anchor": "France",
       "wildcard": "Algeria",
       "rescueTeams": [],
-      "points": 430,
+      "points": 428,
       "breakdown": [
-        "France = 158",
+        "France = 156",
         "Algeria = 21",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
@@ -125,11 +125,11 @@
       "rescueTeams": [
         "Spain"
       ],
-      "points": 343,
+      "points": 351,
       "breakdown": [
         "Mexico = 90",
         "Iraq = -6",
-        "Spain (rescue) +42",
+        "Spain (rescue) +50",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
@@ -162,11 +162,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 334,
+      "points": 333,
       "breakdown": [
         "USA = 65",
         "New Zealand = 8",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -200,11 +200,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 304,
+      "points": 303,
       "breakdown": [
         "Canada = 51",
         "Iraq = -6",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -229,11 +229,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 294,
+      "points": 293,
       "breakdown": [
         "Switzerland = 92",
         "Saudi Arabia = 7",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -247,6 +247,37 @@
         "Punt R16 #8 Switzerland ✅ +12",
         "Punt QF #1 France ✅ +18",
         "Punt QF #4 Argentina ✅ +18"
+      ]
+    },
+    {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "rescueTeams": [
+        "France",
+        "Spain"
+      ],
+      "points": 273,
+      "breakdown": [
+        "Uruguay = 5",
+        "Tunisia = 3",
+        "France (rescue) +42",
+        "Spain (rescue) +50",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #1 Morocco ✅ +12",
+        "Punt R16 #2 France ✅ +12",
+        "Double Bunger France R16 ✅ +8",
+        "Punt R16 #4 England ✅ +12",
+        "Punt R16 #5 Spain ✅ +12",
+        "Punt R16 #7 Argentina ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Double Bunger Spain QF ✅ +7",
+        "Punt QF #3 England ✅ +18",
+        "Smackdown QF #4 EPAK ✅ +20"
       ]
     },
     {
@@ -276,37 +307,6 @@
         "Punt QF #4 Argentina ✅ +18",
         "Parlay bonus — all 4 QF ✅ +40",
         "Bears backed Shambles — smackdown winners ✅ +15"
-      ]
-    },
-    {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "rescueTeams": [
-        "France",
-        "Spain"
-      ],
-      "points": 266,
-      "breakdown": [
-        "Uruguay = 5",
-        "Tunisia = 3",
-        "France (rescue) +43",
-        "Spain (rescue) +42",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #1 Morocco ✅ +12",
-        "Punt R16 #2 France ✅ +12",
-        "Double Bunger France R16 ✅ +8",
-        "Punt R16 #4 England ✅ +12",
-        "Punt R16 #5 Spain ✅ +12",
-        "Punt R16 #7 Argentina ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Double Bunger Spain QF ✅ +7",
-        "Punt QF #3 England ✅ +18",
-        "Smackdown QF #4 EPAK ✅ +20"
       ]
     },
     {
@@ -451,11 +451,11 @@
         "France",
         "Argentina"
       ],
-      "points": 181,
+      "points": 180,
       "breakdown": [
         "South Korea = 10",
         "Haiti = -3",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Argentina (rescue) +41",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -497,11 +497,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 162,
+      "points": 161,
       "breakdown": [
         "Japan = 41",
         "Curaçao = 2",
-        "France (rescue) +43",
+        "France (rescue) +42",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -528,22 +528,24 @@
       ]
     },
     {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
       "rescueTeams": [
-        "France"
+        "Spain"
       ],
-      "points": 152,
+      "points": 155,
       "breakdown": [
-        "Netherlands = 55",
-        "Côte d'Ivoire = 40",
-        "France (rescue) +43",
+        "Austria = 29",
+        "Uzbekistan = 0",
+        "Spain (rescue) +50",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
-        "Late rescue offset (France R32) -10"
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #1 Shambles ✅ +20",
+        "Smackdown QF #2 Shambles ✅ +20"
       ]
     },
     {
@@ -564,24 +566,22 @@
       ]
     },
     {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
       "rescueTeams": [
-        "Spain"
+        "France"
       ],
-      "points": 147,
+      "points": 151,
       "breakdown": [
-        "Austria = 29",
-        "Uzbekistan = 0",
-        "Spain (rescue) +42",
+        "Netherlands = 55",
+        "Côte d'Ivoire = 40",
+        "France (rescue) +42",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #1 Shambles ✅ +20",
-        "Smackdown QF #2 Shambles ✅ +20"
+        "Late rescue offset (France R32) -10"
       ]
     },
     {
@@ -662,22 +662,22 @@
   "syndicates": [
     {
       "name": "EPAK",
-      "avg": 289.8,
+      "avg": 292,
       "n": 6
     },
     {
       "name": "Shambles",
-      "avg": 281.8,
+      "avg": 286,
       "n": 5
     },
     {
       "name": "RP2K",
-      "avg": 211.6,
+      "avg": 211,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 200.6,
+      "avg": 200.4,
       "n": 5
     },
     {
@@ -687,6 +687,14 @@
     }
   ],
   "matches": [
+    {
+      "date": "2026-07-14",
+      "home": "France",
+      "away": "Spain",
+      "hs": 0,
+      "as": 2,
+      "round": "sf"
+    },
     {
       "date": "2026-07-12",
       "home": "Argentina",
@@ -1488,5 +1496,5 @@
       "round": "group"
     }
   ],
-  "matchCount": 100
+  "matchCount": 101
 }
