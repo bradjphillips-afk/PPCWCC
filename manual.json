@@ -253,6 +253,14 @@
       {
         "label": "Punt QF #4 Argentina ✅",
         "points": 18
+      },
+      {
+        "label": "Smackdown SF #2 Shambles ✅",
+        "points": 20
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Noots": [
@@ -359,6 +367,14 @@
       {
         "label": "Parlay bonus — all 4 QF ✅",
         "points": 40
+      },
+      {
+        "label": "Smackdown SF #2 Shambles ✅",
+        "points": 20
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Wig": [
@@ -473,6 +489,18 @@
       {
         "label": "Smackdown QF #4 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
+        "points": 20
+      },
+      {
+        "label": "SF Insurance — Argentina won ❌",
+        "points": -25
       }
     ],
     "Muller": [
@@ -563,6 +591,14 @@
       {
         "label": "Smackdown QF #4 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Punt SF #2 Spain ✅",
+        "points": 25
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
+        "points": 20
       }
     ],
     "Daxy": [
@@ -643,6 +679,10 @@
       {
         "label": "Bears backed Shambles — smackdown winners ✅",
         "points": 15
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "BT": [
@@ -703,6 +743,10 @@
       {
         "label": "Bears backed Shambles — smackdown winners ✅",
         "points": 15
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Brucey": [
@@ -728,6 +772,10 @@
       },
       {
         "label": "Smackdown QF #2 Shambles ✅",
+        "points": 20
+      },
+      {
+        "label": "Smackdown SF #2 Shambles ✅",
         "points": 20
       }
     ],
@@ -755,6 +803,10 @@
       {
         "label": "Smackdown QF #2 Shambles ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown SF #2 Shambles ✅",
+        "points": 20
       }
     ],
     "Geoffro": [
@@ -780,6 +832,10 @@
       },
       {
         "label": "Smackdown QF #2 Shambles ✅",
+        "points": 20
+      },
+      {
+        "label": "Smackdown SF #2 Shambles ✅",
         "points": 20
       }
     ],
@@ -837,6 +893,10 @@
       {
         "label": "Smackdown QF #3 Vamps ✅",
         "points": 20
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Javs": [
@@ -915,6 +975,10 @@
       {
         "label": "Smackdown QF #3 Vamps ✅",
         "points": 20
+      },
+      {
+        "label": "Punt SF #2 Spain ✅",
+        "points": 25
       }
     ],
     "Barry": [
@@ -937,6 +1001,10 @@
       {
         "label": "Smackdown QF #4 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
+        "points": 20
       }
     ],
     "Jones": [
@@ -958,6 +1026,10 @@
       },
       {
         "label": "Smackdown QF #4 EPAK ✅",
+        "points": 20
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
         "points": 20
       }
     ],
@@ -1017,6 +1089,10 @@
       {
         "label": "Smackdown QF #4 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
+        "points": 20
       }
     ],
     "Pistol": [
@@ -1075,6 +1151,10 @@
       {
         "label": "Smackdown QF #4 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown SF #1 EPAK ✅",
+        "points": 20
       }
     ],
     "Voss": [
@@ -1105,6 +1185,10 @@
       {
         "label": "Punt QF #4 Argentina ✅",
         "points": 18
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Kaak": [
@@ -1209,6 +1293,10 @@
       {
         "label": "Punt QF #4 Argentina ✅",
         "points": 18
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ],
     "Bull": [
@@ -1257,6 +1345,10 @@
       {
         "label": "Punt QF #4 Argentina ✅",
         "points": 18
+      },
+      {
+        "label": "Punt SF #1 Argentina ✅",
+        "points": 25
       }
     ]
   }
