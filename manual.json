@@ -599,6 +599,10 @@
       {
         "label": "Smackdown SF #1 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Punt 3rd place England ✅",
+        "points": 50
       }
     ],
     "Daxy": [
@@ -859,6 +863,10 @@
       {
         "label": "Smackdown QF #3 Vamps ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown 3rd place Vamps ✅",
+        "points": 30
       }
     ],
     "Zip": [
@@ -897,6 +905,14 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt 3rd place England ✅",
+        "points": 50
+      },
+      {
+        "label": "Smackdown 3rd place Vamps ✅",
+        "points": 30
       }
     ],
     "Javs": [
@@ -931,6 +947,10 @@
       {
         "label": "Smackdown QF #3 Vamps ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown 3rd place Vamps ✅",
+        "points": 30
       }
     ],
     "Beesh": [
@@ -953,6 +973,10 @@
       {
         "label": "Smackdown QF #3 Vamps ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown 3rd place Vamps ✅",
+        "points": 30
       }
     ],
     "Cleets": [
@@ -979,6 +1003,10 @@
       {
         "label": "Punt SF #2 Spain ✅",
         "points": 25
+      },
+      {
+        "label": "Smackdown 3rd place Vamps ✅",
+        "points": 30
       }
     ],
     "Barry": [
@@ -1155,6 +1183,10 @@
       {
         "label": "Smackdown SF #1 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Punt 3rd place England ✅",
+        "points": 50
       }
     ],
     "Voss": [
@@ -1189,6 +1221,10 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt 3rd place England ✅",
+        "points": 50
       }
     ],
     "Kaak": [
