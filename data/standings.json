@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-07-19T19:20:00.042Z",
+  "lastChecked": "2026-07-19T20:02:30.515Z",
   "players": [
     {
       "name": "Wig",
@@ -132,7 +132,7 @@
       "rescueTeams": [
         "Spain"
       ],
-      "points": 411,
+      "points": 461,
       "breakdown": [
         "Mexico = 90",
         "Iraq = -6",
@@ -160,7 +160,39 @@
         "Punt QF #3 England ✅ +18",
         "Smackdown QF #4 EPAK ✅ +20",
         "Punt SF #2 Spain ✅ +25",
-        "Smackdown SF #1 EPAK ✅ +20"
+        "Smackdown SF #1 EPAK ✅ +20",
+        "Punt 3rd place England ✅ +50"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "syndicate": "EPAK",
+      "anchor": "Canada",
+      "wildcard": "Iraq",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 377,
+      "breakdown": [
+        "Canada = 51",
+        "Iraq = -6",
+        "France (rescue) +46",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #1 Morocco ✅ +12",
+        "Punt R16 #2 France ✅ +12",
+        "Punt R16 #4 England ✅ +12",
+        "Punt R16 #5 Spain ✅ +12",
+        "Punt R16 #7 Argentina ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Punt QF #3 England ✅ +18",
+        "Punt QF #4 Argentina ✅ +18",
+        "Parlay bonus — all 4 QF ✅ +40",
+        "Smackdown QF #4 EPAK ✅ +20",
+        "Smackdown SF #1 EPAK ✅ +20",
+        "Punt 3rd place England ✅ +50"
       ]
     },
     {
@@ -199,36 +231,6 @@
         "Punt QF #2 Spain ✅ +18",
         "Punt QF #4 Argentina ✅ +18",
         "Bears backed Shambles — smackdown winners ✅ +15"
-      ]
-    },
-    {
-      "name": "Pistol",
-      "syndicate": "EPAK",
-      "anchor": "Canada",
-      "wildcard": "Iraq",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 327,
-      "breakdown": [
-        "Canada = 51",
-        "Iraq = -6",
-        "France (rescue) +46",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #1 Morocco ✅ +12",
-        "Punt R16 #2 France ✅ +12",
-        "Punt R16 #4 England ✅ +12",
-        "Punt R16 #5 Spain ✅ +12",
-        "Punt R16 #7 Argentina ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Punt QF #3 England ✅ +18",
-        "Punt QF #4 Argentina ✅ +18",
-        "Parlay bonus — all 4 QF ✅ +40",
-        "Smackdown QF #4 EPAK ✅ +20",
-        "Smackdown SF #1 EPAK ✅ +20"
       ]
     },
     {
@@ -323,6 +325,71 @@
       ]
     },
     {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "rescueTeams": [
+        "Netherlands"
+      ],
+      "points": 305,
+      "breakdown": [
+        "Morocco = 93",
+        "Qatar = -4",
+        "Netherlands (rescue) +1",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Punt QF #3 England ✅ +18",
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Punt SF #1 Argentina ✅ +25",
+        "Punt 3rd place England ✅ +50",
+        "Smackdown 3rd place Vamps ✅ +30"
+      ]
+    },
+    {
+      "name": "Voss",
+      "syndicate": "RP2K",
+      "anchor": "Norway",
+      "wildcard": "Ghana",
+      "rescueTeams": [],
+      "points": 285,
+      "breakdown": [
+        "Norway = 97",
+        "Ghana = 23",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Punt QF #2 Spain ✅ +18",
+        "Punt QF #3 England ✅ +18",
+        "Punt QF #4 Argentina ✅ +18",
+        "Punt SF #1 Argentina ✅ +25",
+        "Punt 3rd place England ✅ +50"
+      ]
+    },
+    {
+      "name": "Benj",
+      "syndicate": "Vamps",
+      "anchor": "England",
+      "wildcard": "South Africa",
+      "rescueTeams": [],
+      "points": 250,
+      "breakdown": [
+        "England = 148",
+        "South Africa = 16",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Smackdown 3rd place Vamps ✅ +30"
+      ]
+    },
+    {
       "name": "Kaak",
       "syndicate": "RP2K",
       "anchor": "Senegal",
@@ -347,26 +414,6 @@
         "Double Bunger Argentina R16 ✅ +8",
         "Punt QF #1 France ✅ +18",
         "Punt QF #4 Argentina ✅ +18"
-      ]
-    },
-    {
-      "name": "Voss",
-      "syndicate": "RP2K",
-      "anchor": "Norway",
-      "wildcard": "Ghana",
-      "rescueTeams": [],
-      "points": 235,
-      "breakdown": [
-        "Norway = 97",
-        "Ghana = 23",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Punt QF #2 Spain ✅ +18",
-        "Punt QF #3 England ✅ +18",
-        "Punt QF #4 Argentina ✅ +18",
-        "Punt SF #1 Argentina ✅ +25"
       ]
     },
     {
@@ -419,47 +466,6 @@
       ]
     },
     {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
-      "rescueTeams": [
-        "Netherlands"
-      ],
-      "points": 225,
-      "breakdown": [
-        "Morocco = 93",
-        "Qatar = -4",
-        "Netherlands (rescue) +1",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Punt QF #3 England ✅ +18",
-        "Smackdown QF #3 Vamps ✅ +20",
-        "Punt SF #1 Argentina ✅ +25"
-      ]
-    },
-    {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "rescueTeams": [],
-      "points": 220,
-      "breakdown": [
-        "England = 148",
-        "South Africa = 16",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #3 Vamps ✅ +20"
-      ]
-    },
-    {
       "name": "Javs",
       "syndicate": "Vamps",
       "anchor": "Belgium",
@@ -467,7 +473,7 @@
       "rescueTeams": [
         "Netherlands"
       ],
-      "points": 197,
+      "points": 227,
       "breakdown": [
         "Belgium = 89",
         "Haiti = -3",
@@ -479,7 +485,27 @@
         "Punt QF #1 France ✅ +18",
         "Punt QF #2 Spain ✅ +18",
         "Punt QF #4 Argentina ✅ +18",
-        "Smackdown QF #3 Vamps ✅ +20"
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Smackdown 3rd place Vamps ✅ +30"
+      ]
+    },
+    {
+      "name": "Cleets",
+      "syndicate": "Vamps",
+      "anchor": "Brazil",
+      "wildcard": "Cape Verde",
+      "rescueTeams": [],
+      "points": 211,
+      "breakdown": [
+        "Brazil = 70",
+        "Cape Verde = 30",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Punt SF #2 Spain ✅ +25",
+        "Smackdown 3rd place Vamps ✅ +30"
       ]
     },
     {
@@ -551,24 +577,6 @@
       ]
     },
     {
-      "name": "Cleets",
-      "syndicate": "Vamps",
-      "anchor": "Brazil",
-      "wildcard": "Cape Verde",
-      "rescueTeams": [],
-      "points": 181,
-      "breakdown": [
-        "Brazil = 70",
-        "Cape Verde = 30",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #3 Vamps ✅ +20",
-        "Punt SF #2 Spain ✅ +25"
-      ]
-    },
-    {
       "name": "Barry",
       "syndicate": "EPAK",
       "anchor": "Colombia",
@@ -605,6 +613,24 @@
       ]
     },
     {
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "rescueTeams": [],
+      "points": 155,
+      "breakdown": [
+        "Portugal = 57",
+        "Bosnia & Herzegovina = 12",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Smackdown 3rd place Vamps ✅ +30"
+      ]
+    },
+    {
       "name": "Bull",
       "syndicate": "RP2K",
       "anchor": "Netherlands",
@@ -621,23 +647,6 @@
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Late rescue offset (France R32) -10"
-      ]
-    },
-    {
-      "name": "Beesh",
-      "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
-      "rescueTeams": [],
-      "points": 125,
-      "breakdown": [
-        "Portugal = 57",
-        "Bosnia & Herzegovina = 12",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #3 Vamps ✅ +20"
       ]
     },
     {
@@ -684,28 +693,28 @@
   ],
   "syndicates": [
     {
+      "name": "EPAK",
+      "avg": 346.7,
+      "n": 6
+    },
+    {
       "name": "Shambles",
       "avg": 333.8,
       "n": 5
     },
     {
-      "name": "EPAK",
-      "avg": 330,
-      "n": 6
+      "name": "RP2K",
+      "avg": 246.8,
+      "n": 5
     },
     {
-      "name": "RP2K",
-      "avg": 236.8,
+      "name": "Vamps",
+      "avg": 229.6,
       "n": 5
     },
     {
       "name": "Bears",
       "avg": 217.6,
-      "n": 5
-    },
-    {
-      "name": "Vamps",
-      "avg": 189.6,
       "n": 5
     }
   ],
