@@ -6,9 +6,9 @@
     "PUNT scoring: R32 correct +8 | R16 +12 | QF +18 | SF +25 | Final +35"
   ],
   "awards": {
-    "boot": "",
-    "glove": "",
-    "ball": ""
+    "boot": "France",
+    "glove": "Spain",
+    "ball": "Spain"
   },
   "windows": {},
   "rescue": {
@@ -163,6 +163,10 @@
       {
         "label": "Bears backed Shambles — smackdown winners ✅",
         "points": 15
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Chewy": [
@@ -261,6 +265,14 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
+      },
+      {
+        "label": "Smackdown Final Shambles ✅",
+        "points": 30
       }
     ],
     "Noots": [
@@ -375,6 +387,14 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
+      },
+      {
+        "label": "Smackdown Final Shambles ✅",
+        "points": 30
       }
     ],
     "Wig": [
@@ -501,6 +521,10 @@
       {
         "label": "SF Insurance — Argentina won ❌",
         "points": -25
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Muller": [
@@ -602,6 +626,10 @@
       },
       {
         "label": "Punt 3rd place England ✅",
+        "points": 50
+      },
+      {
+        "label": "Punt Final Spain ✅",
         "points": 50
       }
     ],
@@ -781,6 +809,10 @@
       {
         "label": "Smackdown SF #2 Shambles ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown Final Shambles ✅",
+        "points": 30
       }
     ],
     "BP1": [
@@ -811,6 +843,10 @@
       {
         "label": "Smackdown SF #2 Shambles ✅",
         "points": 20
+      },
+      {
+        "label": "Smackdown Final Shambles ✅",
+        "points": 30
       }
     ],
     "Geoffro": [
@@ -841,6 +877,14 @@
       {
         "label": "Smackdown SF #2 Shambles ✅",
         "points": 20
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
+      },
+      {
+        "label": "Smackdown Final Shambles ✅",
+        "points": 30
       }
     ],
     "Benj": [
@@ -951,6 +995,10 @@
       {
         "label": "Smackdown 3rd place Vamps ✅",
         "points": 30
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Beesh": [
@@ -1121,6 +1169,10 @@
       {
         "label": "Smackdown SF #1 EPAK ✅",
         "points": 20
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Pistol": [
@@ -1187,6 +1239,10 @@
       {
         "label": "Punt 3rd place England ✅",
         "points": 50
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Voss": [
@@ -1224,6 +1280,10 @@
       },
       {
         "label": "Punt 3rd place England ✅",
+        "points": 50
+      },
+      {
+        "label": "Punt Final Spain ✅",
         "points": 50
       }
     ],
@@ -1333,6 +1393,10 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ],
     "Bull": [
@@ -1385,6 +1449,10 @@
       {
         "label": "Punt SF #1 Argentina ✅",
         "points": 25
+      },
+      {
+        "label": "Punt Final Spain ✅",
+        "points": 50
       }
     ]
   }
