@@ -1,6 +1,6 @@
 {
   "gameName": "PPC WORLD CUP CUP",
-  "lastChecked": "2026-08-11T21:38:41.243Z",
+  "lastChecked": "2026-08-11T22:22:30.780Z",
   "players": [
     {
       "name": "Noots",
@@ -8,10 +8,10 @@
       "anchor": "Spain",
       "wildcard": "Sweden",
       "rescueTeams": [],
-      "points": 770,
+      "points": 492,
       "breakdown": [
-        "Spain = 287",
-        "Sweden = 31",
+        "Spain = 40",
+        "Sweden = 0",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #5 Norway ✅ +8",
@@ -52,11 +52,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 652,
+      "points": 424,
       "breakdown": [
-        "Argentina = 187",
-        "Panama = -5",
-        "France (rescue) +59",
+        "Argentina = 0",
+        "Panama = 0",
+        "France (rescue) +13",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #5 Norway ✅ +8",
@@ -97,10 +97,10 @@
       "anchor": "France",
       "wildcard": "Algeria",
       "rescueTeams": [],
-      "points": 586,
+      "points": 401,
       "breakdown": [
-        "France = 189",
-        "Algeria = 21",
+        "France = 25",
+        "Algeria = 0",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #5 Norway ✅ +8",
@@ -137,11 +137,11 @@
       "rescueTeams": [
         "Spain"
       ],
-      "points": 563,
+      "points": 382,
       "breakdown": [
-        "Mexico = 90",
-        "Iraq = -6",
-        "Spain (rescue) +117",
+        "Mexico = 0",
+        "Iraq = 0",
+        "Spain (rescue) +20",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #6 France ✅ +8",
         "Punt R32 #7 Mexico ✅ +8",
@@ -178,11 +178,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 440,
+      "points": 349,
       "breakdown": [
-        "Canada = 51",
-        "Iraq = -6",
-        "France (rescue) +59",
+        "Canada = 0",
+        "Iraq = 0",
+        "France (rescue) +13",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -203,39 +203,6 @@
       ]
     },
     {
-      "name": "Jimmy Barrett",
-      "syndicate": "EPAK",
-      "anchor": "Uruguay",
-      "wildcard": "Tunisia",
-      "rescueTeams": [
-        "France",
-        "Spain"
-      ],
-      "points": 427,
-      "breakdown": [
-        "Uruguay = 5",
-        "Tunisia = 3",
-        "France (rescue) +59",
-        "Spain (rescue) +117",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #1 Morocco ✅ +12",
-        "Punt R16 #2 France ✅ +12",
-        "Double Bunger France R16 ✅ +8",
-        "Punt R16 #4 England ✅ +12",
-        "Punt R16 #5 Spain ✅ +12",
-        "Punt R16 #7 Argentina ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Double Bunger Spain QF ✅ +7",
-        "Punt QF #3 England ✅ +18",
-        "Smackdown QF #4 EPAK ✅ +20",
-        "Smackdown SF #1 EPAK ✅ +20",
-        "Punt Final Spain ✅ +50"
-      ]
-    },
-    {
       "name": "BP2",
       "syndicate": "Bears",
       "anchor": "USA",
@@ -243,11 +210,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 400,
+      "points": 281,
       "breakdown": [
-        "USA = 65",
-        "New Zealand = 8",
-        "France (rescue) +59",
+        "USA = 0",
+        "New Zealand = 0",
+        "France (rescue) +13",
         "Punt R32 #1 Canada ✅ +8",
         "Punt R32 #2 Brazil ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
@@ -275,6 +242,39 @@
       ]
     },
     {
+      "name": "Jimmy Barrett",
+      "syndicate": "EPAK",
+      "anchor": "Uruguay",
+      "wildcard": "Tunisia",
+      "rescueTeams": [
+        "France",
+        "Spain"
+      ],
+      "points": 276,
+      "breakdown": [
+        "Uruguay = 0",
+        "Tunisia = 0",
+        "France (rescue) +13",
+        "Spain (rescue) +20",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #1 Morocco ✅ +12",
+        "Punt R16 #2 France ✅ +12",
+        "Double Bunger France R16 ✅ +8",
+        "Punt R16 #4 England ✅ +12",
+        "Punt R16 #5 Spain ✅ +12",
+        "Punt R16 #7 Argentina ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Double Bunger Spain QF ✅ +7",
+        "Punt QF #3 England ✅ +18",
+        "Smackdown QF #4 EPAK ✅ +20",
+        "Smackdown SF #1 EPAK ✅ +20",
+        "Punt Final Spain ✅ +50"
+      ]
+    },
+    {
       "name": "Nath",
       "syndicate": "RP2K",
       "anchor": "Switzerland",
@@ -282,11 +282,11 @@
       "rescueTeams": [
         "France"
       ],
-      "points": 385,
+      "points": 240,
       "breakdown": [
-        "Switzerland = 92",
-        "Saudi Arabia = 7",
-        "France (rescue) +59",
+        "Switzerland = 0",
+        "Saudi Arabia = 0",
+        "France (rescue) +13",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -305,15 +305,41 @@
       ]
     },
     {
+      "name": "Zip",
+      "syndicate": "Vamps",
+      "anchor": "Morocco",
+      "wildcard": "Qatar",
+      "rescueTeams": [
+        "Netherlands"
+      ],
+      "points": 215,
+      "breakdown": [
+        "Morocco = 0",
+        "Qatar = 0",
+        "Netherlands (rescue) +0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Punt QF #3 England ✅ +18",
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Punt SF #1 Argentina ✅ +25",
+        "Punt 3rd place England ✅ +50",
+        "Smackdown 3rd place Vamps ✅ +30"
+      ]
+    },
+    {
       "name": "Voss",
       "syndicate": "RP2K",
       "anchor": "Norway",
       "wildcard": "Ghana",
       "rescueTeams": [],
-      "points": 335,
+      "points": 215,
       "breakdown": [
-        "Norway = 97",
-        "Ghana = 23",
+        "Norway = 0",
+        "Ghana = 0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -327,30 +353,6 @@
       ]
     },
     {
-      "name": "Geoffro",
-      "syndicate": "Shambles",
-      "anchor": "Austria",
-      "wildcard": "Uzbekistan",
-      "rescueTeams": [
-        "Spain"
-      ],
-      "points": 322,
-      "breakdown": [
-        "Austria = 29",
-        "Uzbekistan = 0",
-        "Spain (rescue) +117",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #1 Shambles ✅ +20",
-        "Smackdown QF #2 Shambles ✅ +20",
-        "Smackdown SF #2 Shambles ✅ +20",
-        "Punt Final Spain ✅ +50",
-        "Smackdown Final Shambles ✅ +30"
-      ]
-    },
-    {
       "name": "Unit",
       "syndicate": "Bears",
       "anchor": "Ecuador",
@@ -358,11 +360,11 @@
       "rescueTeams": [
         "Argentina"
       ],
-      "points": 312,
+      "points": 213,
       "breakdown": [
-        "Ecuador = 17",
-        "Ghana = 23",
-        "Argentina (rescue) +59",
+        "Ecuador = 0",
+        "Ghana = 0",
+        "Argentina (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -381,55 +383,27 @@
       ]
     },
     {
-      "name": "Zip",
-      "syndicate": "Vamps",
-      "anchor": "Morocco",
-      "wildcard": "Qatar",
+      "name": "Geoffro",
+      "syndicate": "Shambles",
+      "anchor": "Austria",
+      "wildcard": "Uzbekistan",
       "rescueTeams": [
-        "Netherlands"
+        "Spain"
       ],
-      "points": 305,
+      "points": 196,
       "breakdown": [
-        "Morocco = 93",
-        "Qatar = -4",
-        "Netherlands (rescue) +1",
+        "Austria = 0",
+        "Uzbekistan = 0",
+        "Spain (rescue) +20",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Punt R16 #3 Norway ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Punt QF #3 England ✅ +18",
-        "Smackdown QF #3 Vamps ✅ +20",
-        "Punt SF #1 Argentina ✅ +25",
-        "Punt 3rd place England ✅ +50",
-        "Smackdown 3rd place Vamps ✅ +30"
-      ]
-    },
-    {
-      "name": "Bass",
-      "syndicate": "RP2K",
-      "anchor": "South Korea",
-      "wildcard": "Haiti",
-      "rescueTeams": [
-        "France",
-        "Argentina"
-      ],
-      "points": 290,
-      "breakdown": [
-        "South Korea = 10",
-        "Haiti = -3",
-        "France (rescue) +59",
-        "Argentina (rescue) +59",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Punt QF #1 France ✅ +18",
-        "Punt QF #2 Spain ✅ +18",
-        "Punt QF #4 Argentina ✅ +18",
-        "Punt SF #1 Argentina ✅ +25",
-        "Punt Final Spain ✅ +50"
+        "Smackdown QF #1 Shambles ✅ +20",
+        "Smackdown QF #2 Shambles ✅ +20",
+        "Smackdown SF #2 Shambles ✅ +20",
+        "Punt Final Spain ✅ +50",
+        "Smackdown Final Shambles ✅ +30"
       ]
     },
     {
@@ -440,11 +414,11 @@
       "rescueTeams": [
         "Netherlands"
       ],
-      "points": 277,
+      "points": 190,
       "breakdown": [
-        "Belgium = 89",
-        "Haiti = -3",
-        "Netherlands (rescue) +1",
+        "Belgium = 0",
+        "Haiti = 0",
+        "Netherlands (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -458,20 +432,44 @@
       ]
     },
     {
-      "name": "BP1",
-      "syndicate": "Shambles",
-      "anchor": "Iran",
-      "wildcard": "Czechia",
+      "name": "Bass",
+      "syndicate": "RP2K",
+      "anchor": "South Korea",
+      "wildcard": "Haiti",
       "rescueTeams": [
-        "England",
+        "France",
         "Argentina"
       ],
-      "points": 255,
+      "points": 178,
       "breakdown": [
-        "Iran = 15",
-        "Czechia = 7",
-        "England (rescue) +48",
-        "Argentina (rescue) +59",
+        "South Korea = 0",
+        "Haiti = 0",
+        "France (rescue) +13",
+        "Argentina (rescue) +0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Punt QF #1 France ✅ +18",
+        "Punt QF #2 Spain ✅ +18",
+        "Punt QF #4 Argentina ✅ +18",
+        "Punt SF #1 Argentina ✅ +25",
+        "Punt Final Spain ✅ +50"
+      ]
+    },
+    {
+      "name": "Brucey",
+      "syndicate": "Shambles",
+      "anchor": "Japan",
+      "wildcard": "Curaçao",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 139,
+      "breakdown": [
+        "Japan = 0",
+        "Curaçao = 0",
+        "France (rescue) +13",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -483,21 +481,28 @@
       ]
     },
     {
-      "name": "Benj",
-      "syndicate": "Vamps",
-      "anchor": "England",
-      "wildcard": "South Africa",
-      "rescueTeams": [],
-      "points": 250,
+      "name": "BP1",
+      "syndicate": "Shambles",
+      "anchor": "Iran",
+      "wildcard": "Czechia",
+      "rescueTeams": [
+        "England",
+        "Argentina"
+      ],
+      "points": 126,
       "breakdown": [
-        "England = 148",
-        "South Africa = 16",
+        "Iran = 0",
+        "Czechia = 0",
+        "England (rescue) +0",
+        "Argentina (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #3 Vamps ✅ +20",
-        "Smackdown 3rd place Vamps ✅ +30"
+        "Smackdown QF #1 Shambles ✅ +20",
+        "Smackdown QF #2 Shambles ✅ +20",
+        "Smackdown SF #2 Shambles ✅ +20",
+        "Smackdown Final Shambles ✅ +30"
       ]
     },
     {
@@ -508,11 +513,11 @@
       "rescueTeams": [
         "Argentina"
       ],
-      "points": 239,
+      "points": 120,
       "breakdown": [
-        "Senegal = 30",
-        "Cape Verde = 30",
-        "Argentina (rescue) +59",
+        "Senegal = 0",
+        "Cape Verde = 0",
+        "Argentina (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -528,38 +533,15 @@
       ]
     },
     {
-      "name": "Brucey",
-      "syndicate": "Shambles",
-      "anchor": "Japan",
-      "wildcard": "Curaçao",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 228,
-      "breakdown": [
-        "Japan = 41",
-        "Curaçao = 2",
-        "France (rescue) +59",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #1 Shambles ✅ +20",
-        "Smackdown QF #2 Shambles ✅ +20",
-        "Smackdown SF #2 Shambles ✅ +20",
-        "Smackdown Final Shambles ✅ +30"
-      ]
-    },
-    {
       "name": "Cleets",
       "syndicate": "Vamps",
       "anchor": "Brazil",
       "wildcard": "Cape Verde",
       "rescueTeams": [],
-      "points": 211,
+      "points": 111,
       "breakdown": [
-        "Brazil = 70",
-        "Cape Verde = 30",
+        "Brazil = 0",
+        "Cape Verde = 0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -577,11 +559,11 @@
       "rescueTeams": [
         "England"
       ],
-      "points": 196,
+      "points": 99,
       "breakdown": [
-        "Croatia = 39",
-        "Scotland = 10",
-        "England (rescue) +48",
+        "Croatia = 0",
+        "Scotland = 0",
+        "England (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -594,70 +576,15 @@
       ]
     },
     {
-      "name": "Barry",
-      "syndicate": "EPAK",
-      "anchor": "Colombia",
-      "wildcard": "DR Congo",
-      "rescueTeams": [],
-      "points": 171,
-      "breakdown": [
-        "Colombia = 65",
-        "DR Congo = 30",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #4 EPAK ✅ +20",
-        "Smackdown SF #1 EPAK ✅ +20"
-      ]
-    },
-    {
-      "name": "Bull",
-      "syndicate": "RP2K",
-      "anchor": "Netherlands",
-      "wildcard": "Côte d'Ivoire",
-      "rescueTeams": [
-        "France"
-      ],
-      "points": 168,
-      "breakdown": [
-        "Netherlands = 55",
-        "Côte d'Ivoire = 40",
-        "France (rescue) +59",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Late rescue offset (France R32) -10"
-      ]
-    },
-    {
-      "name": "Jones",
-      "syndicate": "EPAK",
-      "anchor": "Germany",
-      "wildcard": "Paraguay",
-      "rescueTeams": [],
-      "points": 164,
-      "breakdown": [
-        "Germany = 49",
-        "Paraguay = 39",
-        "Punt R32 #3 Paraguay ✅ +8",
-        "Punt R32 #4 Morocco ✅ +8",
-        "Punt R32 #14 Egypt ✅ +8",
-        "Punt R16 #3 Norway ✅ +12",
-        "Smackdown QF #4 EPAK ✅ +20",
-        "Smackdown SF #1 EPAK ✅ +20"
-      ]
-    },
-    {
-      "name": "Beesh",
+      "name": "Benj",
       "syndicate": "Vamps",
-      "anchor": "Portugal",
-      "wildcard": "Bosnia & Herzegovina",
+      "anchor": "England",
+      "wildcard": "South Africa",
       "rescueTeams": [],
-      "points": 155,
+      "points": 86,
       "breakdown": [
-        "Portugal = 57",
-        "Bosnia & Herzegovina = 12",
+        "England = 0",
+        "South Africa = 0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -667,23 +594,21 @@
       ]
     },
     {
-      "name": "Daxy",
-      "syndicate": "Bears",
-      "anchor": "Egypt",
-      "wildcard": "Türkiye",
-      "rescueTeams": [
-        "Cape Verde"
-      ],
-      "points": 123,
+      "name": "Beesh",
+      "syndicate": "Vamps",
+      "anchor": "Portugal",
+      "wildcard": "Bosnia & Herzegovina",
+      "rescueTeams": [],
+      "points": 86,
       "breakdown": [
-        "Egypt = 49",
-        "Türkiye = 21",
-        "Cape Verde (rescue) +2",
+        "Portugal = 0",
+        "Bosnia & Herzegovina = 0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
         "Punt R16 #3 Norway ✅ +12",
-        "Bears backed Shambles — smackdown winners ✅ +15"
+        "Smackdown QF #3 Vamps ✅ +20",
+        "Smackdown 3rd place Vamps ✅ +30"
       ]
     },
     {
@@ -694,11 +619,11 @@
       "rescueTeams": [
         "Brazil"
       ],
-      "points": 117,
+      "points": 76,
       "breakdown": [
-        "Australia = 29",
-        "Jordan = 2",
-        "Brazil (rescue) +10",
+        "Australia = 0",
+        "Jordan = 0",
+        "Brazil (rescue) +0",
         "Punt R32 #3 Paraguay ✅ +8",
         "Punt R32 #4 Morocco ✅ +8",
         "Punt R32 #14 Egypt ✅ +8",
@@ -706,868 +631,110 @@
         "Bears backed Shambles — smackdown winners ✅ +15",
         "Punt SF #1 Argentina ✅ +25"
       ]
+    },
+    {
+      "name": "Barry",
+      "syndicate": "EPAK",
+      "anchor": "Colombia",
+      "wildcard": "DR Congo",
+      "rescueTeams": [],
+      "points": 76,
+      "breakdown": [
+        "Colombia = 0",
+        "DR Congo = 0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #4 EPAK ✅ +20",
+        "Smackdown SF #1 EPAK ✅ +20"
+      ]
+    },
+    {
+      "name": "Jones",
+      "syndicate": "EPAK",
+      "anchor": "Germany",
+      "wildcard": "Paraguay",
+      "rescueTeams": [],
+      "points": 76,
+      "breakdown": [
+        "Germany = 0",
+        "Paraguay = 0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Smackdown QF #4 EPAK ✅ +20",
+        "Smackdown SF #1 EPAK ✅ +20"
+      ]
+    },
+    {
+      "name": "Daxy",
+      "syndicate": "Bears",
+      "anchor": "Egypt",
+      "wildcard": "Türkiye",
+      "rescueTeams": [
+        "Cape Verde"
+      ],
+      "points": 51,
+      "breakdown": [
+        "Egypt = 0",
+        "Türkiye = 0",
+        "Cape Verde (rescue) +0",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Punt R16 #3 Norway ✅ +12",
+        "Bears backed Shambles — smackdown winners ✅ +15"
+      ]
+    },
+    {
+      "name": "Bull",
+      "syndicate": "RP2K",
+      "anchor": "Netherlands",
+      "wildcard": "Côte d'Ivoire",
+      "rescueTeams": [
+        "France"
+      ],
+      "points": 27,
+      "breakdown": [
+        "Netherlands = 0",
+        "Côte d'Ivoire = 0",
+        "France (rescue) +13",
+        "Punt R32 #3 Paraguay ✅ +8",
+        "Punt R32 #4 Morocco ✅ +8",
+        "Punt R32 #14 Egypt ✅ +8",
+        "Late rescue offset (France R32) -10"
+      ]
     }
   ],
   "syndicates": [
     {
       "name": "Shambles",
-      "avg": 432.2,
+      "avg": 270.8,
       "n": 5
     },
     {
       "name": "EPAK",
-      "avg": 402.8,
+      "avg": 263.8,
       "n": 6
     },
     {
       "name": "RP2K",
-      "avg": 283.4,
-      "n": 5
-    },
-    {
-      "name": "Vamps",
-      "avg": 239.6,
+      "avg": 156,
       "n": 5
     },
     {
       "name": "Bears",
-      "avg": 229.6,
+      "avg": 144,
+      "n": 5
+    },
+    {
+      "name": "Vamps",
+      "avg": 137.6,
       "n": 5
     }
   ],
-  "matches": [
-    {
-      "date": "2026-07-19",
-      "home": "Spain",
-      "away": "Argentina",
-      "hs": 1,
-      "as": 0,
-      "round": "final"
-    },
-    {
-      "date": "2026-07-18",
-      "home": "France",
-      "away": "England",
-      "hs": 4,
-      "as": 6,
-      "round": "3p"
-    },
-    {
-      "date": "2026-07-15",
-      "home": "England",
-      "away": "Argentina",
-      "hs": 1,
-      "as": 2,
-      "round": "sf"
-    },
-    {
-      "date": "2026-07-14",
-      "home": "France",
-      "away": "Spain",
-      "hs": 0,
-      "as": 2,
-      "round": "sf"
-    },
-    {
-      "date": "2026-07-12",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "hs": 3,
-      "as": 1,
-      "round": "qf"
-    },
-    {
-      "date": "2026-07-11",
-      "home": "Norway",
-      "away": "England",
-      "hs": 1,
-      "as": 2,
-      "round": "qf"
-    },
-    {
-      "date": "2026-07-10",
-      "home": "Spain",
-      "away": "Belgium",
-      "hs": 2,
-      "as": 1,
-      "round": "qf"
-    },
-    {
-      "date": "2026-07-09",
-      "home": "France",
-      "away": "Morocco",
-      "hs": 2,
-      "as": 0,
-      "round": "qf"
-    },
-    {
-      "date": "2026-07-07",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "hs": 0,
-      "as": 0,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-07",
-      "home": "Argentina",
-      "away": "Egypt",
-      "hs": 3,
-      "as": 2,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-07",
-      "home": "USA",
-      "away": "Belgium",
-      "hs": 1,
-      "as": 4,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-06",
-      "home": "Portugal",
-      "away": "Spain",
-      "hs": 0,
-      "as": 1,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-06",
-      "home": "Mexico",
-      "away": "England",
-      "hs": 2,
-      "as": 3,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-05",
-      "home": "Brazil",
-      "away": "Norway",
-      "hs": 1,
-      "as": 2,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-04",
-      "home": "Paraguay",
-      "away": "France",
-      "hs": 0,
-      "as": 1,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-04",
-      "home": "Canada",
-      "away": "Morocco",
-      "hs": 0,
-      "as": 3,
-      "round": "r16"
-    },
-    {
-      "date": "2026-07-04",
-      "home": "Colombia",
-      "away": "Ghana",
-      "hs": 1,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-03",
-      "home": "Argentina",
-      "away": "Cape Verde",
-      "hs": 3,
-      "as": 2,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-03",
-      "home": "Australia",
-      "away": "Egypt",
-      "hs": 1,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-03",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "hs": 2,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-02",
-      "home": "Portugal",
-      "away": "Croatia",
-      "hs": 2,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-02",
-      "home": "Spain",
-      "away": "Austria",
-      "hs": 3,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-02",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "hs": 2,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-01",
-      "home": "Belgium",
-      "away": "Senegal",
-      "hs": 3,
-      "as": 2,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-01",
-      "home": "England",
-      "away": "DR Congo",
-      "hs": 2,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-07-01",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "hs": 2,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-30",
-      "home": "France",
-      "away": "Sweden",
-      "hs": 3,
-      "as": 0,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-30",
-      "home": "Côte d'Ivoire",
-      "away": "Norway",
-      "hs": 1,
-      "as": 2,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-30",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "hs": 1,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-29",
-      "home": "Germany",
-      "away": "Paraguay",
-      "hs": 1,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-29",
-      "home": "Brazil",
-      "away": "Japan",
-      "hs": 2,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-28",
-      "home": "South Africa",
-      "away": "Canada",
-      "hs": 0,
-      "as": 1,
-      "round": "r32"
-    },
-    {
-      "date": "2026-06-28",
-      "home": "Jordan",
-      "away": "Argentina",
-      "hs": 1,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-28",
-      "home": "Algeria",
-      "away": "Austria",
-      "hs": 3,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "DR Congo",
-      "away": "Uzbekistan",
-      "hs": 3,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Colombia",
-      "away": "Portugal",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Panama",
-      "away": "England",
-      "hs": 0,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Croatia",
-      "away": "Ghana",
-      "hs": 2,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "hs": 1,
-      "as": 5,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Egypt",
-      "away": "Iran",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-27",
-      "home": "Uruguay",
-      "away": "Spain",
-      "hs": 0,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-26",
-      "home": "Norway",
-      "away": "France",
-      "hs": 1,
-      "as": 4,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-26",
-      "home": "Senegal",
-      "away": "Iraq",
-      "hs": 5,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-26",
-      "home": "Paraguay",
-      "away": "Australia",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-26",
-      "home": "Türkiye",
-      "away": "USA",
-      "hs": 3,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "hs": 1,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "Japan",
-      "away": "Sweden",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "Curaçao",
-      "away": "Côte d'Ivoire",
-      "hs": 0,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "Ecuador",
-      "away": "Germany",
-      "hs": 2,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "South Africa",
-      "away": "South Korea",
-      "hs": 1,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-25",
-      "home": "Czechia",
-      "away": "Mexico",
-      "hs": 0,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-24",
-      "home": "Scotland",
-      "away": "Brazil",
-      "hs": 0,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-24",
-      "home": "Morocco",
-      "away": "Haiti",
-      "hs": 4,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-24",
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
-      "hs": 3,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-24",
-      "home": "Switzerland",
-      "away": "Canada",
-      "hs": 2,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-24",
-      "home": "Colombia",
-      "away": "DR Congo",
-      "hs": 1,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-23",
-      "home": "Panama",
-      "away": "Croatia",
-      "hs": 0,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-23",
-      "home": "England",
-      "away": "Ghana",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-23",
-      "home": "Portugal",
-      "away": "Uzbekistan",
-      "hs": 5,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-23",
-      "home": "Jordan",
-      "away": "Algeria",
-      "hs": 1,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-23",
-      "home": "Norway",
-      "away": "Senegal",
-      "hs": 3,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-22",
-      "home": "France",
-      "away": "Iraq",
-      "hs": 3,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-22",
-      "home": "Argentina",
-      "away": "Austria",
-      "hs": 2,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-22",
-      "home": "New Zealand",
-      "away": "Egypt",
-      "hs": 1,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-21",
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "hs": 2,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-21",
-      "home": "Belgium",
-      "away": "Iran",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-21",
-      "home": "Spain",
-      "away": "Saudi Arabia",
-      "hs": 4,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-21",
-      "home": "Tunisia",
-      "away": "Japan",
-      "hs": 0,
-      "as": 4,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-21",
-      "home": "Ecuador",
-      "away": "Curaçao",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-20",
-      "home": "Germany",
-      "away": "Côte d'Ivoire",
-      "hs": 2,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-20",
-      "home": "Netherlands",
-      "away": "Sweden",
-      "hs": 5,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-20",
-      "home": "Türkiye",
-      "away": "Paraguay",
-      "hs": 0,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-20",
-      "home": "Brazil",
-      "away": "Haiti",
-      "hs": 3,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-19",
-      "home": "Scotland",
-      "away": "Morocco",
-      "hs": 0,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-19",
-      "home": "USA",
-      "away": "Australia",
-      "hs": 2,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-19",
-      "home": "Mexico",
-      "away": "South Korea",
-      "hs": 1,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-18",
-      "home": "Canada",
-      "away": "Qatar",
-      "hs": 6,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-18",
-      "home": "Switzerland",
-      "away": "Bosnia & Herzegovina",
-      "hs": 4,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-18",
-      "home": "Czechia",
-      "away": "South Africa",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-18",
-      "home": "Uzbekistan",
-      "away": "Colombia",
-      "hs": 1,
-      "as": 3,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-17",
-      "home": "Ghana",
-      "away": "Panama",
-      "hs": 1,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-17",
-      "home": "England",
-      "away": "Croatia",
-      "hs": 4,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-17",
-      "home": "Portugal",
-      "away": "DR Congo",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-17",
-      "home": "Austria",
-      "away": "Jordan",
-      "hs": 3,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-17",
-      "home": "Argentina",
-      "away": "Algeria",
-      "hs": 3,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-16",
-      "home": "Iraq",
-      "away": "Norway",
-      "hs": 1,
-      "as": 4,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-16",
-      "home": "France",
-      "away": "Senegal",
-      "hs": 3,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-16",
-      "home": "Iran",
-      "away": "New Zealand",
-      "hs": 2,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-15",
-      "home": "Saudi Arabia",
-      "away": "Uruguay",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-15",
-      "home": "Belgium",
-      "away": "Egypt",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-15",
-      "home": "Spain",
-      "away": "Cape Verde",
-      "hs": 0,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-15",
-      "home": "Sweden",
-      "away": "Tunisia",
-      "hs": 5,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-14",
-      "home": "Côte d'Ivoire",
-      "away": "Ecuador",
-      "hs": 1,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-14",
-      "home": "Netherlands",
-      "away": "Japan",
-      "hs": 2,
-      "as": 2,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-14",
-      "home": "Germany",
-      "away": "Curaçao",
-      "hs": 7,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-14",
-      "home": "Australia",
-      "away": "Türkiye",
-      "hs": 2,
-      "as": 0,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-14",
-      "home": "Haiti",
-      "away": "Scotland",
-      "hs": 0,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-13",
-      "home": "Brazil",
-      "away": "Morocco",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-13",
-      "home": "Qatar",
-      "away": "Switzerland",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-13",
-      "home": "USA",
-      "away": "Paraguay",
-      "hs": 4,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-12",
-      "home": "Canada",
-      "away": "Bosnia & Herzegovina",
-      "hs": 1,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-12",
-      "home": "South Korea",
-      "away": "Czechia",
-      "hs": 2,
-      "as": 1,
-      "round": "group"
-    },
-    {
-      "date": "2026-06-11",
-      "home": "Mexico",
-      "away": "South Africa",
-      "hs": 2,
-      "as": 0,
-      "round": "group"
-    }
-  ],
-  "matchCount": 104
+  "matches": [],
+  "matchCount": 0
 }
